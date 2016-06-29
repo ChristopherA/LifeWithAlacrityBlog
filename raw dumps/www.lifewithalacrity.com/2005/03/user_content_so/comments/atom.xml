@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on User Content, Social Software &amp; Online Games</title>
+	<subtitle>Shannon Appelcline, my colleague at Skotos, has been writing for several years a sometimes weekly, sometimes bi-weekly column on the topic of game design called Trials, Triumphs &amp; Trivialities. His latest column Social Software &amp; Gaming: User Content discusses issues of user content and user facilitation that apply both online game communities and social software.</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on User Content, Social Software &amp; Online Games" href="http://www.lifewithalacrity.com/2005/03/user_content_so/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="User Content, Social Software &amp; Online Games" href="http://www.lifewithalacrity.com/2005/03/user_content_so.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2005-03-04T23:17:14Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2005/03/user_content_so/comments/atom.xml/</id>
+    
+		<entry>
+			<title>nameloso commented on &#39;User Content, Social Software &amp; Online Games&#39;</title>
+			<link rel="alternate" type="text/html" title="As we introduce user content systems into games, filtering it will become the next challenge ------- http://www.putosprogramas.com" href="http://www.lifewithalacrity.com/2005/03/user_content_so.html?cid=6296079#comment-6a00d8341d8bc053ef00d8347f387169e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8347f387169e2</id>
+			<published>2005-06-17T13:14:04Z</published>
+			<updated>2007-08-17T11:16:59Z</updated>
+			<author>
+				<name>nameloso</name>
+                
+			</author>
+			<summary>As we introduce user content systems into games, filtering it will become the next challenge ------- http://www.putosprogramas.com</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2005/03/user_content_so.html">&lt;p&gt;As we introduce user content systems into games, filtering it will become the next challenge&lt;/p&gt;
+
+&lt;p&gt;-------&lt;br /&gt;
+http://www.putosprogramas.com&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

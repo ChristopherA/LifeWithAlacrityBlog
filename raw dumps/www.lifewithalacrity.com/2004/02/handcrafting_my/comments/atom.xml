@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Hand-Crafting My FOAF</title>
+	<subtitle>Information and opinion on FOAF, in particular focused on its promising but early nature, and some thoughts about FOAF privacy and lack of &quot;progressive disclosure&quot;. Second part of contains details on how to hand-craft your own FOAF file.</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Hand-Crafting My FOAF" href="http://www.lifewithalacrity.com/2004/02/handcrafting_my/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Hand-Crafting My FOAF" href="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-02-20T00:25:05Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/02/handcrafting_my/comments/atom.xml/</id>
+    
+		<entry>
+			<title>elamb commented on &#39;Hand-Crafting My FOAF&#39;</title>
+			<link rel="alternate" type="text/html" title="Blogharbor.com also has a FOAF file. I didn&#39;t know it was its own protocol. My FOAF is through Blogware." href="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html?cid=5204439#comment-6a00d8341d8bc053ef00d834763fb869e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834763fb869e2</id>
+			<published>2005-04-24T17:10:12Z</published>
+			<updated>2007-08-16T23:46:01Z</updated>
+			<author>
+				<name>elamb</name>
+                <uri>http://elamb.blogharbor.com</uri>
+			</author>
+			<summary>Blogharbor.com also has a FOAF file. I didn&#39;t know it was its own protocol. My FOAF is through Blogware.</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html">&lt;p&gt;Blogharbor.com also has a FOAF file.  I didn&amp;#39;t know it was its own protocol.  My FOAF is through Blogware.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Ben Nolan commented on &#39;Hand-Crafting My FOAF&#39;</title>
+			<link rel="alternate" type="text/html" title="And as with the old html days - there will be end user tools created. My take on an foaf-generation..." href="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html?cid=743976#comment-6a00d8341d8bc053ef00d8345b959d69e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8345b959d69e2</id>
+			<published>2004-03-16T12:19:37Z</published>
+			<updated>2007-08-16T05:27:13Z</updated>
+			<author>
+				<name>Ben Nolan</name>
+                
+			</author>
+			<summary>And as with the old html days - there will be end user tools created. My take on an foaf-generation...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html">&lt;p&gt;And as with the old html days - there will be end user tools created. My take on an foaf-generation tool for non-technical users is at zopto.com&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Morten Frederiksen commented on &#39;Hand-Crafting My FOAF&#39;</title>
+			<link rel="alternate" type="text/html" title="On the encryption issue: FOAFbot supports encrypted FOAF files (per the link), and I&#39;ve just set up a service for..." href="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html?cid=650609#comment-6a00d8341d8bc053ef00d8345ab6d369e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8345ab6d369e2</id>
+			<published>2004-02-25T18:20:15Z</published>
+			<updated>2007-08-16T05:14:04Z</updated>
+			<author>
+				<name>Morten Frederiksen</name>
+                <uri>http://purl.org/net/morten/</uri>
+			</author>
+			<summary>On the encryption issue: FOAFbot supports encrypted FOAF files (per the link), and I&#39;ve just set up a service for...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html">&lt;p&gt;On the encryption issue: FOAFbot supports encrypted FOAF files (per the link), and I&amp;#39;ve just set up a service for hosting these types of files, so you don&amp;#39;t have to encrypt them yourself: &lt;a href=&quot;http://foaf.dk/hosting/&quot; rel=&quot;nofollow&quot;&gt;http://foaf.dk/hosting/&lt;/a&gt;&lt;br /&gt;
+Of course, that means you have to trust me...&lt;/p&gt;
+
+&lt;p&gt;On the ordering of seeAlso: RDF/XML doesn&amp;#39;t have a sense of order (unless you use rdf:Seq, as in RSS). In short, you&amp;#39;re simply making statements of fact (hopefully!), statements that could stand on their own. There&amp;#39;s no default or primary.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Julian Bond commented on &#39;Hand-Crafting My FOAF&#39;</title>
+			<link rel="alternate" type="text/html" title="Please add some notes about how to say that &quot;This foaf file is about this person&quot;. See these for detail..." href="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html?cid=637329#comment-6a00d8341d8bc053ef00d8345a9ca569e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8345a9ca569e2</id>
+			<published>2004-02-22T09:07:49Z</published>
+			<updated>2007-08-16T05:09:46Z</updated>
+			<author>
+				<name>Julian Bond</name>
+                <uri>http://www.ecademy.com</uri>
+			</author>
+			<summary>Please add some notes about how to say that &quot;This foaf file is about this person&quot;. See these for detail...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html">&lt;p&gt;Please add some notes about how to say that &amp;quot;This foaf file is about this person&amp;quot;. See these for detail about PPD, topic, maker, made.&lt;br /&gt;
+Discussion rdfweb.org/pipermail/rd...-dev/2004-February/thread.html&lt;br /&gt;
+The post that kicked it off rdfweb.org/pipermail/rd...-dev/2004-February/012546.html&lt;br /&gt;
+An example www.ecademy.com/module.php &lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

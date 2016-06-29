@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Comics, The Right Number, Bit Pass, and the Future of Micropayments</title>
+	<subtitle></subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Comics, The Right Number, Bit Pass, and the Future of Micropayments" href="http://www.lifewithalacrity.com/2003/07/comics_the_righ/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Comics, The Right Number, Bit Pass, and the Future of Micropayments" href="http://www.lifewithalacrity.com/2003/07/comics_the_righ.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2003-07-04T00:16:38Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2003/07/comics_the_righ/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Maria commented on &#39;Comics, The Right Number, Bit Pass, and the Future of Micropayments&#39;</title>
+			<link rel="alternate" type="text/html" title="I&#39;m very interested in the idea of micropayments ($1 to $2) to sell &quot;printable&quot; versions of my how-to articles from..." href="http://www.lifewithalacrity.com/2003/07/comics_the_righ.html?cid=110215356#comment-6a00d8341d8bc053ef00e551c51e158833" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00e551c51e158833</id>
+			<published>2008-04-10T18:49:22Z</published>
+			<updated>2008-04-10T19:18:03Z</updated>
+			<author>
+				<name>Maria</name>
+                <uri>http://www.marialanger.com/</uri>
+			</author>
+			<summary>I&#39;m very interested in the idea of micropayments ($1 to $2) to sell &quot;printable&quot; versions of my how-to articles from...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2003/07/comics_the_righ.html">&lt;p&gt;I&amp;#39;m very interested in the idea of micropayments ($1 to $2) to sell &amp;quot;printable&amp;quot; versions of my how-to articles from my Web site. I realize that it needs to be quick and painless for people to bother paying for this content.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve discovered the micropayment secret rates for Paypal (2.9% + 5¢, I think) and it works for me. But I really wish BitPass were still in business. It would automatically give access to the downloadable files. Instead, I&amp;#39;ve had to create a convoluted rule-based system in my e-mail app to send the download link when payment is received. Not only is this insecure, but it requires that my e-mail application be up and running to process the requests.&lt;/p&gt;
+
+&lt;p&gt;Do you have any additional information about this topic that you can point me to? I think micropayments are a good model for electronic publishing. The fee is low enough for anyone to afford, and those with a conscience will be more likely to pay than to pirate. Would love to see what you think after all these years have gone by. (Your post is dated July 3, 2003.)&lt;/p&gt;
+
+&lt;p&gt;Maria&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

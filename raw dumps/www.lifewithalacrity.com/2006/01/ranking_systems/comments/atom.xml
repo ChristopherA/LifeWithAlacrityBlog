@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Collective Choice: Competitive Ranking Systems</title>
+	<subtitle>In our first article on collective choice we outlined a number of different types of choice systems, among them voting, polling, rating, and ranking. Since then we&#39;ve been spending some time expanding upon the systems, with the goal being to create both a lexicon of and a dialogue about systems for collective choice.
+
+This time we&#39;re going to dig more into comparison ranking systems, by focusing on competitive rankings and looking more in depth at ELO Chess Ranking System and the other systems that we briefly mentioned previously. Our goal is to explicate these systems, to better address their flaws, to begin detailing the purposes of ranking systems, and to show how those purposes are critical in the design of ranking systems. (post continues...)</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Collective Choice: Competitive Ranking Systems" href="http://www.lifewithalacrity.com/2006/01/ranking_systems/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Collective Choice: Competitive Ranking Systems" href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2006-01-04T07:37:09Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2006/01/ranking_systems/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Matthew Weigel commented on &#39;Collective Choice: Competitive Ranking Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="This article is a great survey of the subject! I&#39;m working on the PvP ranking system for another game with..." href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=99389292#comment-6a00d8341d8bc053ef00e5501a73828834" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00e5501a73828834</id>
+			<published>2008-01-31T17:55:58Z</published>
+			<updated>2008-03-25T14:29:07Z</updated>
+			<author>
+				<name>Matthew Weigel</name>
+                <uri>http://ncanson.livejournal.com/</uri>
+			</author>
+			<summary>This article is a great survey of the subject! I&#39;m working on the PvP ranking system for another game with...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/01/ranking_systems.html">&lt;p&gt;This article is a great survey of the subject!  I&amp;#39;m working on the PvP ranking system for another game with some unique problems, because the teams in a PvP match can be of disparate size and widely differing power levels, which are then balanced so that wildly mismatched teams (ignoring relative rank at PvP for the moment) are actually reasonably matched.&lt;/p&gt;
+
+&lt;p&gt;It starts here: http://ncanson.livejournal.com/3938.html&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Edward Vielmetti commented on &#39;Collective Choice: Competitive Ranking Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="There&#39;s a ranking scheme that Mark Newman from the U of Michigan did for college football, which Yahoo Search turned..." href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=13594898#comment-6a00d8341d8bc053ef00d834aaa94a69e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834aaa94a69e2</id>
+			<published>2006-02-03T06:18:39Z</published>
+			<updated>2007-08-17T12:35:49Z</updated>
+			<author>
+				<name>Edward Vielmetti</name>
+                <uri>http://vielmetti.typepad.com</uri>
+			</author>
+			<summary>There&#39;s a ranking scheme that Mark Newman from the U of Michigan did for college football, which Yahoo Search turned...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/01/ranking_systems.html">&lt;p&gt;There&amp;#39;s a ranking scheme that Mark Newman from the U of Michigan did for college football, which Yahoo Search turned up a pointer to here:&lt;/p&gt;
+
+&lt;p&gt;http://www.sciencenews.org/articles/20051112/mathtrek.asp&lt;/p&gt;
+
+&lt;p&gt;quoting:&lt;/p&gt;
+
+&lt;p&gt;Physicists Juyong Park and M.E.J. Newman aimed for a ranking system that&amp;#39;s fast and easily understood by fans (in contrast to the cumbersome, opaque BCS formula). They based their ranking method on the notion that, if A beats B, and B beats C, then A also beats C, even if it may not actually play C. Hence, the method counts both direct wins by beating a team and indirect wins by beating a team that beat another team.&lt;/p&gt;
+
+&lt;p&gt;(end quote)&lt;/p&gt;
+
+&lt;p&gt;You end up with a directed graph of teams as nodes and games as edges, and compute a function of that graph that is related to a centrality metric.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Stephen Waits commented on &#39;Collective Choice: Competitive Ranking Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="No mention of Glicko and Glicko2?" href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=12882765#comment-6a00d8341d8bc053ef00d83470a47f53ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83470a47f53ef</id>
+			<published>2006-01-15T16:57:38Z</published>
+			<updated>2007-08-17T05:36:04Z</updated>
+			<author>
+				<name>Stephen Waits</name>
+                <uri>http://swaits.com/</uri>
+			</author>
+			<summary>No mention of Glicko and Glicko2?</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/01/ranking_systems.html">&lt;p&gt;No mention of Glicko and Glicko2?&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Christopher Allen commented on &#39;Collective Choice: Competitive Ranking Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="In the slashdot discussion of this blog entry http://games.slashdot.org/comments.pl?sid=173988&amp;threshold=0&amp;mode=flat there was an interesting link to beatpaths.com, which is sort of..." href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=12860194#comment-6a00d8341d8bc053ef00d834704a4353ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834704a4353ef</id>
+			<published>2006-01-14T22:31:30Z</published>
+			<updated>2007-08-17T05:20:31Z</updated>
+			<author>
+				<name>Christopher Allen</name>
+                <uri>http://www.LifeWithAlacrity.com</uri>
+			</author>
+			<summary>In the slashdot discussion of this blog entry http://games.slashdot.org/comments.pl?sid=173988&amp;threshold=0&amp;mode=flat there was an interesting link to beatpaths.com, which is sort of...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/01/ranking_systems.html">&lt;p&gt;In the slashdot discussion of this blog entry http://games.slashdot.org/comments.pl?sid=173988&amp;amp;threshold=0&amp;amp;mode=flat   there was an interesting link to beatpaths.com, which is sort of a tourney system for when you can&amp;#39;t complete a full set of round-robin or double-elimination competitions, as what happens in NFL during the fall season.&lt;/p&gt;
+
+&lt;p&gt;What is also interesting to me is that it introduces a goal for ranking systems that I&amp;#39;d not thought of before -- prediction. The purpose of the beatpath systems is actually focused on predicting the outcome the next set of the weekend games.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>F. Randall Farmer commented on &#39;Collective Choice: Competitive Ranking Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="A data point on ELO cheating for you: Yahoo! Games uses ELO rankings for several their two-player games. Before recent..." href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=12595969#comment-6a00d8341d8bc053ef00d8346f0b3253ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8346f0b3253ef</id>
+			<published>2006-01-05T21:46:18Z</published>
+			<updated>2007-08-17T02:13:55Z</updated>
+			<author>
+				<name>F. Randall Farmer</name>
+                <uri>http://www.fudco.com/habitat</uri>
+			</author>
+			<summary>A data point on ELO cheating for you: Yahoo! Games uses ELO rankings for several their two-player games. Before recent...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/01/ranking_systems.html">&lt;p&gt;A data point on ELO cheating for you: Yahoo! Games uses ELO rankings for several their two-player games. Before recent abuse mitigation changes, some people used robot to accumulate scores in excess of 6,000,000 points. The abuse-the-ranking game had become a totally seperate competition.&lt;/p&gt;
+
+&lt;p&gt;For now, Yahoo! has capped the ELO scores at 3,000 (I think.) This removed most of the cheating incentive.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

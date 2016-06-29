@@ -1,0 +1,841 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="typepad-standard" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="generator" content="http://www.typepad.com/" />
+        <meta name="keywords" content="security, rsa conference, privacy, spam prevention, caller-id, spf, domain keys, sessions, exhibits, cryptographers, cryptography, biometric hard drives, SecureID, RFID, quantum cryptography" />
+        <meta name="description" content="I spent most of last week at the RSA Conference in San Francisco. Like last year, I found little that excited me. I overheard from a convention staffer that they had 30% more attendees, so the conference is growing again, but my week there also reinforced my opinions regarding the industry as a whole as I describe in my previous blog posting. (Blog entry continues with comments on caller-id for email, more security in Windows XP, sessions, and exhibits)" />
+
+
+
+
+        <link rel="stylesheet" href="http://www.lifewithalacrity.com/styles.css?v=6" type="text/css" media="screen" />
+        <link rel="stylesheet" href="http://static.typepad.com/.shared:v76191bf:typepad:en_us/themes/common/print.css" type="text/css" media="print" />
+
+
+        <link rel="alternate" type="application/atom+xml" title="Posts on 'Life With Alacrity' (Atom)" href="http://www.lifewithalacrity.com/atom.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Posts on 'Life With Alacrity' (RSS 1.0)" href="http://www.lifewithalacrity.com/index.rdf" />
+        <link rel="alternate" type="application/rss+xml" title="Posts on 'Life With Alacrity' (RSS 2.0)" href="http://www.lifewithalacrity.com/rss.xml" />
+        <script type="text/javascript">
+                var TPApp = {};
+                TPApp.app_uri = "http://www.typepad.com/";
+        </script>
+        <script type="text/javascript" src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/js/yui/yahoo-dom-event.js,/js/app/thumbnail-gallery-min.js,/js/app/flyouts-min.js"></script>
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-225723-36', 'auto', {'name': 'Typepad'}, {'allowLinker': true} );  // Separate tracker for Typepad.
+ga('Typepad.require', 'linker');
+ga('Typepad.linker:autoLink', ['none']);
+ga('Typepad.set', 'dimension1', '6a00d8341d8bc053ef00d83452ee1069e2');
+ga('Typepad.set', 'dimension2', 'Individual');
+ga('Typepad.send', 'pageview');
+</script>
+
+
+
+<meta property="og:title" content="Post RSA Conference Wrapup" />
+<meta property="og:site_name" content="Life With Alacrity" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="http://www.lifewithalacrity.com/2004/03/post_rsa_confer.html" />
+<meta property="og:description" content="I spent most of last week at the RSA Conference in San Francisco. Like last year, I found little that excited me. I overheard from a convention staffer that they had 30% more attendees, so the conference is growing again, but my week there also reinforced my opinions regarding the industry as a whole as I describe in my previous blog posting. (Blog entry continues with comments on caller-id for email, more security in Windows XP, sessions, and exhibits)" />
+<meta property="fb:admins" content="" />
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Post RSA Conference Wrapup">
+<meta name="twitter:description" content="I spent most of last week at the RSA Conference in San Francisco. Like last year, I found little that excited me. I overheard from a convention staffer that they had 30% more attendees, so the conference is growing again, but my week there also reinforced my opinions regarding the industry as a whole as I describe in my previous blog posting. (Blog entry continues with comments on caller-id for email, more security in Windows XP, sessions, and exhibits)">
+
+
+
+        <link rel="alternate" type="application/atom+xml" title="Comments on 'Post RSA Conference Wrapup' (Atom)" href="http://www.lifewithalacrity.com/2004/03/post_rsa_confer/comments/atom.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Comments on 'Post RSA Conference Wrapup' (RSS 2.0)" href="http://www.lifewithalacrity.com/2004/03/post_rsa_confer/comments/rss.xml" />
+        <title>Post RSA Conference Wrapup - Life With Alacrity</title>
+        <link rel="start" href="http://www.lifewithalacrity.com/" title="Home" />
+        <link rel="prev" href="http://www.lifewithalacrity.com/2004/02/security_crypto.html?no_prefetch=1" title="Security &amp; Cryptography: The Bad Business of Fear" />
+        <link rel="next" href="http://www.lifewithalacrity.com/2004/03/the_dunbar_numb.html?no_prefetch=1" title="The Dunbar Number as a Limit to Group Sizes" />
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.lifewithalacrity.com/2004/03/post_rsa_confer.html"
+    trackback:ping="http://www.typepad.com/services/trackback/6a00d8341d8bc053ef00d83455c7f469e2"
+    dc:title="Post RSA Conference Wrapup"
+    dc:identifier="http://www.lifewithalacrity.com/2004/03/post_rsa_confer.html"
+    dc:description="I spent most of last week at the RSA Conference in San Francisco. Like last year, I found little that excited me. I overheard from a convention staffer that they had 30% more attendees, so the conference is growing again, but my week there also reinforced my opinions regarding the industry as a whole as I describe in my previous blog posting. (Blog entry continues with comments on caller-id for email, more security in Windows XP, sessions, and exhibits)"
+    dc:creator="ChristopherA"
+    dc:date="2004-03-05T03:50:41-08:00" />
+</rdf:RDF>
+-->
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+
+
+
+<body class="layout-two-column-right post">
+	
+	<div id="container" class="container">
+		<div id="container-inner" class="pkg">
+			
+                <div class="row">
+     
+
+
+<a id="home"></a>
+   
+
+<!-- banner -->
+<div id="banner">
+	<div id="banner-inner" class="pkg">
+		
+		<h1 id="banner-header"><a href="http://www.lifewithalacrity.com/" accesskey="1">Life With Alacrity</a></h1>
+		<h2 id="banner-description">
+			A blog on social software, collaboration, trust, security, privacy, and internet tools, by Christopher Allen.
+		</h2>
+	</div>
+</div>
+
+
+<div id="nav">
+	<div id="nav-inner">
+		<ul class="nav-list pkg">
+			<li class="nav-list-item"><a href="http://www.lifewithalacrity.com/">Home</a></li>
+			<li class="nav-list-item"><a href="mailto:ChristopherA@AlacrityManagement.com">Email Me</a></li>
+			<li class="nav-list-item"><a href="http://www.lifewithalacrity.com/archives.html">Archives</a></li>
+			<li class="nav-list-item"><a href="http://profile.typepad.com/christophera">Profile</a></li>
+			<li class="nav-list-item"><a href="http://www.lifewithalacrity.com/index.rdf">Full RSS</a></li>
+			<li class="last-nav-list-item nav-list-item"><a href="http://www.lifewithalacrity.com/comments.rdf">Comments RSS</a></li>
+		</ul>
+	</div>
+</div>
+
+
+
+
+			<div id="pagebody">
+
+
+				<div id="pagebody-inner" class="pkg">
+                                        <div id="alpha">
+						<div id="alpha-inner" class="pkg">
+							<!-- the plain version removes the extra jquery -->
+<!-- content nav -->
+<p class="content-nav">
+	<a class="content-nav-prev" href="http://www.lifewithalacrity.com/2004/02/security_crypto.html">&laquo; Security &amp; Cryptography: The Bad Business of Fear</a> |
+	<a class="content-nav-main" href="http://www.lifewithalacrity.com/">Main</a>
+	| <a class="content-nav-next" href="http://www.lifewithalacrity.com/2004/03/the_dunbar_numb.html">The Dunbar Number as a Limit to Group Sizes &raquo;</a>
+</p>
+<script type="text/javascript">
+   $(function(){
+       var query = window.location.search.substring(1);
+       if( query == "pintix=1" ) {
+          var e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://static.typepad.com/.shared:v76191bf:typepad:en_us//js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e);
+       }
+   });
+</script>
+<script type="text/javascript">
+    window.ZemantaBlogSettings = "";
+    window.ZemantaPostSettings = "";
+</script>
+<script type="text/javascript" src="http://content.zemanta.com/static/typepad/js/recommend.js"></script>
+<input type="hidden" name="zemanta-related" val="" />
+<!-- entry -->
+	<h2 class="date-header">March 05, 2004</h2>
+
+
+<div class="entry-category-business entry-category-security entry-category-webtech entry-author-christophera entry-type-post entry" id="entry-991793">
+   <div class="entry-inner">
+			<h3 class="entry-header">Post RSA Conference Wrapup</h3>
+	
+
+
+
+	<div class="entry-content">
+		<div class="entry-body">
+			<p>I spent most of last week at the RSA Conference in San Francisco.</p>
+
+<p>Like last year, I found little that excited me. I overheard from a convention staffer that they had 30% more attendees, so the conference is growing again, but my week there also reinforced my opinions regarding the industry as a whole as I describe in my previous blog posting <a href="http://www.lifewithalacrity.com/2004/02/security_crypto.html">The Bad Business of Fear</a>.</p>
+
+<p>I asked a number of random people what they thought of the conference. Some agreed with me, saying that they were troubled by the lack of innovation. Others said that they actually liked it -- it showed that the industry was being run by businessmen finally, and not by geeks. Others said that it was just the inevitable maturation of an industry. Tim Oren wrote in his blog <a href="http://www.pacificavc.com/blog/2004/02/27.html#a565">Due Diligence</a>:<blockquote>Every year the show is less about cryptography per se. I'm sure this has something to do with RSA's attempts to diversify as its patents expire, but I do think it reflects the state of the field. Crypto has become a standardized component of security solutions, and the biggest perceived threats are not in the privacy area.</blockquote></p>
+
+<p>The hilight of the conference to me was hearing respected cryptographer Whitfield Diffie say to me that he had read my <a href="http://www.lifewithalacrity.com/2004/02/security_crypto.html">The Bad Business of Fear</a> and that he liked it. Apparently it had been sent to him by someone at Sun who had thought that it was saying many of the things that Diffie has been saying as well. Diffie said that he had some specific criticisms, so I hope that he'll comment here someday on them.</p>
+
+<p><br />
+<h4>Caller-ID for Email</h4></p>
+
+<p>The big announcement of the week was that Microsoft will be be releasing their own spam solution, a <a href="http://windows-help.net/cgi-bin/2004/7.08.cgi?70801">Caller ID</a> for email addresses, starting this summer in HotMail and in their mail servers. Basically the way this works is that every domain holder publishes inside their DNS records the IP addresses of any valid outbound email server. This information is stored using XML in a special signed format. After a mail is sent, the receiving system queries the DNS to confirm that the outbound server is not being spoofed.</p>
+
+<p>This is a very similar technique to what a number of other companies are proposing, for instance AOL is backing a proposal called <a href="http://spf.pobox.com/execsumm.html">SPF (Sender Policy Framework)</a> or sometimes "Sender Permitted From", and Yahoo is backing <a href="http://www.eweek.com/article2/0,4149,1430976,00.asp">Domain Keys</a>. Unfortunately, Microsoft's Caller-ID proposal requires XML, which makes implementation much more complicated. It requires the entire email to be received by the server first, before looking up the DNS record, then validating a signature -- all of which introduces more burdens on the mail server. Lastly, this XML may exceed the 512-character limit for DNS requests, which can cause DNS servers to send via TCP rather then UDP, which may introduces even more uncertainty.</p>
+
+<p>It is good to see that Microsoft, AOL and Yahoo are taking spam seriously, but I do worry that that the burden of supporting more then one of these standards may be significant. This could mean that only large corporations, educational institutions, and ISPs could host email, whereas small companies, third-world organizations, and individuals could not. I would prefer that one solution be broadly and easily adopted. <font color=red><s>Daniel Goldman</s></font> <font color=green>Yakov Shafranovich</font> in <a href="http://www.shaftek.org/blog/archives/000061.html">NetWizard's blog</a> is also concerned about patent claims and lack of IETF participation:<blockquote>At the same time none of these proposals have been submitted to any standards bodies such as the <A HREF="http://www.ietf.org">IETF</A>, and as a matter of fact <A HREF="https://www1.ietf.org/mail-archive/working-groups/asrg/current/msg09082.html">Microsoft was invited</A> to submit "Caller ID" and participate in <A HREF="http://www.ietf.org/ietf/04mar/marid.txt">this week's meeting at the IETF on the subject</A>, but <A HREF="http://www.imc.org/ietf-mxcomp/mail-archive/msg00023.html">they declined</A>. At the same time the community had jumped on Caller ID's patent license by declaring a (and <A HREF="http://www.newsforge.com/article.pl?sid=04/02/26/1448253&mode=thread">a possible incompatibility with the GPL</A>). Of course it remains to be seen what exactly does Caller ID claim to patent since RMX and other prior art existed at least since 1998, and if Caller ID ever makes it to the IETF, Microsoft will have to deal with <A HREF="http://www.ietf.org/rfc/rfc3669.txt">the new IPR guidelines (RFC 3669)</A> which favor non-patented technologies.</blockquote>I'm also not convinced that even if these techniques are deployed (Gartner group <a href="http://informationweek.securitypipeline.com/news/18201583">predicts</a> less then 25% will implement these in the next two years) that they will not return us to early 1990's levels of spam, only just slow down the onslaught. For instance, in a similar fashion to current WiFi war-chalking, a spammer could wait until an authenticated user logged in a mail server and hijack that connection. Unless the link is encrypted and authenticated, it is possible for a spammer to impersonate the legitimate user without anyone being the wiser. Related, these techniques do not necessarily help with the growing threat of "phishing" -- emails that lure unsuspecting users to enter credit card or bank account information into fake web sites.</p>
+
+<p>I am also concerned that all of these standards require some measure of public-key infrastructure, including management of public-keys, which many security analysts believe that we are not doing a good enough job now.</p>
+
+<p>There is some good thoughtful analysis of these three standards by Larry Seltzer of eWeek in <a href="http://www.eweek.com/print_article/0,1761,a=120536,00.asp">Who will Win the SMTP Authentication Wars</a>.</p>
+
+<p><br />
+<h4>More Security in Windows XP SP2</h4></p>
+
+<p>Bill Gates also discussed new security features in the upcoming Windows XP SP2. In addition to some interesting "Active Protection Technology" to prevent overflow attacks, he discussed built-in virus protection and an improved built-in firewall that also warns of outbound connections.</p>
+
+<p>Out in the hall I heard some people saying that announcement was a good basis for selling Symantec short, while others countered that Microsoft never gets these type of things right and there would always be business for Symantec. Companies that offer more minor features like preventing browser popups will be hurt. However, as these solutions are already free and ubiquitous, this is one of the few cases where I prefer for these to be in the default Microsoft install. However, I do worry for the smaller but more innovative security vendors like ZoneAlarm.</p>
+
+<p><br />
+<h4>Sessions</h4></p>
+
+<p>Over the years the sessions at RSA have become more managerial and corporate in nature, but there were a couple of good technical sessions that I attended or friends commented on.</p>
+
+<p>I was pleased by the Cryptographer's Panel response to Bill Gates' announcements: "We have a lot of great levers in cryptography, but we're missing the OSes and platforms that can really serve our keys," said Ronald Rivest. "Bill Gates didn't talk about simplifying things, but that's the only way we are going to get security. We're not smart enough to handle the complexity of this stuff. You have to get the complexity out of there," continued Paul Kocher. Whitfield Diffie criticized security the upcoming Windows Longhorn release because "For the first time, you will have a PC that does NOT do what you tell it to." </p>
+
+<p>The Cryptographer's Panel also spoke on the topic of electronic voting, and supported calls for paper ballots to supplement and verify votes cast with new electronic voting technology. Rivest cautioned "We know only too well the difficulties of securing complex electronic systems."</p>
+
+<p>I also heard good things about the "Hacking VM Machines" and "Analyzing Topologies of Trust" sessions, and the closing keynote by PJ O'Rouke, but I missed them -- anyone have any notes? Where there some other good sessions I missed?</p>
+
+<p><br />
+<h4>Exhibits</h4></p>
+
+<p>The exhibit floor was again a bit droll for me.  Like in previous years the floor was dominated by vendors selling rather high-end corporate systems that might have excited me more if I was in the market for one, but I was looking for less expensive systems for smaller businesses. Like last year there were lots of dedicated devices, such as firewalls, spam prevention, VPN and intrusion detection hardware, and fewer companies offering software to use with my existing hardware.</p>
+
+<p>I did like some of the biometric hard drives, but investigating more deeply I just can't trust them yet. No one yet offers a good solution for redundant key storage yet for these, as a backup in case of a physical failure.</p>
+
+<p>I did see one company <a href="http://www.authenex.com">Authenex</a> that was offering free USB keys that supposedly allow you to encrypt files on your system and email them to someone else with a different key -- it looks like some public key technique is being used, with the key serving as a pre-generated private key storage. More interestingly, they claim that if you register your USB key at their website, they can send you a replacement key that you can use to decrypt your old files. I'll have to do some more investigation of the technology behind this, and if they've had adequate study by cryptographers that I trust. If they have, and they start offering storage on those keys as well, they may have something useful that I'll buy.</p>
+
+<p>RSA had an demo of it's <a href="http://www.rsasecurity.com/company/news/releases/pr.asp?doc_id=3376">prototype RFID blocker tag</a> that they suggest is a possible solution to some of the fears that some of us privacy advocates have been worrying about. <a href="http://scottmace.typepad.com/imanager/2004/02/cool_demo_rsa_r.html">Scott Mace</a> has a good description of the demo:</p>
+<blockquote><p>Each booth visitor selects from one of three demo prescriptions -- "tranquility pills," "wisdom pills," or "happiness pills." (I chose wisdom, naturally.) The RSA Labs crew requests a name from the visitor, then hands over an appropriately-tagged bottle (mine contained jellybeans). They scan the bottle on an RFID tabletop scanner and visitors see the details of the prescription, including type of prescription and patient's name. Then, they insert the bottle into an ordinary paper pharmacy bag that happens to contain a paper "blocker tag" that then blocks any attempt for an RFID reader to scan the bottle while it's in the bag.</p></blockquote><p>
+Though a cool demo, I'm not as confident that this solution will work. Now in addition to the previous "foil bag" theft techniques, what prevents someone from building one of these into a watch or a PDA? Sending a signal to burn-out the RFID is one of the other proposals out there, it has similar problems -- what if someone goes into a WalMart and burns-out every RFID in the place?
+
+<p>RSA was also demoing its latest SecurID integration with Windows, which will extend the life of this security token for RSA customers for many years. I spoke to Scott Schnell, VP of Marketing, afterwards at a party and he explained to me some of the details of how they made it work with Windows laptops. Apparently the system will cache up to several weeks worth of SecurID information such that the laptop owner can use his SecurID token to log on to his laptop even though he is not connected to the network. I neat trick, though I'd like to see some more security reviews before I'd deploy it broadly.</p>
+
+<p>Probably the most interesting, but least useful to me, was a booth for <a href="http://www.magiqtech.com/">Magiq Technology</a>, who offer a commercial quantum cryptography solution. Quantum cryptography is the ultimate in secret key exchange at a distance -- you can sort of say that the universe protects you from snoopers. However, you have to have a fiber-optic connection between the two devices, which limits its practicality. But it is still cool.</p>
+		</div>
+		
+
+                        <!-- SIGNATURE -->
+                        
+
+		
+	</div>
+
+	<div class="entry-footer">
+			<p class="entry-footer-info">
+				<span class="post-footers">Posted at 03:50 AM in <a href="http://www.lifewithalacrity.com/business/">Business</a>, <a href="http://www.lifewithalacrity.com/security/">Security</a>, <a href="http://www.lifewithalacrity.com/webtech/">Web/Tech</a> </span> <span class="separator">|</span> <a class="permalink" href="http://www.lifewithalacrity.com/2004/03/post_rsa_confer.html">Permalink</a>
+			</p>
+		
+		<!-- technorati tags -->
+	
+
+
+		<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='http://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341d8bc053ef00d83455c7f469e2'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='http://static.typepad.com/.shared:v76191bf:typepad:en_us/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+	</div>
+   </div>
+</div>
+
+
+
+        
+        
+        <a id="comments"></a>
+	<div class="comments" id="all-comments">
+		<h3 class="comments-header">Comments</h3>
+					<div class="comments-info">
+				<p><a href="http://www.lifewithalacrity.com/2004/03/post_rsa_confer/comments/atom.xml"><img src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/images/feed.png" alt="Feed" width="10" height="10" /></a> You can follow this conversation by subscribing to the <a href="http://www.lifewithalacrity.com/2004/03/post_rsa_confer/comments/atom.xml">comment feed</a> for this post.</p>
+			</div>
+		
+		<div class="comments-content" id="comments-content">
+                <!-- comment list --><a id="c690883"></a>
+<div class="comment font-entrybody comment-odd comment-has-avatar" id="comment-690883">
+	<div class="comment-avatar">
+		<img id="comment-6a00d8341d8bc053ef00d83425ab4453ef-avatarimg" src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/default-userpics/05-50si.gif" alt="Yakov Shafranovich" width="50" height="50" />
+	</div>
+	<div class="comment-content font-entrybody" id="comment-690883-content">
+		<span id="comment-690883-content"><p>NetWizard&#39;s blog is actually mine, not Daniel Goldman&#39;s (who is a good friend of mine). The patent issues important and in the ASRG which I co-chair, they have come up before with C/R patents held by MailBlocks (you can find some juice tidbits at <a href="http://www.solidmatrix.com/research/asrg/asrg-ipr.html)." rel="nofollow">http://www.solidmatrix.com/research/asrg/asrg-ipr.html).</a></p></span>
+	</div>
+	<p class="comment-footer font-entryfooter">
+		Posted by:
+		<a rel="nofollow" target="_blank" title="http://www.shaftek.org" href="http://www.shaftek.org">Yakov Shafranovich</a> |
+		<a rel="nofollow" href="http://www.lifewithalacrity.com/2004/03/post_rsa_confer.html?cid=690883#comment-6a00d8341d8bc053ef00d83425ab4453ef">March 05, 2004 at 01:09 PM</a>
+	</p>
+</div><a id="c692563"></a>
+<div class="comment font-entrybody comment-even comment-has-avatar" id="comment-692563">
+	<div class="comment-avatar">
+		<img id="comment-6a00d8341d8bc053ef00d8345b281869e2-avatarimg" src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/default-userpics/17-50si.gif" alt="Christopher Allen" width="50" height="50" />
+	</div>
+	<div class="comment-content font-entrybody" id="comment-692563-content">
+		<span id="comment-692563-content"><p>Sorry Yakov! I&#39;ve corrected the attribution above.</p></span>
+	</div>
+	<p class="comment-footer font-entryfooter">
+		Posted by:
+		<a rel="nofollow" target="_blank" title="http://www.lifewithalacrity.com/" href="http://www.lifewithalacrity.com/">Christopher Allen</a> |
+		<a rel="nofollow" href="http://www.lifewithalacrity.com/2004/03/post_rsa_confer.html?cid=692563#comment-6a00d8341d8bc053ef00d8345b281869e2">March 05, 2004 at 11:19 PM</a>
+	</p>
+</div>
+
+		</div>
+        
+	</div>
+<script type="text/javascript">var c943723d42e77e9214eb884a1d898ea="</form>";</script>
+<script type="text/javascript">var ffe51c373e0873b7778b6324a0b5533 = '<form id="comment-form" action="';</script>
+<script type="text/javascript">var c943723d42e77e9214eb884a1d898za = '" method="post"><input type="hidden" name="entry_xid" id="comment-entry-xid" value="6a00d8341d8bc053ef00d83455c7f469e2" \/><input type="hidden" name="token" value="1467141405-93eb7863cce24641a68feda0ddf275cd32465863:E2QcQVza5SpMGcEI" \/>';</script>
+<script type="text/javascript">var OOcd55d4dc47109d7b462b01c7dd4dab = "aHR0cDovL3d3dy5saWZld2l0aGFsYWNyaXR5LmNvbS8uc2VydmljZXMvY29tbWVudHM";</script>
+<script type="text/javascript">var bad4dd7c10b264b7d90174cd4d55dc00 = atob(OOcd55d4dc47109d7b462b01c7dd4dab);</script>
+
+<!-- comment-form-atp -->
+
+	
+<div id="atp-comments">
+    
+        <div id="comment-preview" class="hiddenBox">
+	<h3 id="header-verify-comment" class="comments-header font-entryheader  hiddenBox">Verify your Comment</h3>
+    <h3 id="header-preview-comment" class="comments-header font-entryheader  hiddenBox">Previewing your Comment</h3>
+	<div class="comments-content font-entrybody">
+		<div class="comment comment-has-avatar">
+			<div id="comment-preview-content" class="comment-content">
+			</div>
+			<p class="comment-footer">
+				Posted by: 
+				<span id="comment-preview-author"></span>&nbsp;|&nbsp;<span id="comment-preview-datetime"></span>
+			</p>
+		</div>
+	</div>
+</div>
+<div id="comment-preview-confirmation" class="font-entrybody hiddenBox yellowBox">
+    <p>This is only a preview. Your comment has not yet been posted.</p>
+        <form id="comment-preview-form"
+                method="post"
+                onsubmit="atpComments.interceptPost(1); return false;">
+                <input type="submit" class="form-control font-entrybody" name="post" id="comment-confirm-post" value="&nbsp;Post&nbsp;" onclick="atpComments.interceptPost(1); return false;"/>
+                <input type="submit" class="form-control font-entrybody"  name="edit" id="comment-edit" value="&nbsp;&nbsp;Edit&nbsp;&nbsp;" onclick="atpComments.previewOnly(2); return false;"/>
+        <span id="previewFormSpinner" class="hiddenBox"><img src="/.shared/images/spinner.gif" alt="Working..." /></span>
+        </form>
+</div>
+
+<div id="comment-error" class="hiddenBox font-entrybody redBox">	    
+   Your comment could not be posted. Error type: <span id="comment-error-msg"></span> 
+</div>	
+<div id="comment-complete" class="hiddenBox font-entrybody  redBox">
+    Your comment has been saved. Comments are moderated and will not appear until approved by the author. <a href="javascript:void 0;" onclick="window.location.hash='#comment-form';window.location.reload(false)">Post another comment</a>
+</div>	
+<div id="comment-captcha" class="hiddenBox yellowBox font-entrybody">	
+    <div id="captchaText">
+	    <p id="captchaFailMsg" class="captchaErrorText hiddenBox">The letters and numbers you entered did not match the image. Please try again.</p>	    	        
+	    <p>As a final step before posting your comment, enter the letters and numbers you see in the image below. This prevents automated programs from posting comments.</p>
+	    <p><span id="comment-captcha-viewalt">Having trouble reading this image? <a href="#comment-captcha" onClick="atpComments.generateReCaptcha();">View an alternate.</a></span></p>
+    </div>
+    <form id="comment-captcha-form" 
+		  method="post"
+		  onsubmit="atpComments.submitWithReCaptcha(); return false;">
+    <div id="recaptcha_content">
+      <noscript>
+        <iframe src="6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e" height="300" width="500" frameborder="0"></iframe><br />
+        <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+        <input type='hidden' name='recaptcha_response_field' value='manual_challenge' />
+      </noscript>
+    </div>
+  <script type="text/javascript">
+    $(document).ready(function() {
+        Recaptcha.create("6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e",
+                         "recaptcha_content", {
+                             theme: "red",
+                             callback: Recaptcha.focus_response_field
+        });
+    });
+  </script>
+        <p>
+            <input type="submit" name="continue" id="captcha-continue" value="&nbsp;Continue&nbsp;" />
+            <span id="captchaFormSpinner" class="commentSpinner hiddenBox"><img src="/.shared/images/spinner.gif" alt="Working..." /></span>
+        </p>
+    </form>
+</div>
+
+    
+	<div id="primary-comment-form" class="comment-form">
+	    
+	    <script type="text/javascript">document.write(ffe51c373e0873b7778b6324a0b5533+bad4dd7c10b264b7d90174cd4d55dc00+c943723d42e77e9214eb884a1d898za);</script>
+	    
+    		<div class="comments-open">
+    		<i class="fa fa-comment"></i><h2 class="comments-open-header font-entryheader" id="comment-title">Post a comment</h2>
+    			<div id="comments-open-content" class="comments-open-content font-entrybody">
+    									
+    				    <p class="comments-open-moderated font-entrybody">
+    						Comments are moderated, and will not appear until the author has approved them.
+    					</p>
+    				
+				
+    									
+    					<div id="comments-open-login" style="display: none;">
+                  <div class="login-list font-entrybody">
+                      
+                      <span class="first">Comment below or sign in with</span> <span class="typepad"><a href="https://www.typekey.com/t/typekey/login?v=1.0&t=0dfab609cdadd06abae2dcd41028c97093bbcfe7&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2004%2F03%2Fpost_rsa_confer.html&_portal=typepad">Typepad</a></span> <span class="facebook"><a href="https://www.typekey.com/t/typekey/login?v=1.0&t=0dfab609cdadd06abae2dcd41028c97093bbcfe7&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2004%2F03%2Fpost_rsa_confer.html&_portal=typepad&service=facebook">Facebook</a></span> <span class="twitter"><a href="https://www.typekey.com/t/typekey/login?v=1.0&t=0dfab609cdadd06abae2dcd41028c97093bbcfe7&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2004%2F03%2Fpost_rsa_confer.html&_portal=typepad&service=twitter">Twitter</a></span><span class="googleplus"><a href="https://www.typekey.com/t/typekey/login?v=1.0&t=0dfab609cdadd06abae2dcd41028c97093bbcfe7&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2004%2F03%2Fpost_rsa_confer.html&_portal=typepad&service=gplus">Google+</a></span><span>and <a href="https://www.typekey.com/t/typekey/login?v=1.0&t=0dfab609cdadd06abae2dcd41028c97093bbcfe7&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2004%2F03%2Fpost_rsa_confer.html&_portal=typepad&service=openid">more...</a></span>
+                      
+                  </div>
+                  <div class="clr"></div>
+    					</div>
+    					<div id="comments-open-logout" style="display: none;">
+    						You are currently signed in as
+    						<span id="commenter-name">(nobody)</span>.
+    						<a href="http://www.lifewithalacrity.com/.services/sitelogout?to=https%3A%2F%2Fwww.typekey.com%2Ft%2Ftypekey%2F%3F__mode%3Dlogout%26_return%3Dhttp%253A%252F%252Fwww.lifewithalacrity.com%252F2004%252F03%252Fpost_rsa_confer.html">Sign Out</a>
+    					</div>
+    				
+                    	<div id="comments-open-text" style="display:none;">
+        					<textarea id="comment-text" name="text" rows="10" cols="30" onkeyup="atpComments.maxTextArea(this, 64000);" class="form-control"></textarea>
+            				
+            				<p class="comments-open-subtext font-entrybody">
+            				    (You can use HTML tags like &lt;b&gt; &lt;i&gt; and &lt;ul&gt; to style your text.)
+            				</p>			
+            				                    					
+        				</div>
+    				    <div id="comments-open-data" class="font-entrybody">
+                            <p>Your Information</p>
+                            <p>
+                                (Name and email address are required. Email address will not be displayed with the comment.)
+                            
+                            </p>
+			    
+    						<p>
+    							<input id="comment-author" at:default="Name" name="author" size="30" value="Name" onfocus="if(this.value==this.getAttribute('at:default')) this.value='';"  onBlur="if(this.value=='') this.value=this.getAttribute('at:default');" class="grayText"/>
+    							<label for="comment-author" id="comment-author-error" class="comment-error hiddenBox">Name is required to post a comment</label>
+    						</p>
+    						<p>
+    							<input id="comment-email" at:default="Email Address" name="email" size="30" value="Email Address" onfocus="if(this.value==this.getAttribute('at:default')) this.value='';"  onBlur="if(this.value=='') this.value=this.getAttribute('at:default');" class="grayText"/>
+    							<label for="comment-email" id="comment-email-error" class="comment-error hiddenBox">Please enter a valid email address</label>
+    						</p>
+    						<p>
+    							<input id="comment-url" at:default="Web Site URL" name="url" size="30" value="Web Site URL" onfocus="if(this.value==this.getAttribute('at:default')) this.value='';"  onBlur="if(this.value=='') this.value=this.getAttribute('at:default');" class="grayText"/>
+    							<label for="comment-url" id="comment-url-error" class="comment-error hiddenBox">Invalid URL</label>
+    						</p>
+
+    					</div>
+    		    </div>
+                <div id="comments-open-footer" class="comments-open-footer font-entrybody" style="display:none;">
+    				<input type="submit" name="post" id="comment-post-button" value="&nbsp;Post&nbsp;" onclick="atpComments.interceptPost(1); return false;" disabled="true" class="form-control font-entrybody"/>
+    				<input type="submit" name="preview" id="comment-preview-button" value="&nbsp;Preview&nbsp;" onclick="atpComments.previewOnly(1); return false;" disabled="true" class="form-control font-entrybody  preview-button"/>
+
+    				<span id="commentEntryFormSpinner" class="commentSpinner hiddenBox"><img src="/.shared/images/spinner.gif" alt="Working..." /></span>
+    			</div>
+    		</div>
+	    		
+	    <script type="text/javascript">document.write(c943723d42e77e9214eb884a1d898ea);</script>
+	    
+	    <noscript>
+		
+		<p>Please enable JavaScript if you would like to comment on this blog.</p>
+				
+		
+	    </noscript>
+	</div>
+</div>
+
+
+
+
+
+    
+    
+
+
+
+						</div>
+					</div>
+                                        <div id="beta">
+						<div id="beta-inner" class="pkg">
+							
+<!-- sidebar -->
+
+
+<!-- user photo -->
+    <div class="module-photo module">
+
+
+     
+
+
+<div class="module-content">
+
+
+<img src="http://lifewithalacrity.blogs.com/.a/6a00d8341d8bc053ef01bb080e9d45970d-150wi" alt="My Photo" class="img-responsive" />
+
+
+</div></div>
+
+<div id="about_me_written_by_me" class="module-typelist module">
+<h2 class="module-header">About Me / Written by Me</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="My master profile and contact page" href="http://christophera.lifewithalacrity.com" >My Profile</a></li>
+							<li class="module-list-item"><a title="I was co-editor of the IETF's Transport Layer Security standard, i.e. SSL 3.1" href="ftp://ftp.isi.edu/in-notes/rfc2246.txt" >RFC 2246 - The TLS Standard (1999)</a></li>
+							<li class="module-list-item"><a title="Article I wrote on the importance of both communication and conversation in Groupware." href="http://www.alacritymanagement.com/GCnC.html" >Communication & Conversation (1990)</a></li>
+							<li class="module-list-item"><a title="Article I wrote about different definitions of Groupware" href="http://www.alacritymanagement.com/DoG.html" >Definitions of Groupware (1990)</a></li>
+			
+		</ul>
+	</div>
+</div>
+
+<div class="module-category-cloud module">
+	<h2 class="module-header"><a href="http://www.lifewithalacrity.com/archives.html">Categories</a></h2>
+	<div class="module-content">
+		<ul class="module-list">
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/business/">Business</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/commentary/">Commentary</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/community-by-the-numbers/">Community by the Numbers</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/entrpreneuring/">Entrepreneuring</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/film/">Film</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/games/">Games</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/iphone/">iPhone</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/music/">Music</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/recreation/">Recreation</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/science/">Science</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="http://www.lifewithalacrity.com/security/">Security</a></li>
+			<li class="module-list-item cloud-weight-8"><a href="http://www.lifewithalacrity.com/social_software/">Social Software</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/social-web-for-social-change-sw4sx/">Social Web for Social Change #SW4SX</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/television/">Television</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="http://www.lifewithalacrity.com/user_interface/">User Interface</a></li>
+			<li class="module-list-item cloud-weight-10"><a href="http://www.lifewithalacrity.com/webtech/">Web/Tech</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="http://www.lifewithalacrity.com/weblogs/">Weblogs</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/wiki/">Wiki</a></li>
+		</ul>
+	</div>
+</div>
+<div id="popular_posts" class="module-typelist module">
+<h2 class="module-header">Popular Posts</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2013/04/dyads-triads-the-smallest-teams.html" >2013-04 Dyads & Triads — The Smallest Teams</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2012/10/using-the-social-web-for-social-change-syllabus-sw4sx.html" >2012-10: Using the Social Web for Social Change (Syllabus #SW4SX)</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2012/08/tools-for-ignition-hypercards-25th-anniversary.html" >2012-08: Tools for Ignition & HyperCard’s 25th Anniversary</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html" >2011-07: Managing your Social Graph with Google+ [Google Plus]</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/11/paying-for-favors.html" >2009-11: Paying for Favors</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/09/password-best-practices.html" >2009-09: Password Best Practices</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/09/facilitating-small-gatherings-using-the-braid.html" >2009-09: Facilitating Small Gatherings Using "The Braid"</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/09/creating-shared-language-and-shared-artiifacts.html" >2009-09: Creating Shared Language and Shared Artifacts</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/03/power-laws.html" >2009-03: Community by the Numbers, Part III: Power Laws</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2008/11/personal-circle.html" >2008-11: Community by the Numbers, Part II: Personal Circles</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2008/09/group-threshold.html" >2008-09: Community by the Numbers, Part One: Group Thresholds</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2007/01/collective_choi.html" >2007-01: Collective Choice: Experimenting with Ratings</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html" >2006-08: Using 5-Star Rating Systems</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2006/02/flames_emotiona.html" >2006-02: Flames: Emotional Amplification of Text</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2006/01/on_being_an_ang.html" >2006-01: On Being an Angel</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/12/systems_for_col.html" >2005-12: Systems for Collective Choice</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/10/for_the_last_se.html" >2005-10: SynchroEdit: Simultaneous Editing for the Web</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/10/dunbar_group_co.html" >2005-10: Dunbar Number & Group Cohesion</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/08/dunbar_world_of.html" >2005-08: Dunbar & World of Warcraft</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/07/cheers_belongin.html" >2005-07: Cheers: Belongingness and Para-Social Relationships</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/03/dunbar_altruist.html" >2005-03: Dunbar, Altruistic Punishment, and Meta-Moderation</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/02/dunbar_triage_t.html" >2005-02: Dunbar Triage: Too Many Connections</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/10/tracing_the_evo.html" >2004-10: Tracing the Evolution of Social Software</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/08/progressive_tru.html" >2004-08: Progressive Trust</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/08/intimacy_gradie.html" >2004-08: Intimacy Gradient and Other Lessons from Architecture</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/05/simple_yet_soph.html" >2004-05: Simple Yet Sophisticated Group Page Editing</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/04/four_kinds_of_p.html" >2004-04: Four Kinds of Privacy</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/03/the_dunbar_numb.html" >2004-03: The Dunbar Number as a Limit to Group Sizes</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/02/security_crypto.html" >2004-02: Security & Cryptography: The Bad Business of Fear</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/02/my_advice_to_so.html" >2004-02: My Advice to Social Networking Services</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html" >2004-02: Hand-Crafting My FOAF</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/02/followup_on_ork.html" >2004-02: Followup on Orkut</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/01/insecurity_at_o.html" >2004-01: Insecurity at Orkut</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2003/12/followup_to_eva.html" >2003-12: Followup to "Evaluating Social Network Services"</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2003/12/evaluating_soci.html" >2003-12: Evaluating Social Network Services</a></li>
+			
+		</ul>
+	</div>
+</div>
+
+	<div class="module-archives module">
+		<h2 class="module-header">Recent Posts</h2>
+		<div class="module-content">
+			<ul class="module-list">
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html">The Path to Self-Sovereign Identity</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2016/04/defining-participatory-ecosystem-grow-the-pie-not-slice-it.html">Defining “Participatory Ecosystem” — Grow the Pie, Not Slice It!</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/11/a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-.html">A Revised “Ostrom’s Design Principles for Collective Governance of the Commons” </a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/09/a-spectrum-of-consent.html">A Spectrum of Consent</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/09/speaking-at-consensus-2015.html">Speaking at Consensus 2015</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/04/the-four-kinds-of-privacy.html">The Four Kinds of Privacy</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/03/mini-resume-card-for-conference-season.html">Mini Resume Card for Conference Season</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/10/kathy-sierra-of-serious-pony-on-trolls.html">Kathy Sierra of Serious Pony on Trolls</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/06/deep-context-shared-languages.html">Deep Context Shared Languages</a></li>
+					
+				
+			</ul>
+		</div>
+	</div>
+
+<div class="module-recent-comments module">
+	<h2 class="module-header">Recent Comments</h2>
+	<div class="module-content">
+		<ul class="module-list">
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html?cid=6a00d8341d8bc053ef01bb081b2143970d#comment-6a00d8341d8bc053ef01bb081b2143970d">Howard Silverman</a> on <a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html?cid=6a00d8341d8bc053ef01bb08111925970d#comment-6a00d8341d8bc053ef01bb08111925970d">TokyoTom</a> on <a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html?cid=6a00d8341d8bc053ef01b7c76b7576970b#comment-6a00d8341d8bc053ef01b7c76b7576970b">Ccsolidarity</a> on <a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html?cid=6a00d8341d8bc053ef01bb080eb717970d#comment-6a00d8341d8bc053ef01bb080eb717970d">Matthew Schutte</a> on <a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2013/04/dyads-triads-the-smallest-teams.html?cid=6a00d8341d8bc053ef01b7c701290e970b#comment-6a00d8341d8bc053ef01b7c701290e970b">Kevin</a> on <a href="http://www.lifewithalacrity.com/2013/04/dyads-triads-the-smallest-teams.html">Dyads & Triads — The Smallest Teams</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2014/04/to-be-persuasive-you-need-to-understand-identity-protective-cognition.html?cid=6a00d8341d8bc053ef01a3fd17b987970b#comment-6a00d8341d8bc053ef01a3fd17b987970b">S.M. Stirling</a> on <a href="http://www.lifewithalacrity.com/2014/04/to-be-persuasive-you-need-to-understand-identity-protective-cognition.html">To be persuasive, you need to understand "Identity Protective Cognition"</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html?cid=6a00d8341d8bc053ef015433bc3787970c#comment-6a00d8341d8bc053ef015433bc3787970c">Emmadw</a> on <a href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html">Managing your Social Graph with Google+ [Google Plus]</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html?cid=6a00d8341d8bc053ef015433bb846a970c#comment-6a00d8341d8bc053ef015433bb846a970c">Grimbold</a> on <a href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html">Managing your Social Graph with Google+ [Google Plus]</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2009/09/creating-shared-language-and-shared-artiifacts.html?cid=6a00d8341d8bc053ef014e88415ceb970d#comment-6a00d8341d8bc053ef014e88415ceb970d">Dave Carter</a> on <a href="http://www.lifewithalacrity.com/2009/09/creating-shared-language-and-shared-artiifacts.html">Creating Shared Language and Shared Artifacts</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2008/09/group-threshold.html?cid=6a00d8341d8bc053ef013485dc8545970c#comment-6a00d8341d8bc053ef013485dc8545970c">Louis-Martin Michaud</a> on <a href="http://www.lifewithalacrity.com/2008/09/group-threshold.html">Community by the Numbers, Part One: Group Thresholds</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- archives -->
+
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="http://www.lifewithalacrity.com/archives.html">Archives</a></h2>
+		<div class="module-content">
+			<ul class="module-list">
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2016/04/index.html">April 2016</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/11/index.html">November 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/09/index.html">September 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/04/index.html">April 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/03/index.html">March 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/10/index.html">October 2014</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/06/index.html">June 2014</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/05/index.html">May 2014</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/04/index.html">April 2014</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/03/index.html">March 2014</a></li>
+				
+			</ul>
+		</div>
+	</div>
+
+<div id="blogroll" class="module-typelist module">
+<h2 class="module-header">Blogroll</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="http://www.zephoria.org/thoughts/">Danah Boyd</a></li>
+							<li class="module-list-item"><a href="http://radio.weblogs.com/0121664/">Dina Mehta</a></li>
+							<li class="module-list-item"><a href="http://www.evhead.com/">Evan Williams</a></li>
+							<li class="module-list-item"><a href="http://costik.com/weblog/">Greg Costikyan</a></li>
+							<li class="module-list-item"><a href="http://blogs.magnatune.com/buckman">John Buckman</a></li>
+							<li class="module-list-item"><a href="http://www.meskill.net/weblogs/">Judith Meskill</a></li>
+							<li class="module-list-item"><a href="http://finnern.com/">Mark Finnerm</a></li>
+							<li class="module-list-item"><a href="http://ross.typepad.com/">Ross Mayfield</a></li>
+							<li class="module-list-item"><a href="http://www.sjl.us/main/">Scott Loftesness</a></li>
+							<li class="module-list-item"><a href="http://www.henshall.com/blog/">Stuart Henshall</a></li>
+							<li class="module-list-item"><a href="http://radio.weblogs.com/0110772/">Sébastien Paquet</a></li>
+			
+		</ul>
+	</div>
+</div>
+
+<div id="social_networks" class="module-typelist module">
+<h2 class="module-header">Social Networks</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="http://www.ecademy.com/account.php?op=view&amp;id=42230" >Ecademy</a></li>
+							<li class="module-list-item"><a title="" href="http://web.lifewithalacrity.com/christophera/foaf.rdf" >FOAF</a></li>
+							<li class="module-list-item"><a title="" href="http://www.friendster.com/user.jsp?id=4608201" >Friendster</a></li>
+							<li class="module-list-item"><a title="" href="http://www.friendzy.com/profile/Profile.aspx?member=50875&amp;self=1" >Friendzy</a></li>
+							<li class="module-list-item"><a title="" href="http://www.linkedin.com/profile?viewProfile=&amp;amp;key=62844" >LinkedIn (my preferred, for now)</a></li>
+							<li class="module-list-item"><a title="" href="http://www.livejournal.com/users/christophera_/" >LiveJournal</a></li>
+							<li class="module-list-item"><a title="" href="http://www.orkut.com/Profile.aspx?uid=2789681602836776519" >Orkut</a></li>
+							<li class="module-list-item"><a title="" href="http://www.popdex.com/ref" >Popdex Citations</a></li>
+							<li class="module-list-item"><a title="" href="http://www.ryze.com/go/ChristopherA" >Ryze</a></li>
+							<li class="module-list-item"><a title="" href="http://center.spoke.com/person/spokebookTab.spoke?id=/person/4877427" >Spoke</a></li>
+							<li class="module-list-item"><a title="" href="http://www.technorati.com/profile/ChristopherA/2217776/a6cae8e560bc46d4ff8eb1da8b653b73" >Technorati</a></li>
+							<li class="module-list-item"><a title="" href="http://cluster.tribe.net/tribe/servlet/template/pub,pcard,PeopleCard.vm?personid=ce34093a-3c72-4954-b52f-3d6bc51884af" >Tribe.Net</a></li>
+			
+		</ul>
+	</div>
+</div>
+
+
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+</div> <!-- row -->
+			
+
+
+<!-- footer -->
+<div id="footer">
+<div class="row well"><div class="col-md-12">
+	<div id="footer-inner">
+		<ul class="footer-list pkg">
+   <li class="footer-list-item"><a href="http://www.lifewithalacrity.com/">Life With Alacrity</a></li>
+   <li class="last-footer-list-item footer-list-item">&copy; Copyright Christopher Allen - All Rights Reserved</li>
+</ul>
+
+	</div>
+</div></div>
+</div>
+
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="http://www.typepad.com/t/stats?blog_id=22093&amp;user_id=14990&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script>
+
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qoptions = { tags:"typepad.extended" }; _qacct="p-fcYWUmj5YbYKM"; quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-fcYWUmj5YbYKM" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-fcYWUmj5YbYKM.gif?tags=typepad.extended" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag -->
+
+<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+<script type="text/javascript">
+var captchaImgAttempts = 0;
+var allowAnonComments = '0';
+var registrationRequired = 0;
+var registrationOptional = 1;
+var emailRequired = 1;
+var useAvatars = 1;
+
+var showSignInMessaging = 0;
+var jsonURL = "/.services/json-rpc";
+
+var captchaSrc = "/.services/captcha?code_encrypted=";
+var alertCommentCannotBeBlank = "You can not leave an empty comment. Please enter some text in the Comment field.";
+var alertEditingExpired = "Sorry, you're no longer allowed to edit this comment. You may have taken too much time before submitting your edit or someone may have already replied to it.";
+
+var alertAuthorCannotBeBlank = "Name must not be blank.";
+var alertEmailCannotBeBlank = "Email Address must not be blank.";
+var alertAuthorAndEmailCannotBeBlank = "Name and email address are both required!";
+var alertEmailIsInvalid = "The Email Address you entered is invalid. Please enter a valid email address.";
+var alertUnauthorizedAction = "The comments on this post are closed.";
+var msgPostReplyTo = "Reply to ";  
+var msgInReplyTo = "In reply to ";
+var msgPostAComment = "Post a comment ";
+var atpCommentsPath = "/.shared/js/atpcomments_yui.js?v=5";
+var hasChanged = 0;
+var hostName = ".lifewithalacrity.com";
+var tp_comment_token = "1467141406-412611c4c36e63b5a53aa2f0afeb3f2fa4862db2:f4EicBNcZCoIFhbR";
+
+var use_recaptcha = 1;
+var recaptcha_publickey = "6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e";
+var isPage = 0;
+var blog_xid = "6a00d8341d8bc053ef00d83452ee1069e2";
+var xid = "";
+var injectCode = '<div id=\"comment-preview\" class=\"hiddenBox\">\n\t<h3 id=\"header-verify-comment\" class=\"comments-header font-entryheader  hiddenBox\">Verify your Comment<\/h3>\n    <h3 id=\"header-preview-comment\" class=\"comments-header font-entryheader  hiddenBox\">Previewing your Comment<\/h3>\n\t<div class=\"comments-content font-entrybody\">\n\t\t<div class=\"comment comment-has-avatar\">\n\t\t\t<div id=\"comment-preview-content\" class=\"comment-content\">\n\t\t\t<\/div>\n\t\t\t<p class=\"comment-footer\">\n\t\t\t\tPosted by: \n\t\t\t\t<span id=\"comment-preview-author\"><\/span>&nbsp;|&nbsp;<span id=\"comment-preview-datetime\"><\/span>\n\t\t\t<\/p>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n<div id=\"comment-preview-confirmation\" class=\"font-entrybody hiddenBox yellowBox\">\n    <p>This is only a preview. Your comment has not yet been posted.<\/p>\n        <form id=\"comment-preview-form\"\n                method=\"post\"\n                onsubmit=\"atpComments.interceptPost(1); return false;\">\n                <input type=\"submit\" class=\"form-control font-entrybody\" name=\"post\" id=\"comment-confirm-post\" value=\"&nbsp;Post&nbsp;\" onclick=\"atpComments.interceptPost(1); return false;\"/>\n                <input type=\"submit\" class=\"form-control font-entrybody\"  name=\"edit\" id=\"comment-edit\" value=\"&nbsp;&nbsp;Edit&nbsp;&nbsp;\" onclick=\"atpComments.previewOnly(2); return false;\"/>\n        <span id=\"previewFormSpinner\" class=\"hiddenBox\"><img src=\"/.shared/images/spinner.gif\" alt=\"Working...\" /><\/span>\n        <\/form>\n<\/div>\n\n<div id=\"comment-error\" class=\"hiddenBox font-entrybody redBox\">\t    \n   Your comment could not be posted. Error type: <span id=\"comment-error-msg\"><\/span> \n<\/div>\t\n<div id=\"comment-complete\" class=\"hiddenBox font-entrybody  redBox\">\n    Your comment has been saved. Comments are moderated and will not appear until approved by the author. <a href=\"javascript:void 0;\" onclick=\"window.location.hash=\'#comment-form\';window.location.reload(false)\">Post another comment<\/a>\n<\/div>\t\n<div id=\"comment-captcha\" class=\"hiddenBox yellowBox font-entrybody\">\t\n    <div id=\"captchaText\">\n\t    <p id=\"captchaFailMsg\" class=\"captchaErrorText hiddenBox\">The letters and numbers you entered did not match the image. Please try again.<\/p>\t    \t        \n\t    <p>As a final step before posting your comment, enter the letters and numbers you see in the image below. This prevents automated programs from posting comments.<\/p>\n\t    <p><span id=\"comment-captcha-viewalt\">Having trouble reading this image? <a href=\"#comment-captcha\" onClick=\"atpComments.generateReCaptcha();\">View an alternate.<\/a><\/span><\/p>\n    <\/div>\n    <form id=\"comment-captcha-form\" \n\t\t  method=\"post\"\n\t\t  onsubmit=\"atpComments.submitWithReCaptcha(); return false;\">\n    <div id=\"recaptcha_content\">\n      <noscript>\n        <iframe src=\"6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\" height=\"300\" width=\"500\" frameborder=\"0\"><\/iframe><br />\n        <textarea name=\"recaptcha_challenge_field\" rows=\"3\" cols=\"40\"><\/textarea>\n        <input type=\'hidden\' name=\'recaptcha_response_field\' value=\'manual_challenge\' />\n      <\/noscript>\n    <\/div>\n  <script type=\"text/javascript\">\n    $(document).ready(function() {\n        Recaptcha.create(\"6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\",\n                         \"recaptcha_content\", {\n                             theme: \"red\",\n                             callback: Recaptcha.focus_response_field\n        });\n    });\n  <\/script>\n        <p>\n            <input type=\"submit\" name=\"continue\" id=\"captcha-continue\" value=\"&nbsp;Continue&nbsp;\" />\n            <span id=\"captchaFormSpinner\" class=\"commentSpinner hiddenBox\"><img src=\"/.shared/images/spinner.gif\" alt=\"Working...\" /><\/span>\n        <\/p>\n    <\/form>\n<\/div>\n'; 
+var entryPermalink = "http://www.lifewithalacrity.com/2004/03/post_rsa_confer.html";
+var inlineReply = document.createElement("div");
+var commentFooterLinks;
+var commentHeader;
+var commentReplyXID;
+var commentReplyAuthor;
+var commentReplyComplete;
+var inlineReplyLoaded = 0;
+var commentFormNum = undefined; /* Deprecated but still exists in advanced template sets, so must be defined */
+
+function xidToCommentPermalink (entryUrl, xid) {
+    return entryUrl + "?cid=" + xid + "#comment-" + xid;
+}
+
+
+/* Deprecated advanced template functions */
+function handleSubmit() { return true; };
+function handleChange() { return true; };
+</script>
+<script type="text/javascript" src="/.shared/js/yui/yuiloader-beta-min.js"></script>
+<script type="text/javascript" src="/.shared/js/atpcomments.js?v=5"></script>
+
+<!-- Begin comScore Tag -->
+<script>
+document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js'%3E%3C/script%3E"));
+</script>
+<script>
+COMSCORE.beacon({
+  c1: 2,
+  c2: "6035669",
+  c3: "",
+  c4: "http://www.lifewithalacrity.com/2004/03/post_rsa_confer.html",
+  c5: "",
+  c6: "",
+  c15: ""
+});
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=6035669&c3=&c4=http%3A%2F%2Fwww.lifewithalacrity.com%2F2004%2F03%2Fpost_rsa_confer.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+<!-- Begin disqus Tag -->
+
+<!-- End disqus Tag -->
+</body>
+</html>
+
+<!-- ph=1 -->

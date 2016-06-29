@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Intimacy Gradient and Other Lessons from Architecture</title>
+	<subtitle>In order to provide for &lt;a href=&quot;http://www.lifewithalacrity.com/2004/08/progressive_tru.html&quot;&gt;Progressive Trust&lt;/a&gt;, you need to establish what is known as an &quot;Intimacy Gradient&quot;.
+
+The concept of Intimacy Gradient comes from architect Christopher Alexander, in his book &lt;a href=&quot;http://downlode.org/etext/patterns/&quot;&gt;A Pattern Language: Towns, Buildings, Construction. (Oxford University Press, 1977)&lt;/a&gt;. (post continues with a discussion of how this applies to social software)</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Intimacy Gradient and Other Lessons from Architecture" href="http://www.lifewithalacrity.com/2004/08/intimacy_gradie/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Intimacy Gradient and Other Lessons from Architecture" href="http://www.lifewithalacrity.com/2004/08/intimacy_gradie.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-08-26T23:56:26Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/08/intimacy_gradie/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Sean Savage commented on &#39;Intimacy Gradient and Other Lessons from Architecture&#39;</title>
+			<link rel="alternate" type="text/html" title="Thanks for the great summary and roundup of key concepts, theories and techniques from architecture and urban planning that can..." href="http://www.lifewithalacrity.com/2004/08/intimacy_gradie.html?cid=19342282#comment-6a00d8341d8bc053ef00d8349ec23b53ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8349ec23b53ef</id>
+			<published>2006-07-06T05:04:01Z</published>
+			<updated>2007-08-20T00:57:16Z</updated>
+			<author>
+				<name>Sean Savage</name>
+                <uri>http://www.cheesebikini.com</uri>
+			</author>
+			<summary>Thanks for the great summary and roundup of key concepts, theories and techniques from architecture and urban planning that can...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/08/intimacy_gradie.html">&lt;p&gt;Thanks for the great summary and roundup of key concepts, theories and techniques from architecture and urban planning that can be applied to social software design.  I&amp;#39;m also a big fan of these fields and I think we can stand to have a lot more cross-pollination between the worlds of software, and of space/place design.&lt;/p&gt;
+
+&lt;p&gt;As for how to simulate intimacy gradients, and more basic, &amp;quot;hardwired&amp;quot; ways that we behave in spaces and places, in the online world (or how to symbolize or substitute for them), I wonder:  Why don&amp;#39;t we cheat more often?&lt;/p&gt;
+
+&lt;p&gt;People use our software in spaces and places, after all.  Instead of trying to -simulate- the physical, real-world intimacy mechanisms that we&amp;#39;ve evolved to use, why not just -use- those physical mechanisms and context cues that already exist?  Why not design software that&amp;#39;s aware of the very different places we move through?  Why not design software and devices tied to places?  That&amp;#39;s what we&amp;#39;re trying to do in a few very specific ways with PlaceSite.com, but there&amp;#39;s so much more that can be done here.&lt;/p&gt;
+
+&lt;p&gt;Sean&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Charlie commented on &#39;Intimacy Gradient and Other Lessons from Architecture&#39;</title>
+			<link rel="alternate" type="text/html" title="The fridge door speaks to another one of the Pattern Language patterns -- that a doorway should truly be a..." href="http://www.lifewithalacrity.com/2004/08/intimacy_gradie.html?cid=2351326#comment-6a00d8341d8bc053ef00d83432730153ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83432730153ef</id>
+			<published>2004-10-08T20:04:26Z</published>
+			<updated>2007-08-16T09:10:49Z</updated>
+			<author>
+				<name>Charlie</name>
+                
+			</author>
+			<summary>The fridge door speaks to another one of the Pattern Language patterns -- that a doorway should truly be a...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/08/intimacy_gradie.html">&lt;p&gt;The fridge door speaks to another one of the Pattern Language patterns -- that a doorway should truly be a noticable, transforming experience. That is, a clear indicator that you have gone from &amp;quot;there&amp;quot; to &amp;quot;here.&amp;quot; Off-topic, I know. But interesting.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>me commented on &#39;Intimacy Gradient and Other Lessons from Architecture&#39;</title>
+			<link rel="alternate" type="text/html" title="Tried to post this elsewhere and failed. Sorry if it&#39;s duplication. If a person loading a page has an identity..." href="http://www.lifewithalacrity.com/2004/08/intimacy_gradie.html?cid=2187012#comment-6a00d8341d8bc053ef00d8343191e853ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8343191e853ef</id>
+			<published>2004-09-20T09:05:57Z</published>
+			<updated>2007-08-16T08:42:39Z</updated>
+			<author>
+				<name>me</name>
+                <uri>http://example.com</uri>
+			</author>
+			<summary>Tried to post this elsewhere and failed. Sorry if it&#39;s duplication. If a person loading a page has an identity...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/08/intimacy_gradie.html">&lt;p&gt;Tried to post this elsewhere and failed. Sorry if it&amp;#39;s duplication.&lt;/p&gt;
+
+&lt;p&gt;If a person loading a page has an identity or role (one could have many of these for different purposes) then the system serving the page could show different sets of links based on the &amp;quot;privacy level&amp;quot;. Of course, one could show entirely different sets of links to different people. This du(multi?)plicity would also reflect the method commonly employed in social manipulation, i.e. saying different things to different people based on one&amp;#39;s view of them.&lt;/p&gt;
+
+&lt;p&gt;As it stands, this suggests that the person providing the link sets owns the server, which is often not the case.  Alternatively, it suggests that one is happy to trust a service provider with one&amp;#39;s most intimate secrets.  I suspect neither needs to be the case if cryptography is used.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

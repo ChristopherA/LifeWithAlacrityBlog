@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Looking at Wiki</title>
+	<subtitle>I&#39;ve not just been spending time looking at social networking services, I&#39;ve also been digging deeper into wiki. I&#39;ve still got more to go, but some of these will be of interest to you if you are considering implementing a wiki for your community, or if you are a wiki developer...(brief touches on Zwiki, FlexWiki, ProjectForum, CourseForum, WikidPad, SocialText, SeedWiki, TWiki, and Meatball Wiki.)</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Looking at Wiki" href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Looking at Wiki" href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-02-02T13:57:48Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/02/looking_at_wiki/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Zbigniew Lukasiak commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="The canonical list of wikis is at: http://www.c2.com/cgi/wiki?WikiEngines A very interesting collaborative internet medium http://aux.planetmath.org/noosphere/main.html It is not a wiki..." href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=731890#comment-6a00d8341d8bc053ef00d83426132253ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83426132253ef</id>
+			<published>2004-03-14T14:58:16Z</published>
+			<updated>2007-08-16T05:23:30Z</updated>
+			<author>
+				<name>Zbigniew Lukasiak</name>
+                <uri>http://zby.aster.net.pl/kwiki</uri>
+			</author>
+			<summary>The canonical list of wikis is at: http://www.c2.com/cgi/wiki?WikiEngines A very interesting collaborative internet medium http://aux.planetmath.org/noosphere/main.html It is not a wiki...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;The canonical list of wikis is at: &lt;a href=&quot;http://www.c2.com/cgi/wiki?WikiEngines&quot; rel=&quot;nofollow&quot;&gt;http://www.c2.com/cgi/wiki?WikiEngines&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A very interesting collaborative internet medium &lt;a href=&quot;http://aux.planetmath.org/noosphere/main.html&quot; rel=&quot;nofollow&quot;&gt;http://aux.planetmath.org/noosphere/main.html&lt;/a&gt; It is not a wiki - but it is close in the collaborative process.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Zbigniew Lukasiak commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="The canonical list of wikis is at: http://www.c2.com/cgi/wiki?WikiEngines A very interesting collaborative internet medium is noosphere: http://www.c2.com/cgi/wiki?WikiEngines It is not..." href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=731887#comment-6a00d8341d8bc053ef00d8345b952869e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8345b952869e2</id>
+			<published>2004-03-14T14:55:59Z</published>
+			<updated>2007-08-16T05:23:40Z</updated>
+			<author>
+				<name>Zbigniew Lukasiak</name>
+                <uri>http://zby.aster.net.pl/kwiki</uri>
+			</author>
+			<summary>The canonical list of wikis is at: http://www.c2.com/cgi/wiki?WikiEngines A very interesting collaborative internet medium is noosphere: http://www.c2.com/cgi/wiki?WikiEngines It is not...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;The canonical list of wikis is at: &lt;a href=&quot;http://www.c2.com/cgi/wiki?WikiEngines&quot; rel=&quot;nofollow&quot;&gt;http://www.c2.com/cgi/wiki?WikiEngines&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A very interesting collaborative internet medium is noosphere: http://www.c2.com/cgi/wiki?WikiEngines It is not a wiki - but it is close in the collaborative process.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>David Wilcox commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="Voodoopad at http://www.flyingmeat.com/ is a good wiki notepad for Macs, with html export. The developer is also working on an..." href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=678566#comment-6a00d8341d8bc053ef00d8345afdd669e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8345afdd669e2</id>
+			<published>2004-03-03T15:16:26Z</published>
+			<updated>2007-08-16T05:15:59Z</updated>
+			<author>
+				<name>David Wilcox</name>
+                
+			</author>
+			<summary>Voodoopad at http://www.flyingmeat.com/ is a good wiki notepad for Macs, with html export. The developer is also working on an...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;Voodoopad at &lt;a href=&quot;http://www.flyingmeat.com/&quot; rel=&quot;nofollow&quot;&gt;http://www.flyingmeat.com/&lt;/a&gt; is a good wiki notepad for Macs, with html export. The developer is also working on an online version&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Mark commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="Nice post, I really enjoy oddmuse the next &quot;version&quot; of usemod, which I enjoy because of it&#39;s simplicity. also there..." href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=605722#comment-6a00d8341d8bc053ef00d8345a3b4569e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8345a3b4569e2</id>
+			<published>2004-02-14T10:26:02Z</published>
+			<updated>2007-08-16T05:07:42Z</updated>
+			<author>
+				<name>Mark</name>
+                <uri>http://markdilley.2ya.com</uri>
+			</author>
+			<summary>Nice post, I really enjoy oddmuse the next &quot;version&quot; of usemod, which I enjoy because of it&#39;s simplicity. also there...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;Nice post,  I really enjoy oddmuse the next &amp;quot;version&amp;quot; of usemod, which I enjoy because of it&amp;#39;s simplicity.&lt;/p&gt;
+
+&lt;p&gt;also there are a bunch of wikis at WorldWideWiki:SwitchWiki&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.worldwidewiki.net/wiki/SwitchWiki&quot; rel=&quot;nofollow&quot;&gt;http://www.worldwidewiki.net/wiki/SwitchWiki&lt;/a&gt;&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Sean Murphy commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="PC Magazine did a review December 30, 2003 at http://www.pcmag.com/article2/0,4149,1402872,00.asp that rated both SocialText http://www.socialtext.com/ and EditME http://www.editme.com/ at four..." href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=599509#comment-6a00d8341d8bc053ef00d8345a211269e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8345a211269e2</id>
+			<published>2004-02-12T19:41:40Z</published>
+			<updated>2007-08-16T05:04:44Z</updated>
+			<author>
+				<name>Sean Murphy</name>
+                <uri>http://www.skmurphy.com</uri>
+			</author>
+			<summary>PC Magazine did a review December 30, 2003 at http://www.pcmag.com/article2/0,4149,1402872,00.asp that rated both SocialText http://www.socialtext.com/ and EditME http://www.editme.com/ at four...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;PC Magazine did a review December 30, 2003 at &lt;a href=&quot;http://www.pcmag.com/article2/0,4149,1402872,00.asp&quot; rel=&quot;nofollow&quot;&gt;http://www.pcmag.com/article2/0,4149,1402872,00.asp&lt;/a&gt; that rated both SocialText &lt;a href=&quot;http://www.socialtext.com/&quot; rel=&quot;nofollow&quot;&gt;http://www.socialtext.com/&lt;/a&gt; and EditME &lt;a href=&quot;http://www.editme.com/&quot; rel=&quot;nofollow&quot;&gt;http://www.editme.com/&lt;/a&gt; at four starts&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>LionKimbro commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="The importance of wiki is that WikiIsDocumentBased. ( http://communitywiki.org/WikiIsDocumentBased ) IM, IRC, e-mail, all that stuff is message based. This..." href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=583746#comment-6a00d8341d8bc053ef00d83459f13969e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83459f13969e2</id>
+			<published>2004-02-09T08:14:10Z</published>
+			<updated>2007-08-16T05:03:02Z</updated>
+			<author>
+				<name>LionKimbro</name>
+                <uri>http://speakeasy.org/~lion/</uri>
+			</author>
+			<summary>The importance of wiki is that WikiIsDocumentBased. ( http://communitywiki.org/WikiIsDocumentBased ) IM, IRC, e-mail, all that stuff is message based. This...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;The importance of wiki is that WikiIsDocumentBased.&lt;br /&gt;
+ ( &lt;a href=&quot;http://communitywiki.org/WikiIsDocumentBased&quot; rel=&quot;nofollow&quot;&gt;http://communitywiki.org/WikiIsDocumentBased&lt;/a&gt; )&lt;/p&gt;
+
+&lt;p&gt;IM, IRC, e-mail, all that stuff is message based. This is the first document based medium.&lt;/p&gt;
+
+&lt;p&gt;Documents are big heavy things that float around for long periods of time. Messages are flitty things that are useful for a very short period of time. Documents are good for stabilizing massive teachings that don&amp;#39;t change often. Messages are good for coordinations and handling new things quickly.&lt;/p&gt;
+
+&lt;p&gt;We need both. Wiki is essential.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>wikuser commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="Flexwiki doesn&#39;t even work with my Mozilla browser. I&#39;d also recommend MediaWiki (used for all the Wikipedia sites), SnipSnap (java..." href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=566738#comment-6a00d8341d8bc053ef00d83459c9c269e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83459c9c269e2</id>
+			<published>2004-02-04T18:12:49Z</published>
+			<updated>2007-08-16T05:02:06Z</updated>
+			<author>
+				<name>wikuser</name>
+                
+			</author>
+			<summary>Flexwiki doesn&#39;t even work with my Mozilla browser. I&#39;d also recommend MediaWiki (used for all the Wikipedia sites), SnipSnap (java...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;Flexwiki doesn&amp;#39;t even work with my Mozilla browser.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;d also recommend MediaWiki (used for all the Wikipedia sites), SnipSnap (java based wiki+blog), and Tiki.&lt;br /&gt;
+&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>stuart henshall commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="Check out http://tikiwiki.org/tiki-view_articles.php. Cheers Stuart" href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=559960#comment-6a00d8341d8bc053ef00d83459cd4869e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83459cd4869e2</id>
+			<published>2004-02-03T00:21:12Z</published>
+			<updated>2007-08-16T04:59:20Z</updated>
+			<author>
+				<name>stuart henshall</name>
+                <uri>http://www.henshall.com/blog/</uri>
+			</author>
+			<summary>Check out http://tikiwiki.org/tiki-view_articles.php. Cheers Stuart</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;Check out http://tikiwiki.org/tiki-view_articles.php. &lt;br /&gt;
+Cheers&lt;br /&gt;
+Stuart&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Christopher Allen commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="Yes, I do know about those features, but I hadn&#39;t intended for this post to be an exhaustive review, just..." href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=559073#comment-6a00d8341d8bc053ef00d834244c6453ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834244c6453ef</id>
+			<published>2004-02-02T20:10:44Z</published>
+			<updated>2007-08-16T04:59:38Z</updated>
+			<author>
+				<name>Christopher Allen</name>
+                <uri>http://www.lifewithalacrity.com/</uri>
+			</author>
+			<summary>Yes, I do know about those features, but I hadn&#39;t intended for this post to be an exhaustive review, just...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;Yes, I do know about those features, but I hadn&amp;#39;t intended for this post to be an exhaustive review, just a paragraph in or so for each. The fact that you have lots of features is why I referred people to the public rss-winterfest site.&lt;/p&gt;
+
+&lt;p&gt;I am thinking about doing some more detailed reviews soon, though, and SocialText is near the top of the list.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Adina Levin commented on &#39;Looking at Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="Chris, have you seen the Socialtext feature to create private areas? Other distinctive capabilities include email integration, and integrated weblogs?..." href="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html?cid=558805#comment-6a00d8341d8bc053ef00d83459ae2069e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83459ae2069e2</id>
+			<published>2004-02-02T18:55:37Z</published>
+			<updated>2007-08-16T04:59:13Z</updated>
+			<author>
+				<name>Adina Levin</name>
+                <uri>http://www.socialtext.com</uri>
+			</author>
+			<summary>Chris, have you seen the Socialtext feature to create private areas? Other distinctive capabilities include email integration, and integrated weblogs?...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html">&lt;p&gt;Chris, have you seen the Socialtext feature to create private areas? Other distinctive capabilities include email integration, and integrated weblogs?&lt;/p&gt;
+
+&lt;p&gt;- Adina&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

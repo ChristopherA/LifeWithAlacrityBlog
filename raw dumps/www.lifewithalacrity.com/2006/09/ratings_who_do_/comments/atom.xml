@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Ratings: Who Do You Trust?</title>
+	<subtitle>My colleague, Shannon Appelcline, has been working on a game rating system for RPGnet. This has resulted in some real-world applications for the rating systems which we&#39;ve previously discussed in our Collective Choice articles. Shannon&#39;s newest article, Ratings, Who Do You Trust? offers a look at weighting ratings based on reliability.</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Ratings: Who Do You Trust?" href="http://www.lifewithalacrity.com/2006/09/ratings_who_do_/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Ratings: Who Do You Trust?" href="http://www.lifewithalacrity.com/2006/09/ratings_who_do_.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2006-09-14T23:28:58Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2006/09/ratings_who_do_/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Shannon Appelcline commented on &#39;Ratings: Who Do You Trust?&#39;</title>
+			<link rel="alternate" type="text/html" title="My first pass system just used a different multiplier for weight based on the type of content: 1x for just..." href="http://www.lifewithalacrity.com/2006/09/ratings_who_do_.html?cid=23983872#comment-6a00d8341d8bc053ef00d834f2bf4b69e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834f2bf4b69e2</id>
+			<published>2006-10-16T22:39:53Z</published>
+			<updated>2007-08-18T18:45:25Z</updated>
+			<author>
+				<name>Shannon Appelcline</name>
+                
+			</author>
+			<summary>My first pass system just used a different multiplier for weight based on the type of content: 1x for just...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/09/ratings_who_do_.html">&lt;p&gt;My first pass system just used a different multiplier for weight based on the type of content:&lt;/p&gt;
+
+&lt;p&gt;1x for just a raw rating&lt;br /&gt;
+2x for a rating with a non-blank comment&lt;br /&gt;
+5x for a review (which goes through a different, approved content system)&lt;/p&gt;
+
+&lt;p&gt;My second pass system also included &amp;quot;volume of ratings by user&amp;quot; and thus applied a variable multiplier depending on how many ratings the user has made:&lt;/p&gt;
+
+&lt;p&gt;(0-2x) for a raw rating&lt;br /&gt;
+2x(0-2x) for a rating with comment&lt;br /&gt;
+5x for a review&lt;/p&gt;
+
+&lt;p&gt;The 0-2x is calculated as (# of ratings by user)/50, to 2 max.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m pretty sure that the core weighting system by depth is producing better results, though I haven&amp;#39;t done any studies of that yet. The additional weighting for volume by users has definitely prevented bias by hit-and-run raters who just stop by to rate one game that they&amp;#39;ve been asked to.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>magicback (Frank) commented on &#39;Ratings: Who Do You Trust?&#39;</title>
+			<link rel="alternate" type="text/html" title="Hmm, interesting on the weighting system. Can you explain with more detail how the rating by depth of content is..." href="http://www.lifewithalacrity.com/2006/09/ratings_who_do_.html?cid=23790386#comment-6a00d8341d8bc053ef00d834f1057369e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834f1057369e2</id>
+			<published>2006-10-12T08:30:32Z</published>
+			<updated>2007-08-18T16:15:00Z</updated>
+			<author>
+				<name>magicback (Frank)</name>
+                
+			</author>
+			<summary>Hmm, interesting on the weighting system. Can you explain with more detail how the rating by depth of content is...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/09/ratings_who_do_.html">&lt;p&gt;Hmm, interesting on the weighting system.&lt;/p&gt;
+
+&lt;p&gt;Can you explain with more detail how the rating by depth of content is generated?&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;m looking through the other articles, so hopefully I find the info there.&lt;/p&gt;
+
+&lt;p&gt;Frank&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

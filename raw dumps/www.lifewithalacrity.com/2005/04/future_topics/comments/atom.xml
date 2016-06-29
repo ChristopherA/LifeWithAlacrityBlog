@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Future Topics</title>
+	<subtitle>I&#39;ve been working on an ambitious list of topics that I&#39;d like to cover over the next year. I offer them to you here so you can have some idea of what I&#39;m thinking about. (post continues summary of a large variety of topics.)</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Future Topics" href="http://www.lifewithalacrity.com/2005/04/future_topics/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Future Topics" href="http://www.lifewithalacrity.com/2005/04/future_topics.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2005-04-04T08:08:16Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2005/04/future_topics/comments/atom.xml/</id>
+    
+		<entry>
+			<title>cyberhill commented on &#39;Future Topics&#39;</title>
+			<link rel="alternate" type="text/html" title="The SSL story would be interesting.." href="http://www.lifewithalacrity.com/2005/04/future_topics.html?cid=5609459#comment-6a00d8341d8bc053ef00d83479a2df69e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83479a2df69e2</id>
+			<published>2005-05-13T15:10:30Z</published>
+			<updated>2007-08-17T04:01:35Z</updated>
+			<author>
+				<name>cyberhill</name>
+                
+			</author>
+			<summary>The SSL story would be interesting..</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2005/04/future_topics.html">&lt;p&gt;The SSL story would be interesting..&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Phil Mitchell commented on &#39;Future Topics&#39;</title>
+			<link rel="alternate" type="text/html" title="Get to work! Soon!" href="http://www.lifewithalacrity.com/2005/04/future_topics.html?cid=4753028#comment-6a00d8341d8bc053ef00d83473b2dd69e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83473b2dd69e2</id>
+			<published>2005-04-05T19:22:04Z</published>
+			<updated>2007-08-16T19:48:24Z</updated>
+			<author>
+				<name>Phil Mitchell</name>
+                
+			</author>
+			<summary>Get to work! Soon!</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2005/04/future_topics.html">&lt;p&gt;Get to work! Soon!&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

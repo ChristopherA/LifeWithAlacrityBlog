@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Progressive Trust</title>
+	<subtitle>I believe that as we evolve social software to better serve our needs and the needs of the groups that we are involved in, we need to figure out how to apply an understanding of how human groups behave and work. One useful concept I use I call &quot;Progressive Trust&quot;. The basic idea is to model how trust works in the real world, between real people, rather then solely relying on mathematical or cryptographic trust. (Post continues with a description of the concept).</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Progressive Trust" href="http://www.lifewithalacrity.com/2004/08/progressive_tru/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Progressive Trust" href="http://www.lifewithalacrity.com/2004/08/progressive_tru.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-08-17T06:42:15Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/08/progressive_tru/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Shimon Rura commented on &#39;Progressive Trust&#39;</title>
+			<link rel="alternate" type="text/html" title="Very cogent post, Christopher. I think you&#39;ve hit upon what makes blogs so useful and novel in the computing world...." href="http://www.lifewithalacrity.com/2004/08/progressive_tru.html?cid=1989526#comment-6a00d8341d8bc053ef00d8343070ee53ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8343070ee53ef</id>
+			<published>2004-08-26T15:39:54Z</published>
+			<updated>2007-08-16T08:07:39Z</updated>
+			<author>
+				<name>Shimon Rura</name>
+                <uri>http://frassle.rura.org/Directory/index?feed=1</uri>
+			</author>
+			<summary>Very cogent post, Christopher. I think you&#39;ve hit upon what makes blogs so useful and novel in the computing world....</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/08/progressive_tru.html">&lt;p&gt;Very cogent post, Christopher.  I think you&amp;#39;ve hit upon what makes blogs so useful and novel in the computing world.  I wrote a response in my own blog:&lt;/p&gt;
+
+&lt;p&gt;http://frassle.rura.org/christopherAllenGets&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Sean Murphy commented on &#39;Progressive Trust&#39;</title>
+			<link rel="alternate" type="text/html" title="Ash Maurya&#39;s thought provoking Venn diagram in &quot;Beyond Social Networking&quot; (see http://www.wiredjournal.com/archives/000008.html) lists a number of modes or contexts that..." href="http://www.lifewithalacrity.com/2004/08/progressive_tru.html?cid=1929653#comment-6a00d8341d8bc053ef00d8343028a253ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8343028a253ef</id>
+			<published>2004-08-20T07:42:48Z</published>
+			<updated>2007-08-16T07:57:31Z</updated>
+			<author>
+				<name>Sean Murphy</name>
+                <uri>http://www.skmurphy.com/</uri>
+			</author>
+			<summary>Ash Maurya&#39;s thought provoking Venn diagram in &quot;Beyond Social Networking&quot; (see http://www.wiredjournal.com/archives/000008.html) lists a number of modes or contexts that...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/08/progressive_tru.html">&lt;p&gt;Ash Maurya&amp;#39;s thought provoking Venn diagram in &amp;quot;Beyond Social Networking&amp;quot; (see http://www.wiredjournal.com/archives/000008.html) lists a number of modes or contexts that enable trust buildig in a relationship.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

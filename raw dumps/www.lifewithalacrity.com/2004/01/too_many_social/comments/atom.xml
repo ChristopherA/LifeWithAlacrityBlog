@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Too Many Social Network Services</title>
+	<subtitle></subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Too Many Social Network Services" href="http://www.lifewithalacrity.com/2004/01/too_many_social/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Too Many Social Network Services" href="http://www.lifewithalacrity.com/2004/01/too_many_social.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-01-31T03:20:14Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/01/too_many_social/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Hjalmar Gislason commented on &#39;Too Many Social Network Services&#39;</title>
+			<link rel="alternate" type="text/html" title="Very much on the same note, I wrote this entry (http://wetware.hjalli.com/000576.shtml) a few days ago. Since then however, I gave..." href="http://www.lifewithalacrity.com/2004/01/too_many_social.html?cid=729872#comment-6a00d8341d8bc053ef00d8345b958269e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8345b958269e2</id>
+			<published>2004-03-14T01:18:54Z</published>
+			<updated>2007-08-16T05:23:33Z</updated>
+			<author>
+				<name>Hjalmar Gislason</name>
+                <uri>http://wetware.hjalli.com</uri>
+			</author>
+			<summary>Very much on the same note, I wrote this entry (http://wetware.hjalli.com/000576.shtml) a few days ago. Since then however, I gave...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/01/too_many_social.html">&lt;p&gt;Very much on the same note, I wrote this entry (&lt;a href=&quot;http://wetware.hjalli.com/000576.shtml)&quot; rel=&quot;nofollow&quot;&gt;http://wetware.hjalli.com/000576.shtml)&lt;/a&gt; a few days ago. Since then however, I gave Orkut a chance - and it seems to far exceed the other systems in terms of features and above all ease of use. Sorry LinkedIn - Orkut is becoming the SNS (Social Networking System) of choice.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Tom Munnecke commented on &#39;Too Many Social Network Services&#39;</title>
+			<link rel="alternate" type="text/html" title="hmmm... seems like we are having random growth and preferential attachment in a scale-free network; looks like Orkut is winning...." href="http://www.lifewithalacrity.com/2004/01/too_many_social.html?cid=554532#comment-6a00d8341d8bc053ef00d8342445d353ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8342445d353ef</id>
+			<published>2004-02-01T05:34:14Z</published>
+			<updated>2007-08-16T05:00:08Z</updated>
+			<author>
+				<name>Tom Munnecke</name>
+                <uri>http://www.munnecke.com/blog</uri>
+			</author>
+			<summary>hmmm... seems like we are having random growth and preferential attachment in a scale-free network; looks like Orkut is winning....</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/01/too_many_social.html">&lt;p&gt;hmmm... seems like we are having random growth and preferential attachment in a scale-free network; looks like Orkut is winning....&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

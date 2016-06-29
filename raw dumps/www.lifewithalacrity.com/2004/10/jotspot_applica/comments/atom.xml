@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on JotSpot: Application Wiki</title>
+	<subtitle>&lt;a href=&quot;http://www.jotspot.com/about/index.php&quot;&gt;Joe Kraus&lt;/a&gt;, one of the co-founders of Excite, and new &lt;a href=&quot;http://bnoopy.typepad.com/bnoopy/&quot;&gt;blogger&lt;/a&gt; has long been &lt;a href=&quot;http://owt.typepad.com/blog/2004/09/wiki_and_then_s.html&quot;&gt;rumored&lt;/a&gt; to be working on a new wiki tool. Today at the &lt;a href=&quot;http://www.web2con.com/pub/w/32/program.html&quot;&gt;Web 2.0&lt;/a&gt; conference Joe finally unveiled &lt;a href=&quot;http://www.jotspot.com&quot;&gt;JotSpot&lt;/a&gt;, a new type of wiki that they have named an &quot;Application Wiki&quot;. JotSpot appears to be not only an advanced wiki, but it also moves the predominantly text-based wiki toward being able to handle structured data and web application development. [Post continues with more details]</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on JotSpot: Application Wiki" href="http://www.lifewithalacrity.com/2004/10/jotspot_applica/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="JotSpot: Application Wiki" href="http://www.lifewithalacrity.com/2004/10/jotspot_applica.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-10-07T07:39:29Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/10/jotspot_applica/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Sunir commented on &#39;JotSpot: Application Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="JotSpot is way behind other open source &#39;wikis&#39; like TWiki and ZWiki already well into this space." href="http://www.lifewithalacrity.com/2004/10/jotspot_applica.html?cid=2399482#comment-6a00d8341d8bc053ef00d83468315269e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83468315269e2</id>
+			<published>2004-10-14T07:42:30Z</published>
+			<updated>2007-08-16T09:17:02Z</updated>
+			<author>
+				<name>Sunir</name>
+                <uri>http://usemod.com/cgi-bin/mb.pl?SunirShah</uri>
+			</author>
+			<summary>JotSpot is way behind other open source &#39;wikis&#39; like TWiki and ZWiki already well into this space.</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/10/jotspot_applica.html">&lt;p&gt;JotSpot is way behind other open source &amp;#39;wikis&amp;#39; like TWiki and ZWiki already well into this space. &lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Joe Kraus commented on &#39;JotSpot: Application Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="Thanks for the wriet up Christopher. I think you asked for a beta. We&#39;re trying to provision accounts as rapidly..." href="http://www.lifewithalacrity.com/2004/10/jotspot_applica.html?cid=2353718#comment-6a00d8341d8bc053ef00d83467e26469e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83467e26469e2</id>
+			<published>2004-10-09T03:05:14Z</published>
+			<updated>2007-08-16T09:09:18Z</updated>
+			<author>
+				<name>Joe Kraus</name>
+                <uri>http://www.jot.com</uri>
+			</author>
+			<summary>Thanks for the wriet up Christopher. I think you asked for a beta. We&#39;re trying to provision accounts as rapidly...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/10/jotspot_applica.html">&lt;p&gt;Thanks for the wriet up Christopher. I think you asked for a beta. We&amp;#39;re trying to provision accounts as rapidly as we can (while making sure that things are scaling ok). I should be able to guarantee you get provisioned in the next 2-3 days. If there any questions I can answer, don&amp;#39;t hesitate to ask. &lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Ludovic Dubost commented on &#39;JotSpot: Application Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="Hi, If you like the notion of Application Wikis, you should have a look at the open source project XWiki....." href="http://www.lifewithalacrity.com/2004/10/jotspot_applica.html?cid=2342263#comment-6a00d8341d8bc053ef00d834326b7253ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834326b7253ef</id>
+			<published>2004-10-07T23:25:09Z</published>
+			<updated>2007-08-16T09:07:27Z</updated>
+			<author>
+				<name>Ludovic Dubost</name>
+                <uri>http://www.xwiki.org</uri>
+			</author>
+			<summary>Hi, If you like the notion of Application Wikis, you should have a look at the open source project XWiki.....</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/10/jotspot_applica.html">&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;If you like the notion of Application Wikis, you should have a look at the open source project XWiki.. It includes not only a form engine but also a programming API inside wiki pages as well as un underlying relational database..&lt;/p&gt;
+
+&lt;p&gt;Ludovic&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Antonio commented on &#39;JotSpot: Application Wiki&#39;</title>
+			<link rel="alternate" type="text/html" title="An article in spanish: http://www.error500.net/modules/news/article.php?storyid=997" href="http://www.lifewithalacrity.com/2004/10/jotspot_applica.html?cid=2341177#comment-6a00d8341d8bc053ef00d834326ad153ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834326ad153ef</id>
+			<published>2004-10-07T20:51:54Z</published>
+			<updated>2007-08-16T09:05:51Z</updated>
+			<author>
+				<name>Antonio</name>
+                <uri>http://www.error500.net</uri>
+			</author>
+			<summary>An article in spanish: http://www.error500.net/modules/news/article.php?storyid=997</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/10/jotspot_applica.html">&lt;p&gt;An article in spanish: http://www.error500.net/modules/news/article.php?storyid=997&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

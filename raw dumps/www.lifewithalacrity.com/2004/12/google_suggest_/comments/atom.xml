@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Google Suggest Dissected</title>
+	<subtitle>As a former Macintosh developer, I&#39;ve always been disappointed with the user-interface of web pages. My posts on &lt;a href=&quot;http://www.lifewithalacrity.com/2004/10/map_mashup.html&quot;&gt;Map Mashup&lt;/a&gt; and &lt;a href=&quot;http://www.lifewithalacrity.com/2004/09/tiddlywiki.html&quot;&gt;TiddlyWiki&lt;/a&gt; offer some interesting web UI exemplars. To this list of exemplars I now add &lt;a href=&quot;http://www.google.com/webhp?hl=en&amp;complete=1&quot;&gt;Google Suggest&lt;/a&gt;, which replaces the browser&#39;s default auto-complete with one specific to Google. Blogger &lt;a href=&quot;http://serversideguy.blogspot.com/&quot;&gt;Chris Justus&lt;/a&gt; has &lt;a href=&quot;http://serversideguy.blogspot.com/2004/12/google-suggest-dissected.html&quot;&gt;dissected and documented&lt;/a&gt; how Google Suggest works. [Post continues with more ideas on how to apply some of these techniques.]</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Google Suggest Dissected" href="http://www.lifewithalacrity.com/2004/12/google_suggest_/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Google Suggest Dissected" href="http://www.lifewithalacrity.com/2004/12/google_suggest_.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-12-18T16:44:31Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/12/google_suggest_/comments/atom.xml/</id>
+    
+		<entry>
+			<title>alexei commented on &#39;Google Suggest Dissected&#39;</title>
+			<link rel="alternate" type="text/html" title="This is another case where people are astonished to learn that there isn&#39;t any black magic going on here and..." href="http://www.lifewithalacrity.com/2004/12/google_suggest_.html?cid=6198732#comment-6a00d8341d8bc053ef00d83449208653ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83449208653ef</id>
+			<published>2005-06-13T05:31:34Z</published>
+			<updated>2007-08-17T10:22:37Z</updated>
+			<author>
+				<name>alexei</name>
+                <uri>http://www.alexeiwhite.com</uri>
+			</author>
+			<summary>This is another case where people are astonished to learn that there isn&#39;t any black magic going on here and...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/12/google_suggest_.html">&lt;p&gt;This is another case where people are astonished to learn that there isn&amp;#39;t any black magic going on here and that the functionality is there. it just takes quite a lot of fiddling to get right and in a form that is reusable. This is why I think that there is still a component market for these kinds of things. the google suggest and gmail suggest functionality has been commercialized already here:&lt;/p&gt;
+
+&lt;p&gt;http://developer.ebusiness-apps.com/technologies/webdevelopment/codeandcomponents/ebawebcombov3/media/demos.htm&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Nirendra Awasthi commented on &#39;Google Suggest Dissected&#39;</title>
+			<link rel="alternate" type="text/html" title="I noticed that google suggest does not show same number of results as google.com itself: http://www.nirendra.net/cms/google/suggest -Nirendra" href="http://www.lifewithalacrity.com/2004/12/google_suggest_.html?cid=5570643#comment-6a00d8341d8bc053ef00d83443d83653ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83443d83653ef</id>
+			<published>2005-05-11T20:38:36Z</published>
+			<updated>2007-08-17T03:34:45Z</updated>
+			<author>
+				<name>Nirendra Awasthi</name>
+                <uri>http://www.nirendra.net</uri>
+			</author>
+			<summary>I noticed that google suggest does not show same number of results as google.com itself: http://www.nirendra.net/cms/google/suggest -Nirendra</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/12/google_suggest_.html">&lt;p&gt;I noticed that google suggest does not show same number of results as google.com itself:&lt;br /&gt;
+http://www.nirendra.net/cms/google/suggest&lt;/p&gt;
+
+&lt;p&gt;-Nirendra&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Francis commented on &#39;Google Suggest Dissected&#39;</title>
+			<link rel="alternate" type="text/html" title="You might appreciate my &quot;Zuggest&quot; tool. It uses &quot;Ajax&quot; concepts and works similarly to Google Suggest but searches against the..." href="http://www.lifewithalacrity.com/2004/12/google_suggest_.html?cid=4207768#comment-6a00d8341d8bc053ef00d8347157fb69e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8347157fb69e2</id>
+			<published>2005-03-05T03:21:34Z</published>
+			<updated>2007-08-16T17:46:46Z</updated>
+			<author>
+				<name>Francis</name>
+                <uri>http://www.FrancisShanahan.com</uri>
+			</author>
+			<summary>You might appreciate my &quot;Zuggest&quot; tool. It uses &quot;Ajax&quot; concepts and works similarly to Google Suggest but searches against the...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/12/google_suggest_.html">&lt;p&gt;You might appreciate my &amp;quot;Zuggest&amp;quot; tool.&lt;/p&gt;
+
+&lt;p&gt;It uses &amp;quot;Ajax&amp;quot; concepts and works similarly to Google Suggest but searches against the Amazon Product database as you&amp;#39;re typing. &lt;/p&gt;
+
+&lt;p&gt;Check it out: http://www.FrancisShanahan.com/zuggest.aspx&lt;/p&gt;
+
+&lt;p&gt;It&amp;#39;s built with Javascript, Amazon Web Services, SOAP, XMLHttp, XML, C# and ASP.NET and SQL Server.&lt;/p&gt;
+
+&lt;p&gt;Would love to get some feedback on it. &lt;/p&gt;
+
+&lt;p&gt;-fs&lt;br /&gt;
+&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Pierre Vesoul commented on &#39;Google Suggest Dissected&#39;</title>
+			<link rel="alternate" type="text/html" title="If you like Google Suggest you will love this french tool called Pertimm. Take a look at this technology. It&#39;s..." href="http://www.lifewithalacrity.com/2004/12/google_suggest_.html?cid=4027793#comment-6a00d8341d8bc053ef00d8343b074553ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8343b074553ef</id>
+			<published>2005-02-22T15:35:30Z</published>
+			<updated>2007-08-16T17:25:22Z</updated>
+			<author>
+				<name>Pierre Vesoul</name>
+                <uri>http://pouncha.typepad.com</uri>
+			</author>
+			<summary>If you like Google Suggest you will love this french tool called Pertimm. Take a look at this technology. It&#39;s...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/12/google_suggest_.html">&lt;p&gt;If you like Google Suggest you will love this french tool called Pertimm. Take a look at this technology. It&amp;#39;s really worth it. in order to access to a demo contact them at :&lt;/p&gt;
+
+&lt;p&gt;http://www.pertimm.com/en/contact/index.htm&lt;br /&gt;
+&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Brent Ashley commented on &#39;Google Suggest Dissected&#39;</title>
+			<link rel="alternate" type="text/html" title="dwayne&#39;s exactly right - interest in Javascript RPC has increased exponentially since GMail and now Google Suggest. I&#39;ve seen hits..." href="http://www.lifewithalacrity.com/2004/12/google_suggest_.html?cid=3335051#comment-6a00d8341d8bc053ef00d834370a8453ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834370a8453ef</id>
+			<published>2005-01-04T19:20:28Z</published>
+			<updated>2007-08-16T16:14:34Z</updated>
+			<author>
+				<name>Brent Ashley</name>
+                <uri>http://www.ashleyit.com/rs</uri>
+			</author>
+			<summary>dwayne&#39;s exactly right - interest in Javascript RPC has increased exponentially since GMail and now Google Suggest. I&#39;ve seen hits...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/12/google_suggest_.html">&lt;p&gt;dwayne&amp;#39;s exactly right - interest in Javascript RPC has increased exponentially since GMail and now Google Suggest.  I&amp;#39;ve seen hits to my remote scripting pages go crazy, with the side effect that my referrer spam has spiralled as well.&lt;/p&gt;
+
+&lt;p&gt;I first started building rich UIs with MS Remote Scripting in 1998, and I haven&amp;#39;t done any development on JSRS for a couple of years now.  If I had the time or inclination to redo it now, I would definitely use XMLHTTP.  I had to use iframe/layer at the time for wide compatibility.&lt;/p&gt;
+
+&lt;p&gt;The image/cookie method is a great one for smaller stuff - I use ut to great effect at http://www.blogchat.com&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>dwayne commented on &#39;Google Suggest Dissected&#39;</title>
+			<link rel="alternate" type="text/html" title="Google Suggest is definitely interesting, and Kevin Gibbs is to be congratulated for putting it together. It&#39;s an elegant piece..." href="http://www.lifewithalacrity.com/2004/12/google_suggest_.html?cid=3196656#comment-6a00d8341d8bc053ef00d8346bda0469e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8346bda0469e2</id>
+			<published>2004-12-22T01:56:03Z</published>
+			<updated>2007-08-16T16:04:31Z</updated>
+			<author>
+				<name>dwayne</name>
+                <uri>http://iconys.com</uri>
+			</author>
+			<summary>Google Suggest is definitely interesting, and Kevin Gibbs is to be congratulated for putting it together. It&#39;s an elegant piece...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/12/google_suggest_.html">&lt;p&gt;Google Suggest is definitely interesting, and Kevin Gibbs is to be congratulated for putting it together. It&amp;#39;s an elegant piece of work.&lt;/p&gt;
+
+&lt;p&gt;I think the most intersting things, though, aren&amp;#39;t about the ability to use RPC calls from Javascript. This is pretty old stuff. Brent Ashley released the JSRS library (http://www.ashleyit.com/rs/main.htm) some years ago (cf. these two articles at IBM from 2001: http://www-106.ibm.com/developerworks/library/wa-resc/?dwzone=web, http://www-128.ibm.com/developerworks/web/library/wa-rich/). The technique is somewhat different, using a hidden Iframe as a buffer, but the effect is the same.&lt;/p&gt;
+
+&lt;p&gt;On the technical side, making this workable in real time is impressive. Rather than triggering actions with they onkeypress event, the input field is checked periodically with a timer. This means you don&amp;#39;t have to wait from a response from google when you type something - if you get three letters entered in between checks, it will still appear nearly instant. (The above referenced article by Chris Justus may cover this, I can&amp;#39;t recall at the moment). And the server side stuff required to be able to return search result counts so quickly has to be very well put together.&lt;/p&gt;
+
+&lt;p&gt;On the non-developer side, what I find intersting is that something that has been possible for over three years is hitting the mainstream because Google&amp;#39;s done it. There are tremendous boosts in usability possible using RPC calls, but in my somewhere over six years of web consulting, usability has always been the hardest sell. Now that there&amp;#39;s a high profile application of this technique, I expect it will become as popular as CNET&amp;#39;s orange menu bar was. (If only they had put that on the right side...).&lt;br /&gt;
+&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

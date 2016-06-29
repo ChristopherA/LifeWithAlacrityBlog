@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Simple Yet Sophisticated Group Page Editing</title>
+	<subtitle>I have been leading the design of a new Open Source collaboration tool called &lt;a href=&quot;http://editthispagephp.sourceforge.net/home/index.php&quot;&gt;EditThisPagePHP&lt;a&gt;, which started &lt;a href=&quot;http://www.lifewithalacrity.com/2003/12/editthispagephp.html&quot;&gt;six months ago&lt;/a&gt; and now is in beta. (post continues with information on the tool.)</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Simple Yet Sophisticated Group Page Editing" href="http://www.lifewithalacrity.com/2004/05/simple_yet_soph/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Simple Yet Sophisticated Group Page Editing" href="http://www.lifewithalacrity.com/2004/05/simple_yet_soph.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-05-13T21:58:39Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/05/simple_yet_soph/comments/atom.xml/</id>
+    
+		<entry>
+			<title>alex commented on &#39;Simple Yet Sophisticated Group Page Editing&#39;</title>
+			<link rel="alternate" type="text/html" title="I&#39;m amused at the talk of prior art and 1999 visions, the very first web client (1990) had EditThisPage built..." href="http://www.lifewithalacrity.com/2004/05/simple_yet_soph.html?cid=11860244#comment-6a00d8341d8bc053ef00d8346c1ee753ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8346c1ee753ef</id>
+			<published>2005-12-06T18:59:45Z</published>
+			<updated>2007-08-19T12:50:39Z</updated>
+			<author>
+				<name>alex</name>
+                
+			</author>
+			<summary>I&#39;m amused at the talk of prior art and 1999 visions, the very first web client (1990) had EditThisPage built...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/05/simple_yet_soph.html">&lt;p&gt;I&amp;#39;m amused at the talk of prior art and 1999 visions, the very first web client (1990) had EditThisPage built in - the browser was the editor. The same approach is still taken by browsers like Amaya. &lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Danny commented on &#39;Simple Yet Sophisticated Group Page Editing&#39;</title>
+			<link rel="alternate" type="text/html" title="I&#39;m amused at the talk of prior art and 1999 visions, the very first web client (1990) had EditThisPage built..." href="http://www.lifewithalacrity.com/2004/05/simple_yet_soph.html?cid=1343719#comment-6a00d8341d8bc053ef00d8342af04b53ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8342af04b53ef</id>
+			<published>2004-06-02T12:23:56Z</published>
+			<updated>2007-08-16T06:28:45Z</updated>
+			<author>
+				<name>Danny</name>
+                <uri>http://dannyayers.com</uri>
+			</author>
+			<summary>I&#39;m amused at the talk of prior art and 1999 visions, the very first web client (1990) had EditThisPage built...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/05/simple_yet_soph.html">&lt;p&gt;I&amp;#39;m amused at the talk of prior art and 1999 visions, the very first web client (1990) had EditThisPage built in - the browser was the editor. The same approach is still taken by browsers like Amaya. &lt;/p&gt;
+
+&lt;p&gt;http://www.w3.org/People/Berners-Lee/WorldWideWeb.html &lt;br /&gt;
+&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

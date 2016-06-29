@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Enterprise Social Networking</title>
+	<subtitle></subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Enterprise Social Networking" href="http://www.lifewithalacrity.com/2003/12/enterprise_soci/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Enterprise Social Networking" href="http://www.lifewithalacrity.com/2003/12/enterprise_soci.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2003-12-17T23:24:59Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2003/12/enterprise_soci/comments/atom.xml/</id>
+    
+</feed>
+
+<!-- ph=1 -->

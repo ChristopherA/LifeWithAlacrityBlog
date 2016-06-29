@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on SynchroEdit: Simultaneous Editing for the Web</title>
+	<subtitle>For the last several months I&#39;ve been working on a new open source project that I&#39;ve been calling SynchroEdit. SynchroEdit is a browser-based simultaneous multiuser editor, useful for &quot;same-time&quot; collaboration. (post continues with more details...)</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on SynchroEdit: Simultaneous Editing for the Web" href="http://www.lifewithalacrity.com/2005/10/for_the_last_se/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="SynchroEdit: Simultaneous Editing for the Web" href="http://www.lifewithalacrity.com/2005/10/for_the_last_se.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2005-10-08T23:04:17Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2005/10/for_the_last_se/comments/atom.xml/</id>
+    
+		<entry>
+			<title>yardi commented on &#39;SynchroEdit: Simultaneous Editing for the Web&#39;</title>
+			<link rel="alternate" type="text/html" title="I&#39;m curious about what ways you think this could be useful as a teaching aid? Have you looked into particular..." href="http://www.lifewithalacrity.com/2005/10/for_the_last_se.html?cid=11267544#comment-6a00d8341d8bc053ef00d83469b60553ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83469b60553ef</id>
+			<published>2005-11-16T19:00:54Z</published>
+			<updated>2007-08-19T06:41:07Z</updated>
+			<author>
+				<name>yardi</name>
+                
+			</author>
+			<summary>I&#39;m curious about what ways you think this could be useful as a teaching aid? Have you looked into particular...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2005/10/for_the_last_se.html">&lt;p&gt;I&amp;#39;m curious about what ways you think this could be useful as a teaching aid? Have you looked into particular implementations or studied existing case studies?&lt;br /&gt;
+(I have studied this a fair amount and I don&amp;#39;t think there are existing case studies, especially in the classroom, which is why I ask.. I&amp;#39;m looking at ways in which chatrooms could be incorporated into classroom environments as a backchannel)&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

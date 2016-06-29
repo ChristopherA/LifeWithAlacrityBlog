@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Committing to Vonage</title>
+	<subtitle></subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Committing to Vonage" href="http://www.lifewithalacrity.com/2003/12/committing_to_v/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Committing to Vonage" href="http://www.lifewithalacrity.com/2003/12/committing_to_v.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2003-12-10T22:39:21Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2003/12/committing_to_v/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Cliff Allen commented on &#39;Committing to Vonage&#39;</title>
+			<link rel="alternate" type="text/html" title="We have experimented with VoIP software since 1992 -- and, of course, nothing worked well until recently. A consultant friend..." href="http://www.lifewithalacrity.com/2003/12/committing_to_v.html?cid=1703142#comment-6a00d8341d8bc053ef00d83464481069e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83464481069e2</id>
+			<published>2004-07-18T16:55:40Z</published>
+			<updated>2007-08-16T07:19:29Z</updated>
+			<author>
+				<name>Cliff Allen</name>
+                <uri>http://www.allen.com</uri>
+			</author>
+			<summary>We have experimented with VoIP software since 1992 -- and, of course, nothing worked well until recently. A consultant friend...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2003/12/committing_to_v.html">&lt;p&gt;We have experimented with VoIP software since 1992 -- and, of course, nothing worked well until recently.  A consultant friend mentioned that he takes his Vonage box when he travels in the US and Europe so he can answer and make calls using his L.A. phone number.  I recently converted one POTS line to Vonage and the quality is good, the features are great, and we&amp;#39;re saving money.  Vonage should do well with this combination. &lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

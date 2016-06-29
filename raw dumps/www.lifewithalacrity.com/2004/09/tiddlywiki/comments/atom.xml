@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on TiddlyWiki</title>
+	<subtitle>I keep an eye out for new ideas in Wiki technology (see my post from February &lt;a href=&quot;http://www.lifewithalacrity.com/2004/02/looking_at_wiki.html&quot;&gt;Looking at Wiki&lt;/a&gt;), and I recently became fascinated by &lt;a href=&quot;http://www.tiddlywiki.com/&quot;&gt;TiddlyWiki&lt;/a&gt;. It is sort of a one-page client-only Wiki written completely in JavaScript and HTML. (Post continues with an analysis of this Wiki-like experiment.)</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on TiddlyWiki" href="http://www.lifewithalacrity.com/2004/09/tiddlywiki/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="TiddlyWiki" href="http://www.lifewithalacrity.com/2004/09/tiddlywiki.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-09-28T03:28:46Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/09/tiddlywiki/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Kevembuangga commented on &#39;TiddlyWiki&#39;</title>
+			<link rel="alternate" type="text/html" title="In the same vein and for &quot;heavier&quot; stuff: http://www.kevembuangga.com/hwk/ Alas, still in Beta and Firefox only Any comments appreciated anyway" href="http://www.lifewithalacrity.com/2004/09/tiddlywiki.html?cid=5136680#comment-6a00d8341d8bc053ef00d834758b0069e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834758b0069e2</id>
+			<published>2005-04-22T04:51:31Z</published>
+			<updated>2007-08-16T23:04:09Z</updated>
+			<author>
+				<name>Kevembuangga</name>
+                <uri>http://www.kevembuangga.com/hwk/</uri>
+			</author>
+			<summary>In the same vein and for &quot;heavier&quot; stuff: http://www.kevembuangga.com/hwk/ Alas, still in Beta and Firefox only Any comments appreciated anyway</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/09/tiddlywiki.html">&lt;p&gt;In the same vein and for &amp;quot;heavier&amp;quot; stuff: http://www.kevembuangga.com/hwk/&lt;br /&gt;
+Alas, still in Beta and Firefox only&lt;br /&gt;
+Any comments appreciated anyway&lt;br /&gt;
+&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Will commented on &#39;TiddlyWiki&#39;</title>
+			<link rel="alternate" type="text/html" title="Did you see the new version? The author of TiddlyWiki has released version 3 with many new features." href="http://www.lifewithalacrity.com/2004/09/tiddlywiki.html?cid=4933791#comment-6a00d8341d8bc053ef00d8343f4cb753ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8343f4cb753ef</id>
+			<published>2005-04-15T15:33:26Z</published>
+			<updated>2007-08-16T21:37:36Z</updated>
+			<author>
+				<name>Will</name>
+                
+			</author>
+			<summary>Did you see the new version? The author of TiddlyWiki has released version 3 with many new features.</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/09/tiddlywiki.html">&lt;p&gt;Did you see the new version? The author of TiddlyWiki has released version 3 with many new features.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Don Park commented on &#39;TiddlyWiki&#39;</title>
+			<link rel="alternate" type="text/html" title="I just posted about TiddlyWiki and found that you did the same. As I wrote, I think it has some..." href="http://www.lifewithalacrity.com/2004/09/tiddlywiki.html?cid=2260940#comment-6a00d8341d8bc053ef00d83432041953ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83432041953ef</id>
+			<published>2004-09-29T04:21:48Z</published>
+			<updated>2007-08-16T08:57:17Z</updated>
+			<author>
+				<name>Don Park</name>
+                <uri>http://www.docuverse.com/blog/donpark</uri>
+			</author>
+			<summary>I just posted about TiddlyWiki and found that you did the same. As I wrote, I think it has some...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/09/tiddlywiki.html">&lt;p&gt;I just posted about TiddlyWiki and found that you did the same.  As I wrote, I think it has some good ideas worth stealing.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Using 5-Star Rating Systems</title>
+	<subtitle>In Collective Choice: Rating Systems I discuss ratings scales of various sorts, from eBay&#39;s 3-point scale to RPGnet&#39;s double 5-point scale, and BoardGame Geek&#39;s 10-point scale.
+
+Stars_1
+
+Of the various ratings scales, 5-point scales are probably the most common on the Internet. You can find them not just in my own RPGnet, but also on Amazon, Netflix, and iTunes, as well as many other sites and services. Unfortunately 5-point rating scales also face many challenges in their use, and different studies suggest different flaws with this particular methodology. (Post continues with more analysis, and discussion of how more effectively use iTunes and Amazon ratings...)</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Using 5-Star Rating Systems" href="http://www.lifewithalacrity.com/2006/08/using_5star_rat/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Using 5-Star Rating Systems" href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2006-08-11T15:49:14Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2006/08/using_5star_rat/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Jonathan commented on &#39;Using 5-Star Rating Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="Thanks for writing this article. I found another view on 5 point music rating other than my own informational." href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html?cid=100171118#comment-6a00d8341d8bc053ef00e5502d27b68834" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00e5502d27b68834</id>
+			<published>2008-02-06T08:33:36Z</published>
+			<updated>2008-03-25T14:29:07Z</updated>
+			<author>
+				<name>Jonathan</name>
+                
+			</author>
+			<summary>Thanks for writing this article. I found another view on 5 point music rating other than my own informational.</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html">&lt;p&gt;Thanks for writing this article. I found another view on 5 point music rating other than my own informational.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Don Park commented on &#39;Using 5-Star Rating Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="Christopher, I think some, if not all, of the issues with the 5-point rating system could be addressed with a..." href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html?cid=26662728#comment-6a00d8341d8bc053ef00d834d5b07a53ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834d5b07a53ef</id>
+			<published>2006-12-18T02:25:50Z</published>
+			<updated>2007-08-19T23:51:58Z</updated>
+			<author>
+				<name>Don Park</name>
+                <uri>http://www.docuverse.com/blog/donpark/</uri>
+			</author>
+			<summary>Christopher, I think some, if not all, of the issues with the 5-point rating system could be addressed with a...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html">&lt;p&gt;Christopher, I think some, if not all, of the issues with the 5-point rating system could be addressed with a better UI. For example, displaying a normal distribution curve skewed by accumulated rating to nudge raters away from the extremes. Of course, this doesn&amp;#39;t work well if sample size is too small which usually happens on the far end of the long tail.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Tino commented on &#39;Using 5-Star Rating Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="&gt;&gt;Unfortunately, iTunes does not let you select only unchecked items, so I don&#39;t have a Smart Playlist for these; instead..." href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html?cid=23972657#comment-6a00d8341d8bc053ef00d834f2ad8269e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834f2ad8269e2</id>
+			<published>2006-10-16T18:52:32Z</published>
+			<updated>2007-08-18T18:38:50Z</updated>
+			<author>
+				<name>Tino</name>
+                
+			</author>
+			<summary>&gt;&gt;Unfortunately, iTunes does not let you select only unchecked items, so I don&#39;t have a Smart Playlist for these; instead...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html">&lt;p&gt;&amp;gt;&amp;gt;Unfortunately, iTunes does not let you select only unchecked items, so I don&amp;#39;t have a Smart Playlist for these; instead I keep them in a regular playlist.&lt;/p&gt;
+
+&lt;p&gt;You can:&lt;br /&gt;
+Make a smart playlist called &amp;#39;Checked&amp;#39; with a rule that is always true (e.g. artist does not contain (leave the field emtpy), or bitrate &amp;gt; 0). Create a smart playlist called &amp;#39;Unchecked&amp;#39; with the rule: &amp;#39;Playlist is not Checked&amp;#39;. There you have all your unchecked files.&lt;/p&gt;
+
+&lt;p&gt;From there you can make smart ones that use this Unchecked playlist.&lt;/p&gt;
+
+&lt;p&gt;I like your rating system. I have 40% on a 3star now, and around 25% for 2 and 4 stars. I might scale it down a little bit more.&lt;/p&gt;
+
+&lt;p&gt;hmm, after typing this I read the comments and see Adam McDonald already mentioned something similar about the unchecked items. I&amp;#39;ll leave it here anyway...&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Andy Tinkham commented on &#39;Using 5-Star Rating Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="I like your classification scheme for iTunes. I&#39;m going to have to work on adapting my scale (which is definitely..." href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html?cid=21171424#comment-6a00d8341d8bc053ef00d834e1e6a069e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834e1e6a069e2</id>
+			<published>2006-08-16T20:55:43Z</published>
+			<updated>2007-08-17T09:54:48Z</updated>
+			<author>
+				<name>Andy Tinkham</name>
+                
+			</author>
+			<summary>I like your classification scheme for iTunes. I&#39;m going to have to work on adapting my scale (which is definitely...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html">&lt;p&gt;I like your classification scheme for iTunes. I&amp;#39;m going to have to work on adapting my scale (which is definitely showing signs of skewing towards the high end).&lt;/p&gt;
+
+&lt;p&gt;One thing, though. You mention that you can&amp;#39;t create smart playlists to show unchecked songs. It&amp;#39;s true that you can&amp;#39;t do it with only one playlist, but you can do so with 2:&lt;/p&gt;
+
+&lt;p&gt;#1) Any playlist (for example, let&amp;#39;s say your smart playlist for 4 star, checked songs, so you have it set (I assume) for My Rating = 4, Match Only Checked Songs = checked)&lt;/p&gt;
+
+&lt;p&gt;#2) Use these criteria:  My Rating = 4, Playlist Is Not . Leave match only checked songs unchecked, and enable live updating and you have a smart playlist that shows you your unchecked 4-star songs.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Adam MacDonald commented on &#39;Using 5-Star Rating Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="I thought the issue, like Randy Farmer suggests, was that only positive discrete scales always tend to their maximum. The..." href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html?cid=20944516#comment-6a00d8341d8bc053ef00d834e00b5b69e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834e00b5b69e2</id>
+			<published>2006-08-11T17:21:24Z</published>
+			<updated>2007-08-17T07:15:26Z</updated>
+			<author>
+				<name>Adam MacDonald</name>
+                <uri>http://tidehorion.blogspot.com</uri>
+			</author>
+			<summary>I thought the issue, like Randy Farmer suggests, was that only positive discrete scales always tend to their maximum. The...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html">&lt;p&gt;I thought the issue, like Randy Farmer suggests, was that only positive discrete scales always tend to their maximum.  The problem then in rating systems, like you mentioned I think earlier, is that readers have to interpret what the real norm and limits are.  Even if every rating is in the upper quartile.  You may want to check out what I did in Playerep (http://www.playerep.com), where the rating system is based on election but not a fixed scale (always norming to zero without influence).   FWIW. Thanks.&lt;/p&gt;
+
+&lt;p&gt;Adam&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>F. Randall Farmer commented on &#39;Using 5-Star Rating Systems&#39;</title>
+			<link rel="alternate" type="text/html" title="See http://web.archive.org/web/20010207224515/http://people.delphi.com/mike100000/p5summary.html#summary (or click my name below) for a summary of all the votes for the B5 Series. Averaging all..." href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html?cid=20943023#comment-6a00d8341d8bc053ef00d834aab1a853ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834aab1a853ef</id>
+			<published>2006-08-11T16:49:28Z</published>
+			<updated>2007-08-17T07:14:27Z</updated>
+			<author>
+				<name>F. Randall Farmer</name>
+                <uri>http://web.archive.org/web/20010207224515/http://people.delphi.com/mike100000/p5summary.html#summary</uri>
+			</author>
+			<summary>See http://web.archive.org/web/20010207224515/http://people.delphi.com/mike100000/p5summary.html#summary (or click my name below) for a summary of all the votes for the B5 Series. Averaging all...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html">&lt;p&gt;See&lt;br /&gt;
+http://web.archive.org/web/20010207224515/http://people.delphi.com/mike100000/p5summary.html#summary (or click my name below) for a summary of all the votes for the B5 Series.&lt;/p&gt;
+
+&lt;p&gt;Averaging all episodes you get a mean score of 8.19 with a standard deviation of 0.84 - a *very* narrow range.&lt;/p&gt;
+
+&lt;p&gt;Context and Motivation matter more than scale in getting reusable scores out of rating systems. As I like to tell the folks here at Yahoo! – the person creating the rating has to get something out of the transaction other than just altruism.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

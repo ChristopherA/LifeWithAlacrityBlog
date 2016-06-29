@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Security &amp; Cryptography: The Bad Business of Fear</title>
+	<subtitle>Observations and commentary on the state of the security and cryptography industry, how the &#39;fear&#39; business is not a good one, and three possible different directions that the industry could go.</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Security &amp; Cryptography: The Bad Business of Fear" href="http://www.lifewithalacrity.com/2004/02/security_crypto/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Security &amp; Cryptography: The Bad Business of Fear" href="http://www.lifewithalacrity.com/2004/02/security_crypto.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-02-22T22:12:29Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/02/security_crypto/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Joe commented on &#39;Security &amp; Cryptography: The Bad Business of Fear&#39;</title>
+			<link rel="alternate" type="text/html" title="So then one day this guy discovers the answer to the Reimann Conjecture and now Fear and risk are en..." href="http://www.lifewithalacrity.com/2004/02/security_crypto.html?cid=2086465#comment-6a00d8341d8bc053ef00d8343101a853ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8343101a853ef</id>
+			<published>2004-09-07T13:23:57Z</published>
+			<updated>2007-08-16T08:23:33Z</updated>
+			<author>
+				<name>Joe</name>
+                
+			</author>
+			<summary>So then one day this guy discovers the answer to the Reimann Conjecture and now Fear and risk are en...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/security_crypto.html">&lt;p&gt;So then one day this guy discovers the answer to the Reimann Conjecture and now Fear and risk are en vogue again. I was curious what you think might be the replacement for prime number pki?&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Zooko O&#39;Whielacronx commented on &#39;Security &amp; Cryptography: The Bad Business of Fear&#39;</title>
+			<link rel="alternate" type="text/html" title="I enjoyed this article. The RSA expo floor really makes me feel sad nowadays. It has really driven home the..." href="http://www.lifewithalacrity.com/2004/02/security_crypto.html?cid=682859#comment-6a00d8341d8bc053ef00d8342595ff53ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8342595ff53ef</id>
+			<published>2004-03-04T13:48:07Z</published>
+			<updated>2007-08-16T05:18:28Z</updated>
+			<author>
+				<name>Zooko O&#39;Whielacronx</name>
+                <uri>http://zooko.com/log.html</uri>
+			</author>
+			<summary>I enjoyed this article. The RSA expo floor really makes me feel sad nowadays. It has really driven home the...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/security_crypto.html">&lt;p&gt;I enjoyed this article.&lt;/p&gt;
+
+&lt;p&gt;The RSA expo floor really makes me feel sad nowadays.  It has really driven home the lesson that security is not, as I once believed, a tool that naturally lends itself to increasing freedom.  Instead, like all tools, it cuts either way depending on the hand that guides it.&lt;/p&gt;
+
+&lt;p&gt;I remain hopeful that capability access control will be deployed and will enable, in Mark Miller&amp;#39;s phrase, &amp;quot;cooperation without vulnerability&amp;quot;.  The concept of mutually untrusting code (operating on behalf of mutually untrusting people) cooperating in a single address space is a paradigm that the MUD culture has been practicing for at least a decade and that the Java culture is likely to discover in 2004.&lt;/p&gt;
+
+&lt;p&gt;The increasing importance of virtualization, Trusted/Treacherous Computing, and the like also lead us closer to this paradigm.&lt;br /&gt;
+&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Matthew S. Hamrick commented on &#39;Security &amp; Cryptography: The Bad Business of Fear&#39;</title>
+			<link rel="alternate" type="text/html" title="Just thought I would comment that in building actuarial tables, insurance companies have a relatively small set of policy-holder behaviors..." href="http://www.lifewithalacrity.com/2004/02/security_crypto.html?cid=680622#comment-6a00d8341d8bc053ef00d8345affda69e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d8345affda69e2</id>
+			<published>2004-03-03T22:30:44Z</published>
+			<updated>2007-08-16T05:16:15Z</updated>
+			<author>
+				<name>Matthew S. Hamrick</name>
+                <uri>http://www.cryptonomicon.net/</uri>
+			</author>
+			<summary>Just thought I would comment that in building actuarial tables, insurance companies have a relatively small set of policy-holder behaviors...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/02/security_crypto.html">&lt;p&gt;Just thought I would comment that  in building actuarial tables, insurance companies have a relatively small set of policy-holder behaviors and traits. Auto insurance underwriters look at  age, vehicle model and model year, zip code, driving history, and maybe a few more traits. How do you even start to build a table for the computer industry? You&amp;#39;re running Windows? Fine, double your premiums. You&amp;#39;re running Windows 95? Great, double them again. You haven&amp;#39;t updated your router firmware in three months? Well... what does that do the measure of risk? Anything?&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve always really liked the idea of IT insurance as a way to drive effective, practical security protections, but  I think we&amp;#39;re light-years away from collecting enough information to build a reliable actuarial table.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

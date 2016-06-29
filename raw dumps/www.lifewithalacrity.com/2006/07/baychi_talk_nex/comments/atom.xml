@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on BayChi Talk Next Tuesday</title>
+	<subtitle>I will be speaking at next week&#39;s &lt;a href=&quot;http://www.baychi.org/program/&quot;&gt;BayCHI&lt;/a&gt;, the San Francisco Bay Area Chapter of ACM SIGCHI (Computer Human Interface Special Interest Group), along with &lt;a href=&quot;http://www.goldhaber.org/&quot;&gt;Michael H. Goldhaber&lt;/a&gt;</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on BayChi Talk Next Tuesday" href="http://www.lifewithalacrity.com/2006/07/baychi_talk_nex/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="BayChi Talk Next Tuesday" href="http://www.lifewithalacrity.com/2006/07/baychi_talk_nex.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2006-07-06T20:58:20Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2006/07/baychi_talk_nex/comments/atom.xml/</id>
+    
+		<entry>
+			<title>GadgetMan commented on &#39;BayChi Talk Next Tuesday&#39;</title>
+			<link rel="alternate" type="text/html" title="Great talk at PARC Chris! I thoroughly enjoyed it and it&#39;s related to some of my research on online communities." href="http://www.lifewithalacrity.com/2006/07/baychi_talk_nex.html?cid=19574995#comment-6a00d8341d8bc053ef00d834a08fb053ef" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d834a08fb053ef</id>
+			<published>2006-07-12T04:27:45Z</published>
+			<updated>2007-08-20T04:32:53Z</updated>
+			<author>
+				<name>GadgetMan</name>
+                <uri>http://www.the-gadgetman.com/blog</uri>
+			</author>
+			<summary>Great talk at PARC Chris! I thoroughly enjoyed it and it&#39;s related to some of my research on online communities.</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2006/07/baychi_talk_nex.html">&lt;p&gt;Great talk at PARC Chris!  I thoroughly enjoyed it and it&amp;#39;s related to some of my research on online communities.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

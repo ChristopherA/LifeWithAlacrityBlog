@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Map Mashup</title>
+	<subtitle>I&#39;m a sucker for great user-interface design ideas, especially if succeed on what typically has poor UI design -- web pages. Take a look at this map of &lt;a href=&quot;http://www.multimap.com/map/photo.cgi?client=public&amp;X=533258&amp;Y=180057&amp;width=500&amp;height=310&amp;gride=529090&amp;gridn=179645&amp;srec=0&amp;coordsys=gb&amp;db=pc&amp;pc=&amp;zm=0&amp;scale=10000&amp;up.x=186&amp;up.y=3&quot;&gt;the Tower of London and the Tower Bridge&lt;/a&gt; (post continues with more discussion) [found c/o &lt;a href=&quot;&quot;&gt;Futurismic&lt;/a&gt;]</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Map Mashup" href="http://www.lifewithalacrity.com/2004/10/map_mashup/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Map Mashup" href="http://www.lifewithalacrity.com/2004/10/map_mashup.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2004-10-06T07:12:46Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2004/10/map_mashup/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Jeffery To commented on &#39;Map Mashup&#39;</title>
+			<link rel="alternate" type="text/html" title="The Javascript in http://www.multimap.com/static/global.js only sets the clipping for the overlay layer, since it changes everytime the user moves the..." href="http://www.lifewithalacrity.com/2004/10/map_mashup.html?cid=2363247#comment-6a00d8341d8bc053ef00d83467f3f669e2" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00d83467f3f669e2</id>
+			<published>2004-10-10T18:31:41Z</published>
+			<updated>2007-08-16T09:14:48Z</updated>
+			<author>
+				<name>Jeffery To</name>
+                <uri>http://www.thingsthemselves.com/</uri>
+			</author>
+			<summary>The Javascript in http://www.multimap.com/static/global.js only sets the clipping for the overlay layer, since it changes everytime the user moves the...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2004/10/map_mashup.html">&lt;p&gt;The Javascript in http://www.multimap.com/static/global.js only sets the clipping for the overlay layer, since it changes everytime the user moves the mouse. The layer transparency (for overDiv) is set in http://www.multimap.com/static/ps_new.css . No need for transparent GIFs.&lt;/p&gt;
+
+&lt;p&gt;IE does support alpha transparency for layers, using their filter:alpha(opacity=x) declaration. As the posting on semi-transparent image overlays points out, IE doesn&amp;#39;t support alpha transparency for PNG images.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

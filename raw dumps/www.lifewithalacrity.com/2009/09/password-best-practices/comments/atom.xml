@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Password Best Practices</title>
+	<subtitle></subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Password Best Practices" href="http://www.lifewithalacrity.com/2009/09/password-best-practices/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Password Best Practices" href="http://www.lifewithalacrity.com/2009/09/password-best-practices.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2009-09-25T08:20:07Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2009/09/password-best-practices/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Kalle Alm commented on &#39;Password Best Practices&#39;</title>
+			<link rel="alternate" type="text/html" title="Very nice post. I especially like the unique-per-site approach. One thing you didn&#39;t mention was OpenID, which I with gurgling..." href="http://www.lifewithalacrity.com/2009/09/password-best-practices.html?cid=6a00d8341d8bc053ef01310f2fd83d970c#comment-6a00d8341d8bc053ef01310f2fd83d970c" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef01310f2fd83d970c</id>
+			<published>2010-02-23T17:12:08Z</published>
+			<updated>2010-02-23T17:12:08Z</updated>
+			<author>
+				<name>Kalle Alm</name>
+                <uri>http://kallewoof.com</uri>
+			</author>
+			<summary>Very nice post. I especially like the unique-per-site approach. One thing you didn&#39;t mention was OpenID, which I with gurgling...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2009/09/password-best-practices.html">&lt;p&gt;Very nice post. I especially like the unique-per-site approach.&lt;/p&gt;
+
+&lt;p&gt;One thing you didn&amp;#39;t mention was OpenID, which I with gurgling joy register with whenever the opportunity arises. I wish the world used OpenID so I could just have one gigantically monstrous password to rule my world with.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Jingle Vannis commented on &#39;Password Best Practices&#39;</title>
+			<link rel="alternate" type="text/html" title="Thank you Chris for the detailed article on password best practices. I like to use roboform for the purpose and..." href="http://www.lifewithalacrity.com/2009/09/password-best-practices.html?cid=6a00d8341d8bc053ef01287771c9c9970c#comment-6a00d8341d8bc053ef01287771c9c9970c" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef01287771c9c9970c</id>
+			<published>2010-02-07T15:14:08Z</published>
+			<updated>2010-02-07T15:14:08Z</updated>
+			<author>
+				<name>Jingle Vannis</name>
+                <uri>http://lookwhatyoufound.com</uri>
+			</author>
+			<summary>Thank you Chris for the detailed article on password best practices. I like to use roboform for the purpose and...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2009/09/password-best-practices.html">&lt;p&gt;Thank you Chris for the detailed article on password best practices. I like to use roboform for the purpose and of course having a sophisticated randomized combination of different passwords will greatly reduce the chances of being compromised and thats where the roboform software comes in to manage the passwords. &lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>ChristopherA commented on &#39;Password Best Practices&#39;</title>
+			<link rel="alternate" type="text/html" title="I do know that in fact there are criminals that host &quot;honey pot&quot; websites with semi-legitimate content (games, files, music,..." href="http://www.lifewithalacrity.com/2009/09/password-best-practices.html?cid=6a00d8341d8bc053ef0120a59f0855970b#comment-6a00d8341d8bc053ef0120a59f0855970b" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef0120a59f0855970b</id>
+			<published>2009-09-27T05:34:11Z</published>
+			<updated>2010-05-21T01:12:40Z</updated>
+			<author>
+				<name>ChristopherA</name>
+                <uri>http://profile.typepad.com/christophera</uri>
+			</author>
+			<summary>I do know that in fact there are criminals that host &quot;honey pot&quot; websites with semi-legitimate content (games, files, music,...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2009/09/password-best-practices.html">&lt;p&gt;I do know that in fact there are criminals that host &amp;quot;honey pot&amp;quot; websites with semi-legitimate content (games, files, music, porn,etc.) solely for the opportunity to collect passwords from unknowing users. So you need to be particularly careful the more fly-by-night the website is. I&amp;#39;ve not heard of any social media / mashup websites set up for this purpose, but I would not be surprised if there was.&lt;/p&gt;</content>
+		</entry>
+	
+		<entry>
+			<title>Senthil commented on &#39;Password Best Practices&#39;</title>
+			<link rel="alternate" type="text/html" title="I had an idea once to start a very famous community, ask for login info and use those usernames and..." href="http://www.lifewithalacrity.com/2009/09/password-best-practices.html?cid=6a00d8341d8bc053ef0120a59e0e22970b#comment-6a00d8341d8bc053ef0120a59e0e22970b" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef0120a59e0e22970b</id>
+			<published>2009-09-26T22:24:58Z</published>
+			<updated>2009-09-26T22:24:58Z</updated>
+			<author>
+				<name>Senthil</name>
+                
+			</author>
+			<summary>I had an idea once to start a very famous community, ask for login info and use those usernames and...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2009/09/password-best-practices.html">&lt;p&gt;I had an idea once to start a very famous community, ask for login info and use those usernames and passwords to gain on other sites, since most people use the same password for most sites. It sounds silly, but I think that&amp;#39;s how Twitter was hacked some time back. Moral of the story, don&amp;#39;t use same passwords on every site. Nice post btw Chris, I need to start creating pass myself.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->

@@ -1,0 +1,1168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="typepad-standard" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="generator" content="http://www.typepad.com/" />
+        <meta name="keywords" content="ranking, competition, collective choice, algorithmic ranking, elo, days of wonder, ticket to ride, xbox 360, xbox live, trueskill, statistics, uncertainty, a tale in the desert, egenesis, egenesis ranking system, social network, ranking goals, heirarchy, matching, handicap, handicapping, tourney, tournament, threshold, single-elimination, double-elimination, psuedo-double-elimination, face-off, round-robin, go, chess,  bridge, football, golf, grand master, grandmaster, life master" />
+        <meta name="description" content="In our first article on collective choice we outlined a number of different types of choice systems, among them voting, polling, rating, and ranking. Since then we've been spending some time expanding upon the systems, with the goal being to create both a lexicon of and a dialogue about systems for collective choice.
+
+This time we're going to dig more into comparison ranking systems, by focusing on competitive rankings and looking more in depth at ELO Chess Ranking System and the other systems that we briefly mentioned previously. Our goal is to explicate these systems, to better address their flaws, to begin detailing the purposes of ranking systems, and to show how those purposes are critical in the design of ranking systems. (post continues...)" />
+
+
+
+
+        <link rel="stylesheet" href="http://www.lifewithalacrity.com/styles.css?v=6" type="text/css" media="screen" />
+        <link rel="stylesheet" href="http://static.typepad.com/.shared:v76191bf:typepad:en_us/themes/common/print.css" type="text/css" media="print" />
+
+
+        <link rel="alternate" type="application/atom+xml" title="Posts on 'Life With Alacrity' (Atom)" href="http://www.lifewithalacrity.com/atom.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Posts on 'Life With Alacrity' (RSS 1.0)" href="http://www.lifewithalacrity.com/index.rdf" />
+        <link rel="alternate" type="application/rss+xml" title="Posts on 'Life With Alacrity' (RSS 2.0)" href="http://www.lifewithalacrity.com/rss.xml" />
+        <script type="text/javascript">
+                var TPApp = {};
+                TPApp.app_uri = "http://www.typepad.com/";
+        </script>
+        <script type="text/javascript" src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/js/yui/yahoo-dom-event.js,/js/app/thumbnail-gallery-min.js,/js/app/flyouts-min.js"></script>
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-225723-36', 'auto', {'name': 'Typepad'}, {'allowLinker': true} );  // Separate tracker for Typepad.
+ga('Typepad.require', 'linker');
+ga('Typepad.linker:autoLink', ['none']);
+ga('Typepad.set', 'dimension1', '6a00d8341d8bc053ef00d83452ee1069e2');
+ga('Typepad.set', 'dimension2', 'Individual');
+ga('Typepad.send', 'pageview');
+</script>
+
+
+
+<meta property="og:title" content="Collective Choice: Competitive Ranking Systems" />
+<meta property="og:site_name" content="Life With Alacrity" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="http://www.lifewithalacrity.com/2006/01/ranking_systems.html" />
+<meta property="og:description" content="In our first article on collective choice we outlined a number of different types of choice systems, among them voting, polling, rating, and ranking. Since then we've been spending some time expanding upon the systems, with the goal being to create both a lexicon of and a dialogue about systems for collective choice.
+
+This time we're going to dig more into comparison ranking systems, by focusing on competitive rankings and looking more in depth at ELO Chess Ranking System and the other systems that we briefly mentioned previously. Our goal is to explicate these systems, to better address their flaws, to begin detailing the purposes of ranking systems, and to show how those purposes are critical in the design of ranking systems. (post continues...)" />
+<meta property="fb:admins" content="" />
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/bcs_1.png" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/golfrankings_1.png" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/wcsrating_2.jpg" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/dowlogo_1.gif" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/ttrskotosrankings.png" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/trueskillxbox360.jpg" />
+      
+      
+<meta property="og:image" content="http://www.lifewithalacrity.com/images/trueskill.gif" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/trueskillcalculator_1.png" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/a_tale_in_the_desert_logo_1.jpg" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/wowsocialmap_1.png" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/tournament_1.png" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/pseudodoubleelimination_1.png" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/wsc_1.png" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/gosmall.jpg" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/uscf_1.png" />
+      
+      
+<meta property="og:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/acblopt2_1.gif" />
+      
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:creator" content="">
+<meta name="twitter:title" content="Collective Choice: Competitive Ranking Systems">
+<meta name="twitter:description" content="In our first article on collective choice we outlined a number of different types of choice systems, among them voting, polling, rating, and ranking. Since then we've been spending some time expanding upon the systems, with the goal being to create both a lexicon of and a dialogue about systems for collective choice.
+
+This time we're going to dig more into comparison ranking systems, by focusing on competitive rankings and looking more in depth at ELO Chess Ranking System and the other systems that we briefly mentioned previously. Our goal is to explicate these systems, to better address their flaws, to begin detailing the purposes of ranking systems, and to show how those purposes are critical in the design of ranking systems. (post continues...)">
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/bcs_1.png" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/golfrankings_1.png" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/wcsrating_2.jpg" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/dowlogo_1.gif" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/ttrskotosrankings.png" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/trueskillxbox360.jpg" />
+      
+      
+<meta property="twitter:image" content="http://www.lifewithalacrity.com/images/trueskill.gif" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/trueskillcalculator_1.png" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/a_tale_in_the_desert_logo_1.jpg" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/wowsocialmap_1.png" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/tournament_1.png" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/pseudodoubleelimination_1.png" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/wsc_1.png" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/gosmall.jpg" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/uscf_1.png" />
+      
+      
+<meta property="twitter:image" content="http://lifewithalacrity.blogs.com/photos/uncategorized/acblopt2_1.gif" />
+      
+
+
+
+        <link rel="alternate" type="application/atom+xml" title="Comments on 'Collective Choice: Competitive Ranking Systems' (Atom)" href="http://www.lifewithalacrity.com/2006/01/ranking_systems/comments/atom.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Comments on 'Collective Choice: Competitive Ranking Systems' (RSS 2.0)" href="http://www.lifewithalacrity.com/2006/01/ranking_systems/comments/rss.xml" />
+        <title>Collective Choice: Competitive Ranking Systems - Life With Alacrity</title>
+        <link rel="start" href="http://www.lifewithalacrity.com/" title="Home" />
+        <link rel="prev" href="http://www.lifewithalacrity.com/2005/12/collective_choi.html?no_prefetch=1" title="Collective Choice: Rating Systems" />
+        <link rel="next" href="http://www.lifewithalacrity.com/2006/01/on_being_an_ang.html?no_prefetch=1" title="On Being an Angel" />
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description
+    rdf:about="http://www.lifewithalacrity.com/2006/01/ranking_systems.html"
+    trackback:ping="http://www.typepad.com/services/trackback/6a00d8341d8bc053ef00d83461ad1b69e2"
+    dc:title="Collective Choice: Competitive Ranking Systems"
+    dc:identifier="http://www.lifewithalacrity.com/2006/01/ranking_systems.html"
+    dc:description="In our first article on collective choice we outlined a number of different types of choice systems, among them voting, polling, rating, and ranking. Since then we&#39;ve been spending some time expanding upon the systems, with the goal being to create both a lexicon of and a dialogue about systems for collective choice.
+
+This time we&#39;re going to dig more into comparison ranking systems, by focusing on competitive rankings and looking more in depth at ELO Chess Ranking System and the other systems that we briefly mentioned previously. Our goal is to explicate these systems, to better address their flaws, to begin detailing the purposes of ranking systems, and to show how those purposes are critical in the design of ranking systems. (post continues...)"
+    dc:creator="ChristopherA"
+    dc:date="2006-01-03T23:37:09-08:00" />
+</rdf:RDF>
+-->
+
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+</head>
+
+
+
+<body class="layout-two-column-right post">
+	
+	<div id="container" class="container">
+		<div id="container-inner" class="pkg">
+			
+                <div class="row">
+     
+
+
+<a id="home"></a>
+   
+
+<!-- banner -->
+<div id="banner">
+	<div id="banner-inner" class="pkg">
+		
+		<h1 id="banner-header"><a href="http://www.lifewithalacrity.com/" accesskey="1">Life With Alacrity</a></h1>
+		<h2 id="banner-description">
+			A blog on social software, collaboration, trust, security, privacy, and internet tools, by Christopher Allen.
+		</h2>
+	</div>
+</div>
+
+
+<div id="nav">
+	<div id="nav-inner">
+		<ul class="nav-list pkg">
+			<li class="nav-list-item"><a href="http://www.lifewithalacrity.com/">Home</a></li>
+			<li class="nav-list-item"><a href="mailto:ChristopherA@AlacrityManagement.com">Email Me</a></li>
+			<li class="nav-list-item"><a href="http://www.lifewithalacrity.com/archives.html">Archives</a></li>
+			<li class="nav-list-item"><a href="http://profile.typepad.com/christophera">Profile</a></li>
+			<li class="nav-list-item"><a href="http://www.lifewithalacrity.com/index.rdf">Full RSS</a></li>
+			<li class="last-nav-list-item nav-list-item"><a href="http://www.lifewithalacrity.com/comments.rdf">Comments RSS</a></li>
+		</ul>
+	</div>
+</div>
+
+
+
+
+			<div id="pagebody">
+
+
+				<div id="pagebody-inner" class="pkg">
+                                        <div id="alpha">
+						<div id="alpha-inner" class="pkg">
+							<!-- the plain version removes the extra jquery -->
+<!-- content nav -->
+<p class="content-nav">
+	<a class="content-nav-prev" href="http://www.lifewithalacrity.com/2005/12/collective_choi.html">&laquo; Collective Choice: Rating Systems</a> |
+	<a class="content-nav-main" href="http://www.lifewithalacrity.com/">Main</a>
+	| <a class="content-nav-next" href="http://www.lifewithalacrity.com/2006/01/on_being_an_ang.html">On Being an Angel &raquo;</a>
+</p>
+<script type="text/javascript">
+   $(function(){
+       var query = window.location.search.substring(1);
+       if( query == "pintix=1" ) {
+          var e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://static.typepad.com/.shared:v76191bf:typepad:en_us//js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e);
+       }
+   });
+</script>
+<script type="text/javascript">
+    window.ZemantaBlogSettings = "";
+    window.ZemantaPostSettings = "";
+</script>
+<script type="text/javascript" src="http://content.zemanta.com/static/typepad/js/recommend.js"></script>
+<input type="hidden" name="zemanta-related" val="" />
+<!-- entry -->
+	<h2 class="date-header">January 03, 2006</h2>
+
+
+<div class="entry-category-social_software entry-category-user_interface entry-category-webtech entry-author-christophera entry-type-post entry" id="entry-8200239">
+   <div class="entry-inner">
+			<h3 class="entry-header">Collective Choice: Competitive Ranking Systems</h3>
+	
+
+
+
+	<div class="entry-content">
+		<div class="entry-body">
+			<p><span style="font-size: 0.7em;">by Christopher Allen &amp; Shannon Appelcline</span></p>
+
+<p><em>[This is the third in a series of articles on <a href="http://www.lifewithalacrity.com/2005/12/systems_for_col.html">collective choice</a>, co-written by my collegue <a href="http://www.skotos.net/about/staff/shannon_appelcline">Shannon Appelcline</a>. It will be <a href="http://www.skotos.net/articles/TTnT_179.phtml">jointly posted</a> in Shannon's <a href="http://www.skotos.net/articles/TTnT.shtml">Trials, Triumphs &amp; Trivialities</a> online games column at <a href="http://www.skotos.net/">Skotos</a>.]</em></p>
+
+<p>In our first article on <a href="http://www.lifewithalacrity.com/2005/12/systems_for_col.html">collective choice</a> we outlined a number of different types of choice systems, among them voting, polling, rating, and ranking. Since then we've been spending some time expanding upon the systems, with the goal being to create both a lexicon of and a dialogue about systems for collective choice.</p>
+
+<p>This time we're going to dig more into <em>comparison ranking systems</em>, by focusing on <em>competitive</em> rankings and looking more in depth at ELO Chess Ranking System and the other systems that we briefly mentioned previously. Our goal is to explicate these systems, to better address their flaws, to begin detailing the purposes of ranking systems, and to show how those purposes are critical in the design of ranking systems.</p>
+
+<h3><a name="subjective_vs_objective"></a>Subjective vs. Objective Rankings</h3>
+
+<p>In our original article we discussed <a href="http://www.lifewithalacrity.com/2005/12/collective_choi.html">rating systems</a> as being largely subjective and ranking systems as being objective, but the situation isn't nearly as simple as that. In truth, there's a clear spectrum of ratings and rankings with varying amounts of subjectivity and objectivity in each collective choice system. </p>
+
+<p><a href="http://www.bcsfootball.org/"><img border="0" alt="Bcs_1" title="Bcs_1" src="http://lifewithalacrity.blogs.com/photos/uncategorized/bcs_1.png" style="margin: 0px 5px 5px 0px; float: left;" /></a>
+<a href="http://www.officialworldgolfranking.com/"><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/golfrankings_1.png" title="Golfrankings_1" alt="Golfrankings_1" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+
+The <a href="http://en.wikipedia.org/wiki/Bowl_Championship_Series">Bowl Championship Series</a> (BCS) for college football is a good example of a ranking system that explicitly allows a subjective component. It involves a complex mathematical formula that includes things like win/loss ratios, but also sportswriters' and coaches' ratings. </p>
+
+<p>However, public opinion continues to show that people don't necessarily like seeing true ranking systems having subjective components, because they expect them to be &quot;fair&quot;. The BCS formula has come under attack several times in the last few years precisely due to its subjective basis. Cal Berkeley was one of several teams denied a bowl position in 2004 when many felt that they were worthy.</p>
+
+<p>The <a href="http://www.atptennis.com/en/players/raceleaderboard/rank_definitions.asp">APL tennis rankings</a> and the <a href="http://en.wikipedia.org/wiki/Golf_rankings">official world golf rankings</a> also have a subjective component, but it is much more subtle. Each tournament is worth a certain number of points, and the allocation of those points is relatively arbitrary, based upon the &quot;prestige&quot; of each tournament and the quality of players who have traditionally played in it. The subjectivism isn't quite as near to the surface as that of the college bowls, but it's still something that can have a notable, and perhaps unwarranted, effect upon the final results.<br /> </p>
+
+<h3><a name="algorithmic_rankings"></a>Algorithmic Rankings</h3>
+
+<p><a href="http://www.kosteniuk.com/"><img border="0" alt="Wcsrating_2" title="Wcsrating_2" src="http://lifewithalacrity.blogs.com/photos/uncategorized/wcsrating_2.jpg" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+This brings us back to the <a href="http://en.wikipedia.org/wiki/ELO_rating_system">ELO system</a>, a ranking system originally designed for chess which is fairly well-known and well-understood. As we said in our overview article, &quot;[ELO] builds a simple distribution of player ratings around a norm (typically 1500 points), then awards or deducts points based upon wins and losses, with the total sum of all points in the system staying constant. Players are then ranked according to their comparative scores.&quot;</p>
+
+<p>The big difference between this and the previously discussed systems is that it's almost entirely objective; in fact it uses a statistical basis to create an underlying mathematical model for rankings, rather than allowing human subjectivity to get in the way.<br />
+
+</p>
+
+<p>The simplest formulation for an ELO rating looks like this:</p>
+
+<blockquote>
+<p><span size="+2"><code>R' = R + K * (S - E)</code></span></p>
+
+<p><code>R'</code> is the new rating<br />
+<code>R</code> is the old rating<br />
+<code>K</code> is a maximum value for increase or decrease of rating (16 or 32 for ELO)<br />
+<code>S</code> is the score for a game<br />
+<code>E</code> is the expected score for a game</p></blockquote>
+
+<p>Much of the trick is in figuring out what the (<code>E</code>)xpected score of a game is. ELO uses the following formulas for players A and B:</p>
+
+<blockquote><pre>E(A) = 1 / [ 1 + 10 ^ ( [R(B) - R(A)] / 400 ) ]<br />E(B) = 1 / [ 1 + 10 ^ ( [R(A) - R(B)] / 400 ) ]</pre></blockquote>
+
+<p>It's a good model because, using the two formulas, it means that a great player gains little from beating an average player, but an average player gains a lot from beating a great player. Take the following example:</p>
+
+<blockquote><pre>R(A) = 1900<br />R(B) = 1500<br />
+E(A) = 1 / [ 1 + 10 ^ ( [1500 - 1900] / 400 ) ]<br />&nbsp; &nbsp;&nbsp; = 1 / [ 1 + 10 ^ ( -400 / 400) ]<br />&nbsp; &nbsp;&nbsp; = 1 / [ 1 + 10 ^ -4 / 4 ]<br />&nbsp; &nbsp;&nbsp; = 1 / [ 1 + 10 ^ -1 ]<br />&nbsp; &nbsp;&nbsp; = 1 / 1 + .1<br />&nbsp; &nbsp;&nbsp; = .91<br />&nbsp; &nbsp;&nbsp; = 91%<br /><p>E(B) = 1 / [ 1 + 10 ^ ( [1900 - 1500] / 400) ]<br />&nbsp; &nbsp;&nbsp; = 1 / [ 1 + 10 ^ ( 400 / 400 ) ]<br />&nbsp; &nbsp;&nbsp; = 1 / [ 1 + 10 ^ 1 ]<br />&nbsp; &nbsp;&nbsp; = 1 / 11<br />&nbsp; &nbsp;&nbsp; = .09<br />&nbsp; &nbsp;&nbsp; = 9%</p></pre></blockquote>
+
+<p>Player A is expected to score .91 in an average game, which is to say he should win 91% of the time, and will be punished accordingly if he loses to player B:</p>
+
+<blockquote><pre>R' = 1900 + 32 * (0 - .91)<br />R' = 1900 - 29.12<br />R' = 1871</pre></blockquote>
+
+<p>Conversely a win nets him very little:</p>
+
+<blockquote><p>
+R' = 1900 + 32 * (1 - .91)<br />R' = 1900 + 32 * .09<br />R' = 1900 + 2.88<br />R' = 1903</p></blockquote>
+
+<p>ELO is almost entirely mathematical. Players can gain or lose different amounts of points based upon playing different players, but this is all part of the formula. The only slightly subjective element is the definition of <code>K</code> -- how much a player can win or lose from a particular game. The most widely used ELO systems for Chess break <code>K</code> down into two values: 16 for masters and 32 for everyone else. So there is a subjective decision that masters should vary their score less frequently than other players. </p>
+
+<p>That's a very minor element in an otherwise objective system, but as we'll see, more recent systems by Days of Wonder and Microsoft first reduce, then eliminate even this subjectivity.</p>
+
+<h3><a name="days_of_wonder"></a>Variations of a Theme: Days of Wonder</h3>
+
+<p><a href="http://www.daysofwonder.com/"><img border="0" alt="Dowlogo_1" title="Dowlogo_1" src="http://lifewithalacrity.blogs.com/photos/uncategorized/dowlogo_1.gif" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+ELO is probably the most used ranking system in the world. You can find it in use for Go, <em>Tantrix</em>, and many other games. Days of Wonder, producers of <em>Gang of Four</em>, <em>Ticket to Ride</em>, and many other games use a variant of the system which they describe on <a href="http://www.gangoffour.com/index.php?t=content&amp;sub=ranking">their website</a>.</p>
+
+<p>They identify three core problems with ELO: </p>
+
+<ol>
+<li>New players can take a long time to ascend or descend to their correct levels.</li>
+<li>Highly ranked players can be hesitant to play with provisional players whose ranking might be much more uncertain.</li>
+<li>There are no allowances for games with more than two players.</li>
+</ol>
+
+<p>Days of Wonder resolved the first problem by creating a new formula for provisional players, allowing them to rise and fall in the rankings much more quickly. </p>
+
+<p>Conversely when playing against provisional players, regular players can only lose a maximum of <code>K*n/20</code> points, where n is the number of games that the provisional player has played--rather than the normal maximum loss of <code>K</code>. For example, playing someone who has just played one game, can only result in a loss of 1/20th of the regular <code>K</code> value, and so it really doesn't matter if the provisional player's ranking is wildly out of whack.</p>
+
+<p>Both of these new formulas are set up to converge toward a normal ELO formula as a provisional player's number of games approaches 20 (making them a normal player at Days of Wonder).</p>
+
+<p>(It should be pointed out that using the number &quot;20&quot; to define a provisional player, and making a player less provisional in clean 5% steps, inevitably offers yet another small, subjective element into this mathematical formula; as we'll see momentarily Microsoft has more recently incorporated the idea of provisional uncertainty into their core mathematical model, much as the whole ELO system originally turned subjective win and loss statistics into tighter mathematics.)</p>
+
+<p><a href="http://www.skotos.net/games/wonder/TT/"><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/ttrskotosrankings.png" title="Ttrskotosrankings" alt="Ttrskotosrankings" style="margin: 0px 5px 5px 0px; float: left;" /></a>
+Finally, to resolve the situation of multiple players, Days of Wonder considers each game to be a set of duels, as described here:</p>
+
+<blockquote><p><em>
+There are 4 players in a </em><em>Gang of Four game. Let's name A the winning player, B the second one, C the third one and D the last one. We consider that there were 6 duels: A won against B, C and D. B won against C and D. C won against D. We compute independently the new scores for each duel, and then we average the values for each player</em>.</p></blockquote>
+
+<p>It's a fairly elegant answer that not only rewards or penalizes all players separately, but also encourages playing for second place, or even third, if first isn't possible.</p>
+
+<p>There have been continued discussions of the Days of Wonder ELO variant in <a href="http://www.daysofwonder.com/index.php?t=forums">their forums</a>, and the questions raised there are common to many different ranking systems. Some players wanted unranked games, while others thought that having unranked games would discourage people from playing good competitors <em>except</em> in unranked games.&nbsp; There has also been a lot of discussion regarding <em>Ticket to Ride</em>, a strategy game that supports 2-5 people, and whether the ELO variant system discourages multiperson play.</p>
+
+<p>The various lessons learned at Days of Wonder underline two basic ideas about rankings. First, even with a well-studied system like ELO, there's still a lot to understand, and, second, any ranking system needs to reflect the specifics of what it's ranking -- and what its purpose is.</p>
+
+<h3><a name="xbox_360_live"></a>Variations on a Theme: XBox 360 Live</h3>
+
+<p><a href="http://www.research.microsoft.com/mlp/trueskill/default.aspx"><img border="0" alt="Trueskillxbox360" title="Trueskillxbox360" src="http://lifewithalacrity.blogs.com/photos/uncategorized/trueskillxbox360.jpg" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+An even more recent large-scale ranking system is the <a href="http://research.microsoft.com/displayArticle.aspx?id=1361">TrueSkill</a> system developed by Microsoft for use with the XBox 360. It appears to be an expanded variant of the <a href="http://math.bu.edu/people/mg/glicko/glicko.doc/glicko.html">glicko</a> ranking system used by the <a href="http://www.freechess.org/">free internet chess server</a>.</p>
+
+<p>Many of the problems identified by Microsoft were the same as those already noted by Days of Wonder and others, including: the uncertainty of provisional ratings and the need to rank players in multiplayer games. However, the TrueSkill system notably expands both issues. Ranking uncertainty is now defined as a mathematical concept and the rankings now support not just multiple players, but also multiple teams.</p>
+
+<p><a href="http://lifewithalacrity.blogs.com/.shared/image.html?/photos/uncategorized/trueskill.gif" onclick="window.open(this.href, '_blank', 'width=430,height=324,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img width="200" height="150" border="0" alt="Trueskill" title="Trueskill" src="http://www.lifewithalacrity.com/images/trueskill.gif" style="margin: 0px 5px 5px 0px; float: left;" /></a>TrueSkill explicitly includes two values in any ranking: a skill level and an uncertainty level. The first, like the more common ELO ranking, tells how good a player is. The second states how sure that ranking is. The uncertainty rating is effectively a margin of error, similar to those we saw in <em>polling systems</em>. If a first-time player has a skill rating of 25 with an uncertainty rating of 8.3 that means that his skill is probably somewhere in the range of 16.7 to 33.3, a pretty wide range, but then this is a totally untested player. According to benchmarks that Microsoft produced, 99.99% of actual skill levels were within 3x of the uncertainty rating, and 100% were within 4x.</p>
+
+<p>The rest of TrueSkill's innovations are built around this model of uncertainty. All players win or lose skill points, based upon how many players they beat or lose to, and they also decrease their uncertainty rating as they play more games. However, uncertainty is decreased more for players toward the middle of a pack within a game than those around the edges (because on the edges the players could actually be much better or much worse than it is possible to see from a specific game). In addition, TrueSkill is only a zero-sum ranking system for players at the exact same level of uncertainty. The more uncertainty that an opponent possesses, the smaller the weighting of any gain or loss (much like the simpler system that Days of Wonder uses, which bases weightings of games against provisional players as <code>n/20</code>).</p>
+
+<p>Overall TrueSkill is a somewhat complex system that is described more fully at Microsoft's <a href="http://www.research.microsoft.com/mlp/trueskill/Details.aspx#How_to_Update_Skills">web site</a>. Some of their expansions had already been considered by others, but still their system is notably innovative in two ways:</p>
+
+<ul>
+<li><p>Expanding a competitive ranking system to include concepts of teams.</p></li>
+<li><p>Incorporating the uncertainty of ratings further into the core mathematical model, rather than using a somewhat more subjective model such as that described by Days of Wonder for provisional players.</p></li>
+</ul>
+
+<p><a href="http://www.research.microsoft.com/mlp/trueskill/RankCalculator.aspx"><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/trueskillcalculator_1.png" title="Trueskillcalculator_1" alt="Trueskillcalculator_1" class="image-full" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+The TrueSkill calculations are a bit complex. In general, that's not a problem for a computer-based ranking model because you can have a computer doing all the computations, and players only need to understand the results. However the two-part ranking system used by TrueSkill, which notes both skill level and uncertainty, does offer a potential problem on this latter point. <em>Can players understand it?</em> In general, the concept of uncertainty will not be understood by people other that statisticians, thus raising a real user-interface question with the TrueSkill system -- and the exact sort of thing that designers of new ranking systems will need to consider.</p>
+
+<h3><a name="a_tale_in_the_desert"></a>Variations on a Theme: A Tale in the Desert</h3>
+
+<p><a href="http://www.atid.com"><img border="0" alt="A_tale_in_the_desert_logo_1" title="A_tale_in_the_desert_logo_1" src="http://lifewithalacrity.blogs.com/photos/uncategorized/a_tale_in_the_desert_logo_1.jpg" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+ The online game, <a href="http://www.atitd.com">A Tale in the Desert</a>, identified a different problem with the ELO system: <em>cheating</em>. This is a uniquely Internet-based problem, because there users can create fake accounts, then defeat those accounts to win points. This can also be done more subtly, by having multiple additional accounts build up the rating of that fake account before the fake account is defeated. So a totally new ranking system, called the <a href="http://wiki.atitd.net/tale1/EGenesis_Ranking_System">eGenesis Ranking System</a>, was created.</p>
+
+<p>Each player is ranked through a 256-bit vector, half of which is initially set to 0 and half of which is set to 1 (therefore creating an average ranking of 128). Whenever a match occurs between players a hash function based on the players' names mathematically selects 32 of those bits, 8 of which are then randomly selected. Among those bits, any 1s in the loser's vector which correspond to 0s in the winner's vector are &quot;transferred&quot;.</p>
+
+<p>This simple design corresponds in some ways to ELO's more complex formula. A good player will have more 1s and thus more to lose, and he will lose correspondingly more to a poor player who has more 0s in his vector. </p>
+
+<p>However, the system also prevents the collusion earlier noted. Statistically, a single player will only ever gain 8 ranking points from another new player, since out of the 32 bit hash only eight of those will, on average, be in the correct 0-1 configuration. Expanding a group of players expands the number of points that can potentially be gained, but within real limits.</p>
+
+<p><a href="http://www.lifewithalacrity.com/2005/10/dunbar_group_co.html"><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/wowsocialmap_1.png" title="Wowsocialmap_1" alt="Wowsocialmap_1" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+In fact, the eGenesis system prevents cheating by measuring the size of social networks, then limiting the number of ranking points that can be earned within a social network. It's not necessarily the only way to measure social network size, but its methodology points toward social software as an interesting area for additional study of ranking systems.</p>
+
+<p>As with XBox's TrueSkill, the eGenesis algorithms are overall fairly sophisticated and confusing, perhaps more so than TrueSkill itself. However, unlike TrueSkill the output is very simple: a skill number between 0 and 255. The intricacies are hidden by the system.</p>
+
+<h3><a name="goals"></a>Competitive Ranking Goals</h3>
+
+<p>Ultimately, as we mentioned when discussing Days of Wonder, any ranking system has to be measured by what it's trying to do and how well it does that. ELO and similar numerical, long-term ranking systems, are most likely trying to achieve one of three goals:</p>
+
+<p><a name="heirarchy"></a><strong>Hierarchy:</strong> Players are divided into hierarchies of success, giving players goals to constantly strive for and ways to measure their success (or failure).</p>
+
+<p><a name="matching"></a><strong>Matching:</strong> Players can play with other players at their same skill level, rather than having to play beginners or experts who are much better than they are. This generally increases everyone's enjoyment. For computer games, the complexity of a matching system can be largely moderated by the computer, thus ensuring better competition.</p>
+
+<p><a name="handicapping"></a><strong>Handicapping:</strong> If players do play against others of different skill levels, the better players can be handicapped in automatic, appropriate ways for the game in question, again increasing the fairness of games and everyone's enjoyment. For instance, someone ranked 3-kyu in <a href="http://en.wikipedia.org/wiki/Go_%28board_game%29">Go</a> playing a less experienced 7-kyu player would give him a starting <a href="http://en.wikipedia.org/wiki/Go_handicap">4 stone advantage</a> to make for better competition.</p>
+
+<p>The ELO system may be a good matching system, which allows players to easily find other players of their same skill level and play against them. However it doesn't provide any way to handicap players, nor would the ELO method necessarily be a good one to analyze handicaps (and conversely a <a href="http://en.wikipedia.org/wiki/Golf_handicap">golf handicap</a> might not do a good job of finding like players nor measuring players' ability in a hierarchy). </p>
+
+<p>More recently the XBox system has stated that it's explicitly for matchmaking, with the goal being to always try and match up players at nearly the same skill level. It's also used for hierarchy (or &quot;leaderboards&quot; as it's described in the TrueSkill docs), but that's clearly a subsidiary purpose.</p>
+
+<p>All of these systems would be ineffective for measuring a winner in a live event, which is a very different goal:</p>
+
+<p><strong>Tourney:</strong> A single player is listed as an absolute winner, the &quot;King of the Hill&quot;. Often, second, third, and fourth place winners are measured too.</p>
+
+<p>And, the systems we've discussed thus far may not be useful for measuring privileges, yet another goal:</p>
+
+<p><strong>Threshold:</strong> The best ranks of players can be given special privileges, including the ability to create games and form tournaments. Alternatively, they can be given privileges totally outside the game, again giving them something extra to strive for.</p>
+
+<p>For each of these additional goals we may need to consider very different ranking systems, not just variations of ELO.</p>
+
+<h3><a name="tourneys"></a>Different Themes: Tourneys</h3>
+
+<p><a href="http://www2.kumc.edu/itc/staff/rknight/tourneys.htm"><img border="0" alt="Tournament_1" title="Tournament_1" src="http://lifewithalacrity.blogs.com/photos/uncategorized/tournament_1.png" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+There are a number of well-known tournament types which can be used to create a &quot;King of the Hill&quot; ranking.</p>
+
+<p>The simplest is the <a href="http://en.wikipedia.org/wiki/Single-elimination_tournament">single-elimination tournament,</a> where the winner of each competition moves on to compete with other winners, until there is only one. However, this style of tournament is quite cut-throat and is not suited very well to events where the competition may result in a draw, or where chance is a notable factor in the competition. It also has a very subjective factor in the initial <a href="http://en.wikipedia.org/wiki/Single-elimination_tournament#Seeding">seeding</a> of the rounds. The single-elimination tournament also does not rank the losers. However, by having the losers compete with each other in a <a href="http://en.wikipedia.org/wiki/Swiss_system_tournament">Swiss-style tournament</a>, the relative strengths of the players can be ranked.</p>
+
+<p><a href="http://jsoo.home.mindspring.com/articles/formats/"><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/pseudodoubleelimination_1.png" title="Pseudodoubleelimination_1" alt="Pseudodoubleelimination_1" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+An improvement is the <a href="http://en.wikipedia.org/wiki/Double-elimination">double-elimination tournament</a> which is now one of the best known tournament systems in sports. Players compete in series of two-player matches, and a player has to lose twice before he's eliminated. This is done through a system of winner and loser brackets, wherein people drop from the winners' brackets to the losers' brackets when they lose once, and drop out altogether when they lose twice.</p>
+
+<p>One problem with standard double-elimination is that there are unusual situations where a significantly inferior player can still make it to the final round, or the last player to remain undefeated can lose only once and still be eliminated. These can be addressed through variants such as face-off (requiring the last two remaining competitors to compete <em>again</em> if the undefeated team is defeated for the first time in the finals) or by <a href="http://jsoo.home.mindspring.com/articles/formats/">reconfiguring the loser's brackets</a>.</p> 
+
+<p><a href="http://www.wscgames.com/"><img border="0" alt="Wsc_1" title="Wsc_1" src="http://lifewithalacrity.blogs.com/photos/uncategorized/wsc_1.png" style="margin: 0px 5px 5px 0px; float: left;" /></a>
+<a href="http://en.wikipedia.org/wiki/Round-robin_tournament">Round-robin tournaments</a>, such as official <a href="http://www.wscgames.com/2005/build/standing/1/topten.html">Scrabble Tournaments</a> involve every player playing a set number of games (24 in the 2005 World Scrabble Championship), facing opponents with similar win-lose records. They then ultimately rank players by their win-lose ratios.</p>
+
+<p>The advantage of these sorts of tournament over an ELO-style ranking is that they're easily understandable and seem fair. In addition, they measure ranking in a much more topical manner: how well someone is playing during a singular instant, rather than over a longer career. As a result they work much better for a live tournament.</p>
+
+<h3><a name="thresholds"></a>Different Themes: Thresholds</h3>
+
+<p>As we discussed in our original article on Collective Choice, thresholds are ranking barriers above which members get a special ability--or alternatively levels below which members lose a special ability. They can also act as another goal for a ranking system.</p>
+
+<p><a href="http://www.usgo.org/"><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/gosmall.jpg" title="Gosmall" alt="Gosmall" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+In the game of Go there are both <a href="http://en.wikipedia.org/wiki/Go_ranks_and_ratings#Pro_and_amateur_ranks">amateur</a> and <a href="http://en.wikipedia.org/wiki/Go_ranks_and_ratings#Professional_strength">professional</a> players. Although they aren't technically in the same <a href="http://www.cns.nyu.edu/~mechner/go/kyu.html">hierarchy of rankings</a>, the highest Go amateur ranking&nbsp; (7 dan) is approximately equal to the lowest Go professional ranking (1 dan), forming a de facto threshold.</p>
+
+<p><a href="http://www.uschess.org/"><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/uscf_1.png" title="Uscf_1" alt="Uscf_1" style="margin: 0px 5px 5px 0px; float: left;" /></a>
+ Likewise the United States Chess Federation uses their ELO rankings to denote <a href="http://en.wikipedia.org/wiki/Chess_master">Chess Masters</a>. Anyone who achieves 2200 UCSF is given a National Master threshold ranking and anyone who maintains it for 300 games is given a Life Master threshold ranking.</p>
+
+<p><a href="http://www.acbl.org/"><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/acblopt2_1.gif" title="Acblopt2_1" alt="Acblopt2_1" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+ The <a href="http://www.acbl.org/">American Contract Bridge Association</a> uses a threshold system where you have to win a certain number of tournaments and thus earn <a href="http://www.acbl.org/about/honorTitles.html">masterpoints</a> in order achieve official rankings such as &quot;section master&quot;. Furthermore, players may earn different &quot;colors&quot; of masterpoints depending the difficulty of the tournament, and some ranks require that you earn at least some specific colored masterpoints in order to meet the requirements for the next threshold.</p>
+
+<p>These thresholds are fairly explicitly based on other hierarchical ranking systems, but this doesn't need to be the case. Since determining the purpose of a ranking system is often the first step in designing it, as we delve further into the area of thresholds we may well find that systems specifically dedicated toward measuring thresholds are more likely to do so well.</p>
+
+<p>In our next article we'll consider among other things the Avogadro reputation system, which manages thresholds in such a way as to prevent cheating.</p>
+
+<h3><a name="conclusion"></a>Conclusion</h3>
+
+<p>There's actually a lot of variety in ranking systems, and even though we'd like them to be totally objective, various subjective elements often creep into these systems. In addition, there's a lot of variety in what ranking systems can do. For competitive systems, hierarchy, privilege, matching, and handicapping are some of the top purposes of ranking. Determining what a ranking system is going to do is a necessary first step in designing the system, as different systems will accomplish various goals to a better or worse degree.</p>
+
+<p>ELO, in several variants, is the best studied and most used competitive ranking system. It works particularly well as a matching system. However, even ELO has flaws in it, among them: issues with new player rankings; its core two-player basis; its lack of provisions for teams; a few minor subjective elements; and problems with cheaters. New systems continue to be rolled out on the Internet to resolve these issues, and overall, it's an area of interesting new study.</p>
+
+<p>Tournament systems and threshold systems offer a few good examples of competitive ranking systems with very different purposes, underlying the need to understand what you're doing before you do it.</p>
+
+<p>Ranking systems also lay very near yet another type of Collective Choice: reputation systems. We briefly addressed reputation systems when talking about threshold systems and will return to this in our next article.</p>
+
+<hr />
+<p><em>Related articles from this blog:</em></p>
+<blockquote>
+<li><em><a href="http://www.lifewithalacrity.com/2005/12/systems_for_col.html">2005-12: Systems for Collective Choice</a></em></li>
+<li><em><a href="http://www.lifewithalacrity.com/2005/12/collective_choi.html">2005-12: Collective Choice: Rating Systems</a></em></li>
+<li><em><a href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html">2006-08: Using 5-Star Rating Systems</a></em></li>
+<li><em><a href="http://www.lifewithalacrity.com/2007/01/collective_choi.html">2007-01: Experimenting with Ratings</a></em></li>
+</blockquote>
+
+<p>Related articles from Shannon Appelcline's <a href="http://www.skotos.net/articles/show-column.phtml?colname=TTnT_">Trials, Triumphs &amp; Trivialities:</a>
+</p><blockquote>
+
+<li><em><a href="http://www.skotos.net/articles/TTnT_/TTnT_192.phtml">#192: Managing User Creativity, Part One</a></em></li>
+<li><em><a href="http://www.skotos.net/articles/TTnT_/TTnT_193.phtml">#193: Managing User Creativity, Part Two</a></em></li>
+<li><em><a href="http://www.skotos.net/articles/TTnT_/TTnT_196.phtml">#196: Collective Choice: Ratings, Who Do You Trust?</a></em></li>
+<li><em><a href="http://www.skotos.net/articles/TTnT_/TTnT_198.phtml">#198: Collective Choice: More Thoughts About Ratings</a></em></li>
+
+</blockquote>
+		</div>
+		
+
+                        <!-- SIGNATURE -->
+                        
+
+		
+	</div>
+
+	<div class="entry-footer">
+			<p class="entry-footer-info">
+				<span class="post-footers">Posted at 11:37 PM in <a href="http://www.lifewithalacrity.com/social_software/">Social Software</a>, <a href="http://www.lifewithalacrity.com/user_interface/">User Interface</a>, <a href="http://www.lifewithalacrity.com/webtech/">Web/Tech</a> </span> <span class="separator">|</span> <a class="permalink" href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html">Permalink</a>
+			</p>
+		
+		<!-- technorati tags -->
+			<p class="entry-footer-tags font-entryfooter">
+			<a href="http://www.technorati.com/search/http://www.lifewithalacrity.com/2006/01/ranking_systems.html" title="Find related items at Technorati.">Technorati Tags</a>:
+			<a href="http://technorati.com/tag/a%2Btale%2Bin%2Bthe%2Bdesert" rel="tag">a tale in the desert</a>, <a href="http://technorati.com/tag/algorithmic%2Branking" rel="tag">algorithmic ranking</a>, <a href="http://technorati.com/tag/bridge" rel="tag">bridge</a>, <a href="http://technorati.com/tag/chess" rel="tag">chess</a>, <a href="http://technorati.com/tag/collective%2Bchoice" rel="tag">collective choice</a>, <a href="http://technorati.com/tag/competition" rel="tag">competition</a>, <a href="http://technorati.com/tag/days%2Bof%2Bwonder" rel="tag">days of wonder</a>, <a href="http://technorati.com/tag/double-elimination" rel="tag">double-elimination</a>, <a href="http://technorati.com/tag/egenesis" rel="tag">egenesis</a>, <a href="http://technorati.com/tag/egenesis%2Branking%2Bsystem" rel="tag">egenesis ranking system</a>, <a href="http://technorati.com/tag/elo" rel="tag">elo</a>, <a href="http://technorati.com/tag/face-off" rel="tag">face-off</a>, <a href="http://technorati.com/tag/football" rel="tag">football</a>, <a href="http://technorati.com/tag/go" rel="tag">go</a>, <a href="http://technorati.com/tag/golf" rel="tag">golf</a>, <a href="http://technorati.com/tag/grand%2Bmaster" rel="tag">grand master</a>, <a href="http://technorati.com/tag/grandmaster" rel="tag">grandmaster</a>, <a href="http://technorati.com/tag/handicap" rel="tag">handicap</a>, <a href="http://technorati.com/tag/handicapping" rel="tag">handicapping</a>, <a href="http://technorati.com/tag/heirarchy" rel="tag">heirarchy</a>, <a href="http://technorati.com/tag/life%2Bmaster" rel="tag">life master</a>, <a href="http://technorati.com/tag/matching" rel="tag">matching</a>, <a href="http://technorati.com/tag/psuedo-double-elimination" rel="tag">psuedo-double-elimination</a>, <a href="http://technorati.com/tag/ranking" rel="tag">ranking</a>, <a href="http://technorati.com/tag/ranking%2Bgoals" rel="tag">ranking goals</a>, <a href="http://technorati.com/tag/round-robin" rel="tag">round-robin</a>, <a href="http://technorati.com/tag/single-elimination" rel="tag">single-elimination</a>, <a href="http://technorati.com/tag/social%2Bnetwork" rel="tag">social network</a>, <a href="http://technorati.com/tag/statistics" rel="tag">statistics</a>, <a href="http://technorati.com/tag/threshold" rel="tag">threshold</a>, <a href="http://technorati.com/tag/ticket%2Bto%2Bride" rel="tag">ticket to ride</a>, <a href="http://technorati.com/tag/tournament" rel="tag">tournament</a>, <a href="http://technorati.com/tag/tourney" rel="tag">tourney</a>, <a href="http://technorati.com/tag/trueskill" rel="tag">trueskill</a>, <a href="http://technorati.com/tag/uncertainty" rel="tag">uncertainty</a>, <a href="http://technorati.com/tag/xbox%2B360" rel="tag">xbox 360</a>, <a href="http://technorati.com/tag/xbox%2Blive" rel="tag">xbox live</a>
+		</p>
+	
+
+
+		<!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-favorite"></span> <span class="separator">|</span> <span class="entry-footer-links-reblog"><a href="#" class="share-link share-link-reblog" title="Grab this post for your own blog" onclick="b=document.body; TYPEPAD___bookmarklet_domain='http://www.typepad.com/'; TYPEPAD___reblog_entryxid='6a00d8341d8bc053ef00d83461ad1b69e2'; TYPEPAD___is_reblog = 1; if (b &amp;&amp; !document.xmlVersion) { void ( z=document.createElement('script')); void(z.type='text/javascript'); void(z.src='http://static.typepad.com/.shared:v76191bf:typepad:en_us/js/qp/loader-combined-min.js'); void(b.appendChild(z));}else{}">Reblog
+ (0)
+</a>
+</span>
+	</p>
+
+
+	</div>
+   </div>
+</div>
+
+
+
+        
+        
+        <a id="comments"></a>
+	<div class="comments" id="all-comments">
+		<h3 class="comments-header">Comments</h3>
+					<div class="comments-info">
+				<p><a href="http://www.lifewithalacrity.com/2006/01/ranking_systems/comments/atom.xml"><img src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/images/feed.png" alt="Feed" width="10" height="10" /></a> You can follow this conversation by subscribing to the <a href="http://www.lifewithalacrity.com/2006/01/ranking_systems/comments/atom.xml">comment feed</a> for this post.</p>
+			</div>
+		
+		<div class="comments-content" id="comments-content">
+                <!-- comment list --><a id="c12595969"></a>
+<div class="comment font-entrybody comment-odd comment-has-avatar" id="comment-12595969">
+	<div class="comment-avatar">
+		<img id="comment-6a00d8341d8bc053ef00d8346f0b3253ef-avatarimg" src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/default-userpics/16-50si.gif" alt="F. Randall Farmer" width="50" height="50" />
+	</div>
+	<div class="comment-content font-entrybody" id="comment-12595969-content">
+		<span id="comment-12595969-content"><p>A data point on ELO cheating for you: Yahoo! Games uses ELO rankings for several their two-player games. Before recent abuse mitigation changes, some people used robot to accumulate scores in excess of 6,000,000 points. The abuse-the-ranking game had become a totally seperate competition.</p>
+
+<p>For now, Yahoo! has capped the ELO scores at 3,000 (I think.) This removed most of the cheating incentive.</p></span>
+	</div>
+	<p class="comment-footer font-entryfooter">
+		Posted by:
+		<a rel="nofollow" target="_blank" title="http://www.fudco.com/habitat" href="http://www.fudco.com/habitat">F. Randall Farmer</a> |
+		<a rel="nofollow" href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=12595969#comment-6a00d8341d8bc053ef00d8346f0b3253ef">January 05, 2006 at 01:46 PM</a>
+	</p>
+</div><a id="c12860194"></a>
+<div class="comment font-entrybody comment-even comment-has-avatar" id="comment-12860194">
+	<div class="comment-avatar">
+		<img id="comment-6a00d8341d8bc053ef00d834704a4353ef-avatarimg" src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/default-userpics/08-50si.gif" alt="Christopher Allen" width="50" height="50" />
+	</div>
+	<div class="comment-content font-entrybody" id="comment-12860194-content">
+		<span id="comment-12860194-content"><p>In the slashdot discussion of this blog entry http://games.slashdot.org/comments.pl?sid=173988&amp;threshold=0&amp;mode=flat   there was an interesting link to beatpaths.com, which is sort of a tourney system for when you can&#39;t complete a full set of round-robin or double-elimination competitions, as what happens in NFL during the fall season.</p>
+
+<p>What is also interesting to me is that it introduces a goal for ranking systems that I&#39;d not thought of before -- prediction. The purpose of the beatpath systems is actually focused on predicting the outcome the next set of the weekend games.</p></span>
+	</div>
+	<p class="comment-footer font-entryfooter">
+		Posted by:
+		<a rel="nofollow" target="_blank" title="http://www.LifeWithAlacrity.com" href="http://www.LifeWithAlacrity.com">Christopher Allen</a> |
+		<a rel="nofollow" href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=12860194#comment-6a00d8341d8bc053ef00d834704a4353ef">January 14, 2006 at 02:31 PM</a>
+	</p>
+</div><a id="c12882765"></a>
+<div class="comment font-entrybody comment-odd comment-has-avatar" id="comment-12882765">
+	<div class="comment-avatar">
+		<img id="comment-6a00d8341d8bc053ef00d83470a47f53ef-avatarimg" src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/default-userpics/01-50si.gif" alt="Stephen Waits" width="50" height="50" />
+	</div>
+	<div class="comment-content font-entrybody" id="comment-12882765-content">
+		<span id="comment-12882765-content"><p>No mention of Glicko and Glicko2?</p></span>
+	</div>
+	<p class="comment-footer font-entryfooter">
+		Posted by:
+		<a rel="nofollow" target="_blank" title="http://swaits.com/" href="http://swaits.com/">Stephen Waits</a> |
+		<a rel="nofollow" href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=12882765#comment-6a00d8341d8bc053ef00d83470a47f53ef">January 15, 2006 at 08:57 AM</a>
+	</p>
+</div><a id="c13594898"></a>
+<div class="comment font-entrybody comment-even comment-has-avatar" id="comment-13594898">
+	<div class="comment-avatar">
+		<img id="comment-6a00d8341d8bc053ef00d834aaa94a69e2-avatarimg" src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/default-userpics/19-50si.gif" alt="Edward Vielmetti" width="50" height="50" />
+	</div>
+	<div class="comment-content font-entrybody" id="comment-13594898-content">
+		<span id="comment-13594898-content"><p>There&#39;s a ranking scheme that Mark Newman from the U of Michigan did for college football, which Yahoo Search turned up a pointer to here:</p>
+
+<p>http://www.sciencenews.org/articles/20051112/mathtrek.asp</p>
+
+<p>quoting:</p>
+
+<p>Physicists Juyong Park and M.E.J. Newman aimed for a ranking system that&#39;s fast and easily understood by fans (in contrast to the cumbersome, opaque BCS formula). They based their ranking method on the notion that, if A beats B, and B beats C, then A also beats C, even if it may not actually play C. Hence, the method counts both direct wins by beating a team and indirect wins by beating a team that beat another team.</p>
+
+<p>(end quote)</p>
+
+<p>You end up with a directed graph of teams as nodes and games as edges, and compute a function of that graph that is related to a centrality metric.</p></span>
+	</div>
+	<p class="comment-footer font-entryfooter">
+		Posted by:
+		<a rel="nofollow" target="_blank" title="http://vielmetti.typepad.com" href="http://vielmetti.typepad.com">Edward Vielmetti</a> |
+		<a rel="nofollow" href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=13594898#comment-6a00d8341d8bc053ef00d834aaa94a69e2">February 02, 2006 at 10:18 PM</a>
+	</p>
+</div><a id="c99389292"></a>
+<div class="comment font-entrybody comment-odd comment-has-avatar" id="comment-99389292">
+	<div class="comment-avatar">
+		<img id="comment-6a00d8341d8bc053ef00e5501a73828834-avatarimg" src="http://static.typepad.com/.shared:v76191bf:typepad:en_us/default-userpics/10-50si.gif" alt="Matthew Weigel" width="50" height="50" />
+	</div>
+	<div class="comment-content font-entrybody" id="comment-99389292-content">
+		<span id="comment-99389292-content"><p>This article is a great survey of the subject!  I&#39;m working on the PvP ranking system for another game with some unique problems, because the teams in a PvP match can be of disparate size and widely differing power levels, which are then balanced so that wildly mismatched teams (ignoring relative rank at PvP for the moment) are actually reasonably matched.</p>
+
+<p>It starts here: http://ncanson.livejournal.com/3938.html</p></span>
+	</div>
+	<p class="comment-footer font-entryfooter">
+		Posted by:
+		<a rel="nofollow" target="_blank" title="http://ncanson.livejournal.com/" href="http://ncanson.livejournal.com/">Matthew Weigel</a> |
+		<a rel="nofollow" href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html?cid=99389292#comment-6a00d8341d8bc053ef00e5501a73828834">January 31, 2008 at 09:55 AM</a>
+	</p>
+</div>
+
+		</div>
+        
+	</div>
+<script type="text/javascript">var c943723d42e77e9214eb884a1d898ea="</form>";</script>
+<script type="text/javascript">var ffe51c373e0873b7778b6324a0b5533 = '<form id="comment-form" action="';</script>
+<script type="text/javascript">var c943723d42e77e9214eb884a1d898za = '" method="post"><input type="hidden" name="entry_xid" id="comment-entry-xid" value="6a00d8341d8bc053ef00d83461ad1b69e2" \/><input type="hidden" name="token" value="1467141402-cdb62b2d4b7c576481bc478f8cd953a8c15b1982:4zGk6yyPPTzn4ngm" \/>';</script>
+<script type="text/javascript">var OOcd55d4dc47109d7b462b01c7dd4dab = "aHR0cDovL3d3dy5saWZld2l0aGFsYWNyaXR5LmNvbS8uc2VydmljZXMvY29tbWVudHM";</script>
+<script type="text/javascript">var bad4dd7c10b264b7d90174cd4d55dc00 = atob(OOcd55d4dc47109d7b462b01c7dd4dab);</script>
+
+<!-- comment-form-atp -->
+
+	
+<div id="atp-comments">
+    
+        <div id="comment-preview" class="hiddenBox">
+	<h3 id="header-verify-comment" class="comments-header font-entryheader  hiddenBox">Verify your Comment</h3>
+    <h3 id="header-preview-comment" class="comments-header font-entryheader  hiddenBox">Previewing your Comment</h3>
+	<div class="comments-content font-entrybody">
+		<div class="comment comment-has-avatar">
+			<div id="comment-preview-content" class="comment-content">
+			</div>
+			<p class="comment-footer">
+				Posted by: 
+				<span id="comment-preview-author"></span>&nbsp;|&nbsp;<span id="comment-preview-datetime"></span>
+			</p>
+		</div>
+	</div>
+</div>
+<div id="comment-preview-confirmation" class="font-entrybody hiddenBox yellowBox">
+    <p>This is only a preview. Your comment has not yet been posted.</p>
+        <form id="comment-preview-form"
+                method="post"
+                onsubmit="atpComments.interceptPost(1); return false;">
+                <input type="submit" class="form-control font-entrybody" name="post" id="comment-confirm-post" value="&nbsp;Post&nbsp;" onclick="atpComments.interceptPost(1); return false;"/>
+                <input type="submit" class="form-control font-entrybody"  name="edit" id="comment-edit" value="&nbsp;&nbsp;Edit&nbsp;&nbsp;" onclick="atpComments.previewOnly(2); return false;"/>
+        <span id="previewFormSpinner" class="hiddenBox"><img src="/.shared/images/spinner.gif" alt="Working..." /></span>
+        </form>
+</div>
+
+<div id="comment-error" class="hiddenBox font-entrybody redBox">	    
+   Your comment could not be posted. Error type: <span id="comment-error-msg"></span> 
+</div>	
+<div id="comment-complete" class="hiddenBox font-entrybody  redBox">
+    Your comment has been saved. Comments are moderated and will not appear until approved by the author. <a href="javascript:void 0;" onclick="window.location.hash='#comment-form';window.location.reload(false)">Post another comment</a>
+</div>	
+<div id="comment-captcha" class="hiddenBox yellowBox font-entrybody">	
+    <div id="captchaText">
+	    <p id="captchaFailMsg" class="captchaErrorText hiddenBox">The letters and numbers you entered did not match the image. Please try again.</p>	    	        
+	    <p>As a final step before posting your comment, enter the letters and numbers you see in the image below. This prevents automated programs from posting comments.</p>
+	    <p><span id="comment-captcha-viewalt">Having trouble reading this image? <a href="#comment-captcha" onClick="atpComments.generateReCaptcha();">View an alternate.</a></span></p>
+    </div>
+    <form id="comment-captcha-form" 
+		  method="post"
+		  onsubmit="atpComments.submitWithReCaptcha(); return false;">
+    <div id="recaptcha_content">
+      <noscript>
+        <iframe src="6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e" height="300" width="500" frameborder="0"></iframe><br />
+        <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+        <input type='hidden' name='recaptcha_response_field' value='manual_challenge' />
+      </noscript>
+    </div>
+  <script type="text/javascript">
+    $(document).ready(function() {
+        Recaptcha.create("6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e",
+                         "recaptcha_content", {
+                             theme: "red",
+                             callback: Recaptcha.focus_response_field
+        });
+    });
+  </script>
+        <p>
+            <input type="submit" name="continue" id="captcha-continue" value="&nbsp;Continue&nbsp;" />
+            <span id="captchaFormSpinner" class="commentSpinner hiddenBox"><img src="/.shared/images/spinner.gif" alt="Working..." /></span>
+        </p>
+    </form>
+</div>
+
+    
+	<div id="primary-comment-form" class="comment-form">
+	    
+	    <script type="text/javascript">document.write(ffe51c373e0873b7778b6324a0b5533+bad4dd7c10b264b7d90174cd4d55dc00+c943723d42e77e9214eb884a1d898za);</script>
+	    
+    		<div class="comments-open">
+    		<i class="fa fa-comment"></i><h2 class="comments-open-header font-entryheader" id="comment-title">Post a comment</h2>
+    			<div id="comments-open-content" class="comments-open-content font-entrybody">
+    									
+    				    <p class="comments-open-moderated font-entrybody">
+    						Comments are moderated, and will not appear until the author has approved them.
+    					</p>
+    				
+				
+    									
+    					<div id="comments-open-login" style="display: none;">
+                  <div class="login-list font-entrybody">
+                      
+                      <span class="first">Comment below or sign in with</span> <span class="typepad"><a href="https://www.typekey.com/t/typekey/login?v=1.0&t=c0dfe563698f4bbd6809bd959e3c89df5224a252&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2006%2F01%2Franking_systems.html&_portal=typepad">Typepad</a></span> <span class="facebook"><a href="https://www.typekey.com/t/typekey/login?v=1.0&t=c0dfe563698f4bbd6809bd959e3c89df5224a252&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2006%2F01%2Franking_systems.html&_portal=typepad&service=facebook">Facebook</a></span> <span class="twitter"><a href="https://www.typekey.com/t/typekey/login?v=1.0&t=c0dfe563698f4bbd6809bd959e3c89df5224a252&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2006%2F01%2Franking_systems.html&_portal=typepad&service=twitter">Twitter</a></span><span class="googleplus"><a href="https://www.typekey.com/t/typekey/login?v=1.0&t=c0dfe563698f4bbd6809bd959e3c89df5224a252&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2006%2F01%2Franking_systems.html&_portal=typepad&service=gplus">Google+</a></span><span>and <a href="https://www.typekey.com/t/typekey/login?v=1.0&t=c0dfe563698f4bbd6809bd959e3c89df5224a252&lang=en_US&_return=http%3A%2F%2Fwww.lifewithalacrity.com%2F2006%2F01%2Franking_systems.html&_portal=typepad&service=openid">more...</a></span>
+                      
+                  </div>
+                  <div class="clr"></div>
+    					</div>
+    					<div id="comments-open-logout" style="display: none;">
+    						You are currently signed in as
+    						<span id="commenter-name">(nobody)</span>.
+    						<a href="http://www.lifewithalacrity.com/.services/sitelogout?to=https%3A%2F%2Fwww.typekey.com%2Ft%2Ftypekey%2F%3F__mode%3Dlogout%26_return%3Dhttp%253A%252F%252Fwww.lifewithalacrity.com%252F2006%252F01%252Franking_systems.html">Sign Out</a>
+    					</div>
+    				
+                    	<div id="comments-open-text" style="display:none;">
+        					<textarea id="comment-text" name="text" rows="10" cols="30" onkeyup="atpComments.maxTextArea(this, 64000);" class="form-control"></textarea>
+            				
+            				<p class="comments-open-subtext font-entrybody">
+            				    (You can use HTML tags like &lt;b&gt; &lt;i&gt; and &lt;ul&gt; to style your text.)
+            				</p>			
+            				                    					
+        				</div>
+    				    <div id="comments-open-data" class="font-entrybody">
+                            <p>Your Information</p>
+                            <p>
+                                (Name and email address are required. Email address will not be displayed with the comment.)
+                            
+                            </p>
+			    
+    						<p>
+    							<input id="comment-author" at:default="Name" name="author" size="30" value="Name" onfocus="if(this.value==this.getAttribute('at:default')) this.value='';"  onBlur="if(this.value=='') this.value=this.getAttribute('at:default');" class="grayText"/>
+    							<label for="comment-author" id="comment-author-error" class="comment-error hiddenBox">Name is required to post a comment</label>
+    						</p>
+    						<p>
+    							<input id="comment-email" at:default="Email Address" name="email" size="30" value="Email Address" onfocus="if(this.value==this.getAttribute('at:default')) this.value='';"  onBlur="if(this.value=='') this.value=this.getAttribute('at:default');" class="grayText"/>
+    							<label for="comment-email" id="comment-email-error" class="comment-error hiddenBox">Please enter a valid email address</label>
+    						</p>
+    						<p>
+    							<input id="comment-url" at:default="Web Site URL" name="url" size="30" value="Web Site URL" onfocus="if(this.value==this.getAttribute('at:default')) this.value='';"  onBlur="if(this.value=='') this.value=this.getAttribute('at:default');" class="grayText"/>
+    							<label for="comment-url" id="comment-url-error" class="comment-error hiddenBox">Invalid URL</label>
+    						</p>
+
+    					</div>
+    		    </div>
+                <div id="comments-open-footer" class="comments-open-footer font-entrybody" style="display:none;">
+    				<input type="submit" name="post" id="comment-post-button" value="&nbsp;Post&nbsp;" onclick="atpComments.interceptPost(1); return false;" disabled="true" class="form-control font-entrybody"/>
+    				<input type="submit" name="preview" id="comment-preview-button" value="&nbsp;Preview&nbsp;" onclick="atpComments.previewOnly(1); return false;" disabled="true" class="form-control font-entrybody  preview-button"/>
+
+    				<span id="commentEntryFormSpinner" class="commentSpinner hiddenBox"><img src="/.shared/images/spinner.gif" alt="Working..." /></span>
+    			</div>
+    		</div>
+	    		
+	    <script type="text/javascript">document.write(c943723d42e77e9214eb884a1d898ea);</script>
+	    
+	    <noscript>
+		
+		<p>Please enable JavaScript if you would like to comment on this blog.</p>
+				
+		
+	    </noscript>
+	</div>
+</div>
+
+
+
+
+
+    
+    
+
+
+
+						</div>
+					</div>
+                                        <div id="beta">
+						<div id="beta-inner" class="pkg">
+							
+<!-- sidebar -->
+
+
+<!-- user photo -->
+    <div class="module-photo module">
+
+
+     
+
+
+<div class="module-content">
+
+
+<img src="http://lifewithalacrity.blogs.com/.a/6a00d8341d8bc053ef01bb080e9d45970d-150wi" alt="My Photo" class="img-responsive" />
+
+
+</div></div>
+
+<div id="about_me_written_by_me" class="module-typelist module">
+<h2 class="module-header">About Me / Written by Me</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="My master profile and contact page" href="http://christophera.lifewithalacrity.com" >My Profile</a></li>
+							<li class="module-list-item"><a title="I was co-editor of the IETF's Transport Layer Security standard, i.e. SSL 3.1" href="ftp://ftp.isi.edu/in-notes/rfc2246.txt" >RFC 2246 - The TLS Standard (1999)</a></li>
+							<li class="module-list-item"><a title="Article I wrote on the importance of both communication and conversation in Groupware." href="http://www.alacritymanagement.com/GCnC.html" >Communication & Conversation (1990)</a></li>
+							<li class="module-list-item"><a title="Article I wrote about different definitions of Groupware" href="http://www.alacritymanagement.com/DoG.html" >Definitions of Groupware (1990)</a></li>
+			
+		</ul>
+	</div>
+</div>
+
+<div class="module-category-cloud module">
+	<h2 class="module-header"><a href="http://www.lifewithalacrity.com/archives.html">Categories</a></h2>
+	<div class="module-content">
+		<ul class="module-list">
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/business/">Business</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/commentary/">Commentary</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/community-by-the-numbers/">Community by the Numbers</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/entrpreneuring/">Entrepreneuring</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/film/">Film</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/games/">Games</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/iphone/">iPhone</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/music/">Music</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/recreation/">Recreation</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/science/">Science</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="http://www.lifewithalacrity.com/security/">Security</a></li>
+			<li class="module-list-item cloud-weight-8"><a href="http://www.lifewithalacrity.com/social_software/">Social Software</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/social-web-for-social-change-sw4sx/">Social Web for Social Change #SW4SX</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="http://www.lifewithalacrity.com/television/">Television</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="http://www.lifewithalacrity.com/user_interface/">User Interface</a></li>
+			<li class="module-list-item cloud-weight-10"><a href="http://www.lifewithalacrity.com/webtech/">Web/Tech</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="http://www.lifewithalacrity.com/weblogs/">Weblogs</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="http://www.lifewithalacrity.com/wiki/">Wiki</a></li>
+		</ul>
+	</div>
+</div>
+<div id="popular_posts" class="module-typelist module">
+<h2 class="module-header">Popular Posts</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2013/04/dyads-triads-the-smallest-teams.html" >2013-04 Dyads & Triads — The Smallest Teams</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2012/10/using-the-social-web-for-social-change-syllabus-sw4sx.html" >2012-10: Using the Social Web for Social Change (Syllabus #SW4SX)</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2012/08/tools-for-ignition-hypercards-25th-anniversary.html" >2012-08: Tools for Ignition & HyperCard’s 25th Anniversary</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html" >2011-07: Managing your Social Graph with Google+ [Google Plus]</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/11/paying-for-favors.html" >2009-11: Paying for Favors</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/09/password-best-practices.html" >2009-09: Password Best Practices</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/09/facilitating-small-gatherings-using-the-braid.html" >2009-09: Facilitating Small Gatherings Using "The Braid"</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/09/creating-shared-language-and-shared-artiifacts.html" >2009-09: Creating Shared Language and Shared Artifacts</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2009/03/power-laws.html" >2009-03: Community by the Numbers, Part III: Power Laws</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2008/11/personal-circle.html" >2008-11: Community by the Numbers, Part II: Personal Circles</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2008/09/group-threshold.html" >2008-09: Community by the Numbers, Part One: Group Thresholds</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2007/01/collective_choi.html" >2007-01: Collective Choice: Experimenting with Ratings</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html" >2006-08: Using 5-Star Rating Systems</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2006/02/flames_emotiona.html" >2006-02: Flames: Emotional Amplification of Text</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2006/01/on_being_an_ang.html" >2006-01: On Being an Angel</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/12/systems_for_col.html" >2005-12: Systems for Collective Choice</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/10/for_the_last_se.html" >2005-10: SynchroEdit: Simultaneous Editing for the Web</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/10/dunbar_group_co.html" >2005-10: Dunbar Number & Group Cohesion</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/08/dunbar_world_of.html" >2005-08: Dunbar & World of Warcraft</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/07/cheers_belongin.html" >2005-07: Cheers: Belongingness and Para-Social Relationships</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/03/dunbar_altruist.html" >2005-03: Dunbar, Altruistic Punishment, and Meta-Moderation</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2005/02/dunbar_triage_t.html" >2005-02: Dunbar Triage: Too Many Connections</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/10/tracing_the_evo.html" >2004-10: Tracing the Evolution of Social Software</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/08/progressive_tru.html" >2004-08: Progressive Trust</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/08/intimacy_gradie.html" >2004-08: Intimacy Gradient and Other Lessons from Architecture</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/05/simple_yet_soph.html" >2004-05: Simple Yet Sophisticated Group Page Editing</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/04/four_kinds_of_p.html" >2004-04: Four Kinds of Privacy</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/03/the_dunbar_numb.html" >2004-03: The Dunbar Number as a Limit to Group Sizes</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/02/security_crypto.html" >2004-02: Security & Cryptography: The Bad Business of Fear</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/02/my_advice_to_so.html" >2004-02: My Advice to Social Networking Services</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/02/handcrafting_my.html" >2004-02: Hand-Crafting My FOAF</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/02/followup_on_ork.html" >2004-02: Followup on Orkut</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2004/01/insecurity_at_o.html" >2004-01: Insecurity at Orkut</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2003/12/followup_to_eva.html" >2003-12: Followup to "Evaluating Social Network Services"</a></li>
+							<li class="module-list-item"><a title="" href="http://www.lifewithalacrity.com/2003/12/evaluating_soci.html" >2003-12: Evaluating Social Network Services</a></li>
+			
+		</ul>
+	</div>
+</div>
+
+	<div class="module-archives module">
+		<h2 class="module-header">Recent Posts</h2>
+		<div class="module-content">
+			<ul class="module-list">
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html">The Path to Self-Sovereign Identity</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2016/04/defining-participatory-ecosystem-grow-the-pie-not-slice-it.html">Defining “Participatory Ecosystem” — Grow the Pie, Not Slice It!</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/11/a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-.html">A Revised “Ostrom’s Design Principles for Collective Governance of the Commons” </a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/09/a-spectrum-of-consent.html">A Spectrum of Consent</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/09/speaking-at-consensus-2015.html">Speaking at Consensus 2015</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/04/the-four-kinds-of-privacy.html">The Four Kinds of Privacy</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/03/mini-resume-card-for-conference-season.html">Mini Resume Card for Conference Season</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/10/kathy-sierra-of-serious-pony-on-trolls.html">Kathy Sierra of Serious Pony on Trolls</a></li>
+					
+														<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/06/deep-context-shared-languages.html">Deep Context Shared Languages</a></li>
+					
+				
+			</ul>
+		</div>
+	</div>
+
+<div class="module-recent-comments module">
+	<h2 class="module-header">Recent Comments</h2>
+	<div class="module-content">
+		<ul class="module-list">
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html?cid=6a00d8341d8bc053ef01bb081b2143970d#comment-6a00d8341d8bc053ef01bb081b2143970d">Howard Silverman</a> on <a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html?cid=6a00d8341d8bc053ef01bb08111925970d#comment-6a00d8341d8bc053ef01bb08111925970d">TokyoTom</a> on <a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html?cid=6a00d8341d8bc053ef01b7c76b7576970b#comment-6a00d8341d8bc053ef01b7c76b7576970b">Ccsolidarity</a> on <a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html?cid=6a00d8341d8bc053ef01bb080eb717970d#comment-6a00d8341d8bc053ef01bb080eb717970d">Matthew Schutte</a> on <a href="http://www.lifewithalacrity.com/2015/03/10-design-principles-for-governing-the-commons.html">10 Design Principles for Governing the Commons</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2013/04/dyads-triads-the-smallest-teams.html?cid=6a00d8341d8bc053ef01b7c701290e970b#comment-6a00d8341d8bc053ef01b7c701290e970b">Kevin</a> on <a href="http://www.lifewithalacrity.com/2013/04/dyads-triads-the-smallest-teams.html">Dyads & Triads — The Smallest Teams</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2014/04/to-be-persuasive-you-need-to-understand-identity-protective-cognition.html?cid=6a00d8341d8bc053ef01a3fd17b987970b#comment-6a00d8341d8bc053ef01a3fd17b987970b">S.M. Stirling</a> on <a href="http://www.lifewithalacrity.com/2014/04/to-be-persuasive-you-need-to-understand-identity-protective-cognition.html">To be persuasive, you need to understand "Identity Protective Cognition"</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html?cid=6a00d8341d8bc053ef015433bc3787970c#comment-6a00d8341d8bc053ef015433bc3787970c">Emmadw</a> on <a href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html">Managing your Social Graph with Google+ [Google Plus]</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html?cid=6a00d8341d8bc053ef015433bb846a970c#comment-6a00d8341d8bc053ef015433bb846a970c">Grimbold</a> on <a href="http://www.lifewithalacrity.com/2011/07/managing-your-social-graph-with-google-plus.html">Managing your Social Graph with Google+ [Google Plus]</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2009/09/creating-shared-language-and-shared-artiifacts.html?cid=6a00d8341d8bc053ef014e88415ceb970d#comment-6a00d8341d8bc053ef014e88415ceb970d">Dave Carter</a> on <a href="http://www.lifewithalacrity.com/2009/09/creating-shared-language-and-shared-artiifacts.html">Creating Shared Language and Shared Artifacts</a>
+			</li>
+			<li class="module-list-item">
+				<a href="http://www.lifewithalacrity.com/2008/09/group-threshold.html?cid=6a00d8341d8bc053ef013485dc8545970c#comment-6a00d8341d8bc053ef013485dc8545970c">Louis-Martin Michaud</a> on <a href="http://www.lifewithalacrity.com/2008/09/group-threshold.html">Community by the Numbers, Part One: Group Thresholds</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!-- archives -->
+
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="http://www.lifewithalacrity.com/archives.html">Archives</a></h2>
+		<div class="module-content">
+			<ul class="module-list">
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2016/04/index.html">April 2016</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/11/index.html">November 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/09/index.html">September 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/04/index.html">April 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2015/03/index.html">March 2015</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/10/index.html">October 2014</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/06/index.html">June 2014</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/05/index.html">May 2014</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/04/index.html">April 2014</a></li>
+				
+					
+					<li class="module-list-item"><a href="http://www.lifewithalacrity.com/2014/03/index.html">March 2014</a></li>
+				
+			</ul>
+		</div>
+	</div>
+
+<div id="blogroll" class="module-typelist module">
+<h2 class="module-header">Blogroll</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="http://www.zephoria.org/thoughts/">Danah Boyd</a></li>
+							<li class="module-list-item"><a href="http://radio.weblogs.com/0121664/">Dina Mehta</a></li>
+							<li class="module-list-item"><a href="http://www.evhead.com/">Evan Williams</a></li>
+							<li class="module-list-item"><a href="http://costik.com/weblog/">Greg Costikyan</a></li>
+							<li class="module-list-item"><a href="http://blogs.magnatune.com/buckman">John Buckman</a></li>
+							<li class="module-list-item"><a href="http://www.meskill.net/weblogs/">Judith Meskill</a></li>
+							<li class="module-list-item"><a href="http://finnern.com/">Mark Finnerm</a></li>
+							<li class="module-list-item"><a href="http://ross.typepad.com/">Ross Mayfield</a></li>
+							<li class="module-list-item"><a href="http://www.sjl.us/main/">Scott Loftesness</a></li>
+							<li class="module-list-item"><a href="http://www.henshall.com/blog/">Stuart Henshall</a></li>
+							<li class="module-list-item"><a href="http://radio.weblogs.com/0110772/">Sébastien Paquet</a></li>
+			
+		</ul>
+	</div>
+</div>
+
+<div id="social_networks" class="module-typelist module">
+<h2 class="module-header">Social Networks</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="http://www.ecademy.com/account.php?op=view&amp;id=42230" >Ecademy</a></li>
+							<li class="module-list-item"><a title="" href="http://web.lifewithalacrity.com/christophera/foaf.rdf" >FOAF</a></li>
+							<li class="module-list-item"><a title="" href="http://www.friendster.com/user.jsp?id=4608201" >Friendster</a></li>
+							<li class="module-list-item"><a title="" href="http://www.friendzy.com/profile/Profile.aspx?member=50875&amp;self=1" >Friendzy</a></li>
+							<li class="module-list-item"><a title="" href="http://www.linkedin.com/profile?viewProfile=&amp;amp;key=62844" >LinkedIn (my preferred, for now)</a></li>
+							<li class="module-list-item"><a title="" href="http://www.livejournal.com/users/christophera_/" >LiveJournal</a></li>
+							<li class="module-list-item"><a title="" href="http://www.orkut.com/Profile.aspx?uid=2789681602836776519" >Orkut</a></li>
+							<li class="module-list-item"><a title="" href="http://www.popdex.com/ref" >Popdex Citations</a></li>
+							<li class="module-list-item"><a title="" href="http://www.ryze.com/go/ChristopherA" >Ryze</a></li>
+							<li class="module-list-item"><a title="" href="http://center.spoke.com/person/spokebookTab.spoke?id=/person/4877427" >Spoke</a></li>
+							<li class="module-list-item"><a title="" href="http://www.technorati.com/profile/ChristopherA/2217776/a6cae8e560bc46d4ff8eb1da8b653b73" >Technorati</a></li>
+							<li class="module-list-item"><a title="" href="http://cluster.tribe.net/tribe/servlet/template/pub,pcard,PeopleCard.vm?personid=ce34093a-3c72-4954-b52f-3d6bc51884af" >Tribe.Net</a></li>
+			
+		</ul>
+	</div>
+</div>
+
+
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+</div> <!-- row -->
+			
+
+
+<!-- footer -->
+<div id="footer">
+<div class="row well"><div class="col-md-12">
+	<div id="footer-inner">
+		<ul class="footer-list pkg">
+   <li class="footer-list-item"><a href="http://www.lifewithalacrity.com/">Life With Alacrity</a></li>
+   <li class="last-footer-list-item footer-list-item">&copy; Copyright Christopher Allen - All Rights Reserved</li>
+</ul>
+
+	</div>
+</div></div>
+</div>
+
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="http://www.typepad.com/t/stats?blog_id=22093&amp;user_id=14990&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script>
+
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<script type="text/javascript">_qoptions = { tags:"typepad.extended" }; _qacct="p-fcYWUmj5YbYKM"; quantserve();</script>
+<noscript>
+<a href="http://www.quantcast.com/p-fcYWUmj5YbYKM" target="_blank"><img src="http://pixel.quantserve.com/pixel/p-fcYWUmj5YbYKM.gif?tags=typepad.extended" style="display: none" border="0" height="1" width="1" alt="Quantcast"/></a>
+</noscript>
+<!-- End Quantcast tag -->
+
+<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+<script type="text/javascript">
+var captchaImgAttempts = 0;
+var allowAnonComments = '0';
+var registrationRequired = 0;
+var registrationOptional = 1;
+var emailRequired = 1;
+var useAvatars = 1;
+
+var showSignInMessaging = 0;
+var jsonURL = "/.services/json-rpc";
+
+var captchaSrc = "/.services/captcha?code_encrypted=";
+var alertCommentCannotBeBlank = "You can not leave an empty comment. Please enter some text in the Comment field.";
+var alertEditingExpired = "Sorry, you're no longer allowed to edit this comment. You may have taken too much time before submitting your edit or someone may have already replied to it.";
+
+var alertAuthorCannotBeBlank = "Name must not be blank.";
+var alertEmailCannotBeBlank = "Email Address must not be blank.";
+var alertAuthorAndEmailCannotBeBlank = "Name and email address are both required!";
+var alertEmailIsInvalid = "The Email Address you entered is invalid. Please enter a valid email address.";
+var alertUnauthorizedAction = "The comments on this post are closed.";
+var msgPostReplyTo = "Reply to ";  
+var msgInReplyTo = "In reply to ";
+var msgPostAComment = "Post a comment ";
+var atpCommentsPath = "/.shared/js/atpcomments_yui.js?v=5";
+var hasChanged = 0;
+var hostName = ".lifewithalacrity.com";
+var tp_comment_token = "1467141402-daacbf3fc0dbd7af42ab17d0102121a9406ecec9:vcv66zEJHDa0JczI";
+
+var use_recaptcha = 1;
+var recaptcha_publickey = "6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e";
+var isPage = 0;
+var blog_xid = "6a00d8341d8bc053ef00d83452ee1069e2";
+var xid = "";
+var injectCode = '<div id=\"comment-preview\" class=\"hiddenBox\">\n\t<h3 id=\"header-verify-comment\" class=\"comments-header font-entryheader  hiddenBox\">Verify your Comment<\/h3>\n    <h3 id=\"header-preview-comment\" class=\"comments-header font-entryheader  hiddenBox\">Previewing your Comment<\/h3>\n\t<div class=\"comments-content font-entrybody\">\n\t\t<div class=\"comment comment-has-avatar\">\n\t\t\t<div id=\"comment-preview-content\" class=\"comment-content\">\n\t\t\t<\/div>\n\t\t\t<p class=\"comment-footer\">\n\t\t\t\tPosted by: \n\t\t\t\t<span id=\"comment-preview-author\"><\/span>&nbsp;|&nbsp;<span id=\"comment-preview-datetime\"><\/span>\n\t\t\t<\/p>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n<div id=\"comment-preview-confirmation\" class=\"font-entrybody hiddenBox yellowBox\">\n    <p>This is only a preview. Your comment has not yet been posted.<\/p>\n        <form id=\"comment-preview-form\"\n                method=\"post\"\n                onsubmit=\"atpComments.interceptPost(1); return false;\">\n                <input type=\"submit\" class=\"form-control font-entrybody\" name=\"post\" id=\"comment-confirm-post\" value=\"&nbsp;Post&nbsp;\" onclick=\"atpComments.interceptPost(1); return false;\"/>\n                <input type=\"submit\" class=\"form-control font-entrybody\"  name=\"edit\" id=\"comment-edit\" value=\"&nbsp;&nbsp;Edit&nbsp;&nbsp;\" onclick=\"atpComments.previewOnly(2); return false;\"/>\n        <span id=\"previewFormSpinner\" class=\"hiddenBox\"><img src=\"/.shared/images/spinner.gif\" alt=\"Working...\" /><\/span>\n        <\/form>\n<\/div>\n\n<div id=\"comment-error\" class=\"hiddenBox font-entrybody redBox\">\t    \n   Your comment could not be posted. Error type: <span id=\"comment-error-msg\"><\/span> \n<\/div>\t\n<div id=\"comment-complete\" class=\"hiddenBox font-entrybody  redBox\">\n    Your comment has been saved. Comments are moderated and will not appear until approved by the author. <a href=\"javascript:void 0;\" onclick=\"window.location.hash=\'#comment-form\';window.location.reload(false)\">Post another comment<\/a>\n<\/div>\t\n<div id=\"comment-captcha\" class=\"hiddenBox yellowBox font-entrybody\">\t\n    <div id=\"captchaText\">\n\t    <p id=\"captchaFailMsg\" class=\"captchaErrorText hiddenBox\">The letters and numbers you entered did not match the image. Please try again.<\/p>\t    \t        \n\t    <p>As a final step before posting your comment, enter the letters and numbers you see in the image below. This prevents automated programs from posting comments.<\/p>\n\t    <p><span id=\"comment-captcha-viewalt\">Having trouble reading this image? <a href=\"#comment-captcha\" onClick=\"atpComments.generateReCaptcha();\">View an alternate.<\/a><\/span><\/p>\n    <\/div>\n    <form id=\"comment-captcha-form\" \n\t\t  method=\"post\"\n\t\t  onsubmit=\"atpComments.submitWithReCaptcha(); return false;\">\n    <div id=\"recaptcha_content\">\n      <noscript>\n        <iframe src=\"6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\" height=\"300\" width=\"500\" frameborder=\"0\"><\/iframe><br />\n        <textarea name=\"recaptcha_challenge_field\" rows=\"3\" cols=\"40\"><\/textarea>\n        <input type=\'hidden\' name=\'recaptcha_response_field\' value=\'manual_challenge\' />\n      <\/noscript>\n    <\/div>\n  <script type=\"text/javascript\">\n    $(document).ready(function() {\n        Recaptcha.create(\"6Ldg1s4SAAAAAEvvZX2ILFkWp7KB-jjdL4v0JV2e\",\n                         \"recaptcha_content\", {\n                             theme: \"red\",\n                             callback: Recaptcha.focus_response_field\n        });\n    });\n  <\/script>\n        <p>\n            <input type=\"submit\" name=\"continue\" id=\"captcha-continue\" value=\"&nbsp;Continue&nbsp;\" />\n            <span id=\"captchaFormSpinner\" class=\"commentSpinner hiddenBox\"><img src=\"/.shared/images/spinner.gif\" alt=\"Working...\" /><\/span>\n        <\/p>\n    <\/form>\n<\/div>\n'; 
+var entryPermalink = "http://www.lifewithalacrity.com/2006/01/ranking_systems.html";
+var inlineReply = document.createElement("div");
+var commentFooterLinks;
+var commentHeader;
+var commentReplyXID;
+var commentReplyAuthor;
+var commentReplyComplete;
+var inlineReplyLoaded = 0;
+var commentFormNum = undefined; /* Deprecated but still exists in advanced template sets, so must be defined */
+
+function xidToCommentPermalink (entryUrl, xid) {
+    return entryUrl + "?cid=" + xid + "#comment-" + xid;
+}
+
+
+/* Deprecated advanced template functions */
+function handleSubmit() { return true; };
+function handleChange() { return true; };
+</script>
+<script type="text/javascript" src="/.shared/js/yui/yuiloader-beta-min.js"></script>
+<script type="text/javascript" src="/.shared/js/atpcomments.js?v=5"></script>
+
+<!-- Begin comScore Tag -->
+<script>
+document.write(unescape("%3Cscript src='" + (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js'%3E%3C/script%3E"));
+</script>
+<script>
+COMSCORE.beacon({
+  c1: 2,
+  c2: "6035669",
+  c3: "",
+  c4: "http://www.lifewithalacrity.com/2006/01/ranking_systems.html",
+  c5: "",
+  c6: "",
+  c15: ""
+});
+</script>
+<noscript>
+  <img src="http://b.scorecardresearch.com/b?c1=2&c2=6035669&c3=&c4=http%3A%2F%2Fwww.lifewithalacrity.com%2F2006%2F01%2Franking_systems.html&c5=&c6=&c15=&cv=1.3&cj=1" style="display:none" width="0" height="0" alt="" />
+</noscript>
+<!-- End comScore Tag -->
+<!-- Begin disqus Tag -->
+
+<!-- End disqus Tag -->
+</body>
+</html>
+
+<!-- ph=1 -->

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+	xml:lang="en-us">
+	<title>Comments on Collective Choice: Experimenting with Ratings</title>
+	<subtitle>Last year in Collective Choice: Rating Systems we took a careful look at eBay and other websites that collect ratings, and used those systems as examples to highlight a number of theories about how to make rating systems more useful.
+
+In the year since we wrote that article we&#39;ve decided to practice what we preach and have rolled out an entirely new rating system called The RPGnet Gaming Index. We&#39;ve applied all of the above theories and thus far it looks like they&#39;re not only working, but that they&#39;re actually providing better rating systems than previous ones we&#39;ve used at the RPGnet site.
+
+In this article we&#39;re going to step through the data we&#39;ve collected from this experience and see how it applies to our theory: first by looking at our previous RPGnet rating system, then by looking at the new system, and finally by by examining the data from these two systems and comparing their results. We&#39;ve also run into some unexpected troubles along the way, and we&#39;ll talk about that too. (post continues with a detailed analysis...)
+</subtitle>
+	<link rel="self" type="application/atom+xml" title="Comments on Collective Choice: Experimenting with Ratings" href="http://www.lifewithalacrity.com/2007/01/collective_choi/comments/atom.xml" />
+	<link rel="alternate" type="text/html" title="Collective Choice: Experimenting with Ratings" href="http://www.lifewithalacrity.com/2007/01/collective_choi.html"/>
+	<generator uri="http://www.typepad.com/">TypePad</generator>
+	<xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+	<updated>2007-01-02T06:38:15Z</updated>
+	<author>
+		<name>ChristopherA</name>
+		<uri>http://www.lifewithalacrity.com/</uri>
+	</author>
+	<id>tag:typepad.com,2003:http://www.lifewithalacrity.com/2007/01/collective_choi/comments/atom.xml/</id>
+    
+		<entry>
+			<title>Grumpy commented on &#39;Collective Choice: Experimenting with Ratings&#39;</title>
+			<link rel="alternate" type="text/html" title="0-10 scale is too large for most relevant human ratings systems. maybe i should pull the psych papers, but people..." href="http://www.lifewithalacrity.com/2007/01/collective_choi.html?cid=94055598#comment-6a00d8341d8bc053ef00e54fbc6f0d8834" />
+			<id>tag:typepad.com,2003:6a00d8341d8bc053ef00e54fbc6f0d8834</id>
+			<published>2007-12-18T18:24:24Z</published>
+			<updated>2008-03-25T14:35:49Z</updated>
+			<author>
+				<name>Grumpy</name>
+                
+			</author>
+			<summary>0-10 scale is too large for most relevant human ratings systems. maybe i should pull the psych papers, but people...</summary>
+			<content type="html" xml:base="http://www.lifewithalacrity.com/2007/01/collective_choi.html">&lt;p&gt;0-10 scale is too large for most relevant human ratings systems. maybe i should pull the psych papers, but people tend to do a 1-5 or 0-5 scale better. it&amp;#39;s a sign of immaturity to only use the endpoints.&lt;/p&gt;</content>
+		</entry>
+	
+</feed>
+
+<!-- ph=1 -->
