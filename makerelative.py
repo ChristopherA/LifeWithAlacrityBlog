@@ -15,7 +15,7 @@ def processfiles(src, dst, base_url):
         pass
     errors = []
     for name in names:
-        if name.startswith('.'):
+        if name.startswith('.DS_'): #apparently '.shared' is a typepad path o_O
             print "skipping '%s'" % name
             continue
         srcname = os.path.join(src, name)
