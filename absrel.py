@@ -2,6 +2,7 @@ import html5lib
 import html5lib.serializer
 import html5lib.treewalkers
 import urlparse
+import os.path
 
 # List of (ELEMENT, ATTRIBUTE) for HTML5 attributes which contain URLs.
 # Based on the list at http://www.feedparser.org/docs/resolving-relative-links.html
@@ -67,9 +68,8 @@ to BASE_URL. Return the body of the result as HTML."""
             if u:
                 e.setAttribute(attr, urlparse.urljoin(base_url, u))
 
-    # Return the HTML5 serialization of the <BODY> of the result (we don't
-    # want the <HEAD>: this breaks feed readers).
-    body = dom.getElementsByTagName('body')[0]
+    # Return the HTML5 serialization  of the result 
+    body = dom.getElementsByTagName('html')[0]
     tree_walker = html5lib.treewalkers.getTreeWalker('dom')
     html_serializer = html5lib.serializer.htmlserializer.HTMLSerializer()
     return u''.join(html_serializer.serialize(tree_walker(body)))
@@ -77,7 +77,7 @@ to BASE_URL. Return the body of the result as HTML."""
 def relativize(src, base_url):
     """relativize(SRC, BASE_URL): Resolve absolute URLs in SRC.
 SRC is a string containing HTML. All URLs in SRC are made relative
-to BASE_URL. Return the body of the result as HTML."""
+to BASE_URL. Return the result as HTML."""
 
     # Parse SRC as HTML.
     tree_builder = html5lib.treebuilders.getTreeBuilder('dom')
@@ -93,15 +93,22 @@ to BASE_URL. Return the body of the result as HTML."""
             # HTML5 4.2.3 "if there are multiple base elements with href
             # attributes, all but the first are ignored."
             break
-    rel_base = urlparse.urljoin(base_url, '/') # we don't want to imply leading /
+    rel_basebits = urlparse.urlsplit(base_url)
+    basepath = rel_basebits.path or '/'
     # Change all absolute URLs to relative URLs by resolving them
     # relative to BASE_URL, then removing BASE_URL 
     for tag, attr in url_attributes:
         for e in dom.getElementsByTagName(tag):
             u = e.getAttribute(attr)
             if u:
-                newu = ''.join(urlparse.urljoin(base_url, u).split(rel_base))
-                e.setAttribute(attr, newu)
+                ubits = urlparse.urlsplit(urlparse.urljoin(base_url, u))
+                path = ubits.path or '/'
+                if ubits.netloc == rel_basebits.netloc:
+                    newpath= os.path.relpath(path,basepath)
+                    if newpath ==".":
+                    	newpath =""
+                    newu = urlparse.urlunsplit(('','',newpath,ubits.query,ubits.fragment))
+                    e.setAttribute(attr, newu)
 
     body = dom.getElementsByTagName('html')[0]
     tree_walker = html5lib.treewalkers.getTreeWalker('dom')
