@@ -103,9 +103,7 @@ to BASE_URL. Return the body of the result as HTML."""
                 newu = ''.join(urlparse.urljoin(base_url, u).split(rel_base))
                 e.setAttribute(attr, newu)
 
-    # Return the HTML5 serialization of the <BODY> of the result (we don't
-    # want the <HEAD>: this breaks feed readers).
-    body = dom.getElementsByTagName('body')[0]
+    body = dom.getElementsByTagName('html')[0]
     tree_walker = html5lib.treewalkers.getTreeWalker('dom')
     html_serializer = html5lib.serializer.htmlserializer.HTMLSerializer()
     return u''.join(html_serializer.serialize(tree_walker(body)))
