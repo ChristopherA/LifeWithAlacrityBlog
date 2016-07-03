@@ -18,9 +18,6 @@ def processfiles(src, dst, base_url):
         if name.startswith('.DS_'): #apparently '.shared' is a typepad path o_O
             print "skipping '%s'" % name
             continue
-        cleanname = name
-        if cleanname[0] == '.':
-            cleanname = '_' +  cleanname[1:]# thanks typepad
         srcname = os.path.join(src, name)
         dstname = os.path.join(dst, name)
         print dstname

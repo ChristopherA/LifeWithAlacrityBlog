@@ -107,8 +107,6 @@ to BASE_URL. Return the result as HTML."""
                     newpath= os.path.relpath(path,basepath)
                     if newpath == ".":
                     	newpath = ""
-                    if newpath and not newpath.startswith("..") and newpath[0]==".":
-                    	newpath = "_" +newpath[1:] # typepad and github fight over dot-prefixes
                     newu = urlparse.urlunsplit(('','',newpath,ubits.query,ubits.fragment))
                     e.setAttribute(attr, newu)
 
