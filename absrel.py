@@ -93,8 +93,11 @@ to BASE_URL. Return the result as HTML."""
             # HTML5 4.2.3 "if there are multiple base elements with href
             # attributes, all but the first are ignored."
             break
+    if not base_url.endswith('/'):
+        base_url = base_url+'/' # make urlparse.urljoin handle nested dirs right
     rel_basebits = urlparse.urlsplit(base_url)
     basepath = rel_basebits.path or '/'
+    #print "basebits.path: '%s' basepath:'%s'" %(rel_basebits.path,basepath)
     # Change all absolute URLs to relative URLs by resolving them
     # relative to BASE_URL, then removing BASE_URL 
     for tag, attr in url_attributes:
@@ -103,11 +106,13 @@ to BASE_URL. Return the result as HTML."""
             if u:
                 ubits = urlparse.urlsplit(urlparse.urljoin(base_url, u))
                 path = ubits.path or '/'
+                #print "base_url: '%s' ubits.path: '%s' path:'%s'" %(base_url,ubits.path,path)
                 if ubits.netloc == rel_basebits.netloc:
                     newpath= os.path.relpath(path,basepath)
                     if newpath == ".":
-                    	newpath = ""
+                        newpath = ""
                     newu = urlparse.urlunsplit(('','',newpath,ubits.query,ubits.fragment))
+                    #print "path: '%s', basepath: '%s', newpath: '%s', newu: '%s'" %(path,basepath,newpath,newu)
                     e.setAttribute(attr, newu)
 
     body = dom.getElementsByTagName('html')[0]

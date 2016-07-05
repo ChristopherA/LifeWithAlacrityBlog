@@ -1,3 +1,5 @@
 import makerelative
 
-makerelative.processfiles('raw dumps/www.lifewithalacrity.com','../lifewithalacrity.github.io','http://www.lifewithalacrity.com')
+makerelative.processfiles('raw dumps/www.lifewithalacrity.com','../scratchspace','http://www.lifewithalacrity.com')
+## then flatten out the legacy domain too
+makerelative.processfiles('../scratchspace','../lifewithalacrity.github.io','http://http://lifewithalacrity.blogs.com')
