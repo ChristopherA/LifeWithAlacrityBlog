@@ -6,6 +6,8 @@ title: "Life With Alacrity"
 permalinks:
   post: /:year/:month/:title/
 
+publishdir: "../../lifewithalacrity.github.io"
+
 params:
   description: "A blog on social software, collaboration, trust, security, privacy, and internet tools, by Christopher Allen."
   author: "Christopher Allen"
