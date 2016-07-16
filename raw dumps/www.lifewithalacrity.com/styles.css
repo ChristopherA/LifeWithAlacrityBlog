@@ -20,110 +20,215 @@
 
 /* Custom CSS */
 /* Base */
-@import url(/.shared/themes/common/base-weblog.css);
+
+@import url(.shared/themes/common/base-weblog.css);
+
+
 
 /* Tip Jar */
-@import url(/.shared/themes/common/tipjar.css);
+
+@import url(.shared/themes/common/tipjar.css);
+
+
 
 /* Portal */
 
+
+
 /* Theme */
-@import url(/.shared/themes/vox/futureperfect-green/screen.css);
+
+@import url(.shared/themes/vox/futureperfect-green/screen.css);
+
+
 
 /* Custom CSS */
-body {background: #c7e1a2 url(http://lifewithalacrity.blogs.com/alacrity/bg.jpg) repeat-x}
 
-#banner {background: url(http://lifewithalacrity.blogs.com/alacrity/header.jpg) no-repeat; height:130px; width: 990px; z-index:0}
+body {background: #c7e1a2 url(alacrity/bg.jpg) repeat-x}
+
+
+
+#banner {background: url(alacrity/header.jpg) no-repeat; height:130px; width: 990px; z-index:0}
+
 #banner-inner {padding-left: 55px;}
+
 #banner-header {font-family: Georgia; font-size: 36px}
+
 #banner-description {margin: 10px 0 0 30px; width: 680px; font-size: 12px}
 
-#footer {background: transparent url(http://lifewithalacrity.blogs.com/alacrity/footer.jpg) bottom left no-repeat; height: 138px;border: 0; width: 990px; margin:0;}
+
+
+#footer {background: transparent url(alacrity/footer.jpg) bottom left no-repeat; height: 138px;border: 0; width: 990px; margin:0;}
+
 #footer-inner {margin:0; padding:0;}
+
 .footer-list-item a {line-height: 2.0em;}
+
 .footer-list {margin:0; border:0; padding-top: 35px; color:silver; float:right; width: 200px; padding-right: 85px; line-height: 1.2em; width: 175px}
+
 .footer-list-item  {border:0;}
+
 #container-inner {background: transparent;}
 
+
+
 #nav {background: transparent; height: 42px; border:0;}
+
 #nav-inner {background: none; border:0;}
+
 #nav .nav-list {border:0;}
+
 #nav a {color:white; padding: 12px 10px; font-size: 14px; font-weight: bold;}
 
-#pagebody {width: 990px; background: url(http://lifewithalacrity.blogs.com/alacrity/pagebody.png) repeat-y; border:0;}
+
+
+#pagebody {width: 990px; background: url(alacrity/pagebody.png) repeat-y; border:0;}
+
 #pagebody-inner {border:0}
 
+
+
 .layout-two-column-right #alpha {width: 700px}
+
 .layout-two-column-right #alpha-inner {padding:0; margin: 0 0 0 10px}
+
 .layout-two-column-right #beta {margin-left: 4px; width: 280px;}
+
 .module-content {margin: 10px 30px;}
+
 .module-content .about img {margin:0 auto; display:block; padding: 5px; background: #eee; border: 1px solid silver;}
 
-.module-header {background: url(http://lifewithalacrity.blogs.com/alacrity/module-header.png) repeat-x; border:0}
+
+
+.module-header {background: url(alacrity/module-header.png) repeat-x; border:0}
+
 .module-header, .module-header a {color:white; padding:6px 0 10px 5px; font-size: 14px; text-transform: uppercase;}
 
-.date-header {background: url(http://lifewithalacrity.blogs.com/alacrity/date.jpg) no-repeat; height: 4px; width: 700px; margin:0; padding: 20px 0 0 20px;}
+
+
+.date-header {background: url(alacrity/date.jpg) no-repeat; height: 4px; width: 700px; margin:0; padding: 20px 0 0 20px;}
+
+
 
 .entry p {width: 640px; margin: 1.2em 0; line-height: 1.2em; font-size: 1.1em; }
-.entry, .trackbacks, .comments, .archive, #primary-comment-form{ background: url(http://lifewithalacrity.blogs.com/alacrity/entry.jpg) left bottom no-repeat; margin:0; width: 701px; padding: 20px}
+
+.entry, .trackbacks, .comments, .archive, #primary-comment-form{ background: url(alacrity/entry.jpg) left bottom no-repeat; margin:0; width: 701px; padding: 20px}
+
 .trackbacks, .comments {padding: 0 0 20px 0}
+
+
 
 .entry {width: 660px;}
 
+
+
 .entry-footer {width: 650px;}
+
 .entry blockquote p {margin: 1.2em; width: 550px}
 
+
+
 .date-header, .entry-footer, .entry-footer a, .comment-footer, .comment-footer a, .trackback-footer {color: #64963a;}
+
 .entry img {max-width: 100%;}
+
+
 
 p.entry-footer-share {margin: 30px 0 0 0; padding:0; line-height: 0.5em; text-align:right;}
 
+
+
 #primary-comment-form {margin: 0; padding:0 0 20px 0; width: 700px; border:0;}
+
 #primary-comment-form label {margin:0; font-weight: bold;}
+
 #primary-comment-form textarea {margin: 15px 0; background: #f7f7f7; border: 1px solid #ddd; width: 655px; height: 250px;}
+
 #comment-author, #comment-email, #comment-url {background: #f7f7f7; border: 1px solid #ddd; padding: 3px;}
 
-.trackbacks-header, .comments-header, .comments-open-header, .archive-header {background: url(http://lifewithalacrity.blogs.com/alacrity/module-header.png) repeat-x; width: 662px; color:white; margin-left: 13px; text-transform: uppercase; font-size: 16px; padding-left: 10px;}
+
+
+.trackbacks-header, .comments-header, .comments-open-header, .archive-header {background: url(alacrity/module-header.png) repeat-x; width: 662px; color:white; margin-left: 13px; text-transform: uppercase; font-size: 16px; padding-left: 10px;}
+
+
 
 .archive-header {margin: -20px 0 0 -7px; width: 663px;}
 
+
+
 .trackbacks-content {margin: 0 0 15px 50px; padding:0; width: 550px; font-size: 0.9em; line-height: 1.2em; border-top: 1px solid silver; border-bottom: 1px solid silver;}
 
+
+
 #comments-open-data p {font-weight: bold; margin:0; padding:0; line-height: 1.5em;}
+
 .trackbacks-info p {padding: 0 0 0 35px;}
 
+
+
 #comments-open-footer {margin:0; padding:0}
+
+
 
 #comment-bake-cookie {border: 0;}
 
 
 
+
+
+
+
 #comment-form label {display: block;}
+
 .comment {margin-left: 20px; width: 660px; margin-top: 10px; margin-bottom: 10px;}
+
+
 
 .comment-content{margin: 0 0 0 0 ;padding:0 5px; border: 1px solid #c7e1a2;	border-top: 5px solid #c7e1a2; min-height: 52px}
 
 
 
+
+
+
+
 .comment-footer {margin: 0.4em 0 0 0;padding: 0;text-align: right;font-size: 0.92em;}
+
+
 
 #comments-open-data p {margin: 1em 0 0.6em 0;}
 
+
+
 #comments-open-data {padding: 1px 20px;	
+
 }
+
 #comments-open-text {
+
 	margin: 0;
+
 	padding: 1px 20px;
 
+
+
 }
+
 #comments-open-footer { 
+
 	margin: 0 20px 3.4em 20px;
+
 	padding: 0.6em 20px 1em 20px;
 
+
+
 }
 
+
+
 .comments-open .login-list  {margin-left: 20px; margin-top: 10px;}
+
 .entry-footer-share-buttons .share-link {padding-top: 5px; margin:0; float:right; height: 10px; margin-left: 10px;}
+
 
 
 
