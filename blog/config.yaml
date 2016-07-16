@@ -1,0 +1,12 @@
+---
+baseurl: "https://lifewithalacrity.github.io/"
+languageCode: "en-us"
+title: "Life With Alacrity"
+
+permalinks:
+  post: /:year/:month/:title/
+
+
+params:
+  description: "A blog on social software, collaboration, trust, security, privacy, and internet tools, by Christopher Allen."
+  author: "Christopher Allen"
