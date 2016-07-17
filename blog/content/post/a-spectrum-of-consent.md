@@ -1,0 +1,77 @@
+---
+title: "A Spectrum of Consent"
+slug: "a-spectrum-of-consent"
+url: "/2015/09/a-spectrum-of-consent.html"
+tags:
+  - "Security"
+  - "Social Software"
+  - "Social Web for Social Change #SW4SX"
+  - "Web/Tech"
+date: "2015-09-09T09:28:29-07:00"
+---
+<p><a class="asset-img-link" href="http://lifewithalacrity.blogs.com/.a/6a00d8341d8bc053ef01b8d1551c0e970c-pi" style="float: right;"><img alt="Consensus-flowchart" class="asset  asset-image at-xid-6a00d8341d8bc053ef01b8d1551c0e970c img-responsive" src="http://lifewithalacrity.blogs.com/.a/6a00d8341d8bc053ef01b8d1551c0e970c-320wi" style="margin: 0px 0px 5px 5px;" title="Consensus-flowchart" /></a>I have made understanding of consent and consensus, in both their human and technological forms, a major part of my career. I have explored them through my work in cryptographic technologies, but also in human terms at the&#0160;<a href="http://groupworksdeck.org/" target="_self" title="Group Pattern Language Project">Group Pattern Language Project</a>, by co-authoring with Shannon Appecline forthcoming book on the design of collaborative games, and another book in progress on the patterns of cooperative play. My business management style is also more collaborative and inclusive.</p>
+
+<p>This topic is so important to me that I named the company I founded in 1988 (that eventually led the effort to establish TLS 1.0 as an internet standard) was named &quot;Consensus Development&quot; (<a href="https://web.archive.org/web/19980709005818/http://www.consensus.com/" target="_self">archive.org</a>).</p>
+
+<p>Thus&#0160;I&#39;ve been fascinated this week to watch a major online community try to define for itself what “consent” and “consensus” in their community will mean.&#0160;This community in question is the Bitcoin cryptocurrency community, which is faced with a minority of the community attempting to “hard fork”. This weekend they <a href="https://scalingbitcoin.org/montreal2015/" target="_self">meet in Montreal </a>to attempt to discover another way to return to some form of unanimity and broad consent of their stakeholders.</p>
+
+<p>This is of the hardest problems in human interactions. Consent comes from the Latin, meaning “feel together”, which this community now believes they lack. But&#0160;it is particularly poignant that this particular community is facing these questions. Bitcoin is technologically based on a formal protocol that uses a mathematical and cryptographic method for consensus called the “blockchain”. Every 10 minutes, thousands of nodes and hundreds of miners arrive at a consensus on all the bitcoin transactions during that time. Bitcoin, and the larger Blockchain community are the worlds experts on cryptographic forms of consensus. But the human consensus problem is still hard for them too.</p>
+
+<p><span style="font-size: 1.5em;">A Spectrum of Consent</span></p>
+
+<p>In my recent efforts into understanding this topic, and some recent dives into my &#0160;<a href="http://www.lifewithalacrity.com/2005/12/systems_for_col.html" target="_self" title="Systems for Collective Choice (start of series)">Systems For Collective Choice</a>,&#0160;the topic of the <em>A Spectrum Of Consent</em>&#0160;has repeatedly come up. There appear to be a range of levels of consent required for various deliberative processes and voting systems.</p>
+
+<p>I have had these incomplete notes on the Spectrum of Consent around for a couple of years, which I&#39;ve only shared privately. However, given my discussions this week at the&#0160;<a href="http://www.coindesk.com/events/consensus-2015/" target="_self">Consensus 2015</a>&#0160;conference and elsewhere, it was time to share. I welcome comments and suggestions!</p>
+
+<p>Basically, many groups view consensus processes as a requirement, however, many others see consensus processes as unworkable and a serious problem to be avoided. These efforts to define <em>A Spectrum Of Consent</em> are somewhat to help me understand this dichotomy. I personally believe that certain deliberative processes and voting systems are good for some things, some for others. But I find I&#39;m rare in that opinion — most people lean strongly in way one or the other.</p>
+
+<p>There is clearly some conflation and orthogonality in my list below of types of representation (who decides), deliberation (how you approach a decision), and choice selection method (voting system), but I think this is a good start at defining a spectrum.</p>
+
+<p><strong>Uniform Consensus (or Absolute Agreement)</strong> — A voting system where all parties are required support and agree to a decision, without anyone voting to neither agree or disagree (aka abstaining).</p>
+
+<p><strong>Unanimous Consent (or Unanimity)</strong> — A voting system where all parties support and agree to a decision, however, some parties may abstain by raising no objections.</p>
+
+<p><strong>Consensus Decision Making</strong> — A deliberative process of reaching unanimous consent (everyone agrees or abstains) with a number of procedural rules or cultural norms that limit blocking. Most forms of Consensus Decision Making all members have equal voice in the deliberation and equal vote. Most ask a closing question question such as &quot;Are there any remaining unresolved concerns?&quot; or &quot;Are there any paramount objections?&quot;. Some believe that in Consensus Decision Making that there is never a “vote”. (Another <a href="http://www.community4me.com/consensus.html" target="_self">definition of consensus</a>) (PDF on the <a href="http://seedsforchange.org.uk/consensus.pdf" target="_self" title="Consensus PDF">Consensus Process</a>) and (<a href="https://rhizomenetwork.wordpress.com/2011/05/30/when-not-to-use-consensus/" target="_self" title="When to not use Consensus">when to not use consensus</a>)</p>
+
+<p><strong>Sense of Meeting</strong> — A deliberative deliberative process practice as originally created by the Quakers. It is related to consensus which seeks “unity in the discernment of a decision” It is not necessary for every member to fully agree with a decision, but rather for members “to discern that as a body they are called in a particular direction.”</p>
+
+<p><strong>Consensus Minus One</strong> — A voting system where a party may block only if they can find at least one other uninvolved party to agree to join together to block. Otherwise the decision passes.</p>
+
+<p><strong>Consensus Seeking</strong> — A deliberation process that attempt to reach unanimous consent, but can fall back to a majority vote when required. Essentially Consensus Decision Making in deliberative process — listening to those with objections, but the ability to go to a vote stops the &quot;tyranny of the minority&quot; that sometimes happens with consensus.</p>
+
+<p><strong>Mediated Consensus</strong>&#0160;— Related to Consensus Seeking. An immediate decision can be made by consensus, but if that fails the blockers and proponents have to meet separately with or without a mediator, and if they still don&#39;t agree then its brought back to the next meeting for a vote.&#0160;</p>
+
+<p><strong>Distributed Consensus&#0160;(still seeking right name of this one)</strong> — There are some rules for how decision making is distributed into smaller, inter-related groups, each who have authority over a domain. Consensus is required within each group but not of the whole.</p>
+
+<p><strong>Consequential Consensus (still seeking right name of this one)</strong> — Only those affected by the outcome of the decision can participate and vote in the decision, which requires consensus of all those affected.</p>
+
+<p><strong>Representative Consensus (still seeking right name of this one)</strong> — Each party who participates in the deliberation votes represents the interests of others by some rules. Consensus is required only among the representatives.</p>
+
+<p><strong>Appreciative Inquiry Based Deliberation (another one needing naming)</strong> — A deliberative process that focuses on moving forward on moving forward on things that there is agreement on that are &quot;the best of what is, in order to imagine what could be, followed by collective design of a desired future state that is compelling and thus, does not require the use of incentives, coercion or persuasion for planned change to occur.&quot;</p>
+
+<p><strong>Blocking or Vetoing Representation</strong>— Voting systems where one or more members may have the right to block the deliberative process before a vote, or veto after a vote.</p>
+
+<p><strong>Absolute Super Majority</strong> — A voting system where support for a proposal to pass much be larger than a simple majority based on the entire membership rather than only on those present and voting, typically 2/3rds.</p>
+
+<p><strong>Super Majority or Qualified Majority</strong> — A voting system where support for a proposal to pass must be greater than a simple majority of those present and voting, typically 2/3rds of those voting.</p>
+
+<p><strong>Absolute Majority</strong> — A voting system where support for a proposal to pass much be 50% + 1 vote, based on the entire membership rather than on those present and voting.</p>
+
+<p><strong>Simple Majority</strong> — A voting system where support for a proposal to pass must be 50% + 1 vote of those present and voting.</p>
+
+<p><strong>Rules of Order or&#0160;Parliamentary&#0160;Procedure</strong>&#0160;— A deliberative process such as&#0160;<a href="https://en.wikipedia.org/wiki/Robert%27s_Rules_of_Order" target="_self">Robert&#39;s Rules of Order</a>&#0160;or <a href="https://en.wikipedia.org/wiki/Parliamentary_procedure" target="_self">other rules</a>&#0160;used by legislative bodies such as a senate or parliaments,&#0160;but &#0160;often used by corporations for decision making such as a board of directors meeting.&#0160;&#0160;At their heart is the rule of the majority with respect for the minority. Its object is to allow deliberation&#0160;upon questions of interest to the group and to arrive at the sense or the will of the organization as a whole upon these questions.</p>
+
+<p><strong>Plurality or Relative Majority</strong> — A voting system where when there are multiple options, the largest number of votes wins.</p>
+
+<p><strong>Right to Fork</strong> — Unique to open source communities, consensus can be reached by having the stakeholders lacking consensus to split off to form their own consensus, and since the assets are largely intellectual the can compete equally for the attention of the community and markets they serve.</p>
+
+<p><strong>Citizen Assembly (sometimes called <a href="https://en.wikipedia.org/wiki/Sortition" target="_self" title="sortition">sortition</a>, public sector representation, jury or allotment)</strong> — A deliberative process where a representative random sample of eligible voters is selected to make binding decisions for the group. The voting system used may be consensus or some form of majority. Ancient Athenian democracy actually form of this of this in the Boule and Jury.</p>
+
+<p><strong>Distributed Authority</strong> — There are some rules for how decision making is distributed into smaller, inter-related groups, each who have authority over a domain. How each group makes decisions is decided by that group.</p>
+
+<p><strong>Executive Authority</strong> — Rules for how a party is elected to represent a group, who then has authority to make decisions for that group, typically for a limited period of time.</p>
+
+<p><strong>Dictatorship</strong> — Executive authority exercised to ensure a monopoly of authority by its elected representative.</p>
+
+<p><span><em>(image credit:&#0160;grant horwood, aka frymaster <a href="http://creativecommons.org/licenses/by-sa/2.5-2.0-1.0" target="_self">CC BY-SA 2.5-2.0-1.0&#0160;</a>)</em></span></p>
+<p class="previous"><a href="/previous/2015/09/a-spectrum-of-consent.html" rel="syndication">orginal layout</a></p>

@@ -1,13 +1,12 @@
 ---
-title: "A Revised “Ostrom’s Design Principles for Collective Governance of the Commons”" 
+title: "A Revised “Ostrom’s Design Principles for Collective Governance of the Commons”"
 slug: "a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-"
+url: "/2015/11/a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-.html"
 tags:
   - "Security"
   - "Social Software"
   - "Social Web for Social Change #SW4SX"
   - "Web/Tech"
-
-url: "/2015/11/a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-.html"
 date: "2015-11-05T15:23:09-07:00"
 ---
 <p><a class="asset-img-link" href="http://lifewithalacrity.blogs.com/.a/6a00d8341d8bc053ef01b7c76aaed3970b-pi" style="float: right;"><img alt="Resource Sharing" class="asset  asset-image at-xid-6a00d8341d8bc053ef01b7c76aaed3970b img-responsive" src="http://lifewithalacrity.blogs.com/.a/6a00d8341d8bc053ef01b7c76aaed3970b-250wi" style="width: 250px; margin: 0px 0px 5px 5px;" title="Resource Sharing" /></a></p>
@@ -59,3 +58,4 @@ date: "2015-11-05T15:23:09-07:00"
 <p><strong>ALT 8. COORDINATE WITH RELATED SYSTEMS</strong>: For groups that are part of larger social systems, there must be appropriate coordination among relevant groups. Every sphere of activity has an optimal scale. Large scale governance requires finding the optimal scale for each sphere of activity and appropriately coordinating the activities, a concept called polycentric governance. A related concept is subsidiarity, which assigns governance tasks by default to the lowest jurisdiction, unless this is explicitly determined to be ineffective.</p>
 
 </blockquote>
+<p class="previous"><a href="/previous/2015/11/a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-.html" rel="syndication">orginal layout</a></p>
