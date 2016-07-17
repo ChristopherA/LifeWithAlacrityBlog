@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
-<section id="main">
+<section id="main" class="h-feed">
+{{ partial "feedblock.html" . }}
   <div>
     {{ range first 10 .Data.Pages }}
         {{ .Render "summary"}}
