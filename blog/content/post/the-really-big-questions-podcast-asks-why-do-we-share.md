@@ -1,5 +1,5 @@
 ---
-title: "”The Really Big Questions” Podcast Asks “Why Do We Share?”"
+title: "“The Really Big Questions” Podcast Asks “Why Do We Share?”"
 slug: "the-really-big-questions-podcast-asks-why-do-we-share"
 url: "/2014/04/the-really-big-questions-podcast-asks-why-do-we-share.html"
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "”Harmonic” on Pantheon Steel XXD Halo Hand Pan at BGIedu Intensive"
+title: "“Harmonic” on Pantheon Steel XXD Halo Hand Pan at BGIedu Intensive"
 slug: "harmonic-on-pantheon-steel-xxd-halo-hand-pan"
 url: "/2014/04/harmonic-on-pantheon-steel-xxd-halo-hand-pan.html"
 tags:

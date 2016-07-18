@@ -279,6 +279,8 @@ class MovableType2Hugo(object):
   def _Encode(self, content, stripQuotes=True):
     unicontent= content.decode('utf-8', 'replace')
     if stripQuotes:
+        if (unicontent[0] == u'"'):
+            unicontent = u'“' + unicontent[1:]
         unicontent= unicontent.replace(u' "',u' “')
         unicontent= unicontent.replace(u'"',u'”')
     return unicontent.encode('utf-8')

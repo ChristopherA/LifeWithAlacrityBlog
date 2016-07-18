@@ -1,5 +1,5 @@
 ---
-title: "”Look Up” Your Strong Ties, Connect to Your Weak Ties"
+title: "“Look Up” Your Strong Ties, Connect to Your Weak Ties"
 slug: "look-up-your-strong-ties-connect-to-your-weak-ties"
 url: "/2014/05/look-up-your-strong-ties-connect-to-your-weak-ties.html"
 tags:
