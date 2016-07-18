@@ -42,4 +42,4 @@ I'm amused at the talk of prior art and 1999 visions, the very first web client 
 <time class="dt-published" datetime="2005-12-06T10:59:45-07:00">2005-12-06T10:59:45-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/05/simple_yet_soph.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/05/simple_yet_soph.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

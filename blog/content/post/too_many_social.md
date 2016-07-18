@@ -32,4 +32,4 @@ date: "2004-01-30T19:20:14-07:00"
 <time class="dt-published" datetime="2004-03-13T17:18:54-07:00">2004-03-13T17:18:54-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/01/too_many_social.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/01/too_many_social.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

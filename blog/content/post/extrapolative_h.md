@@ -77,4 +77,4 @@ Naina Redhu
 <time class="dt-published" datetime="2005-11-30T23:07:18-07:00">2005-11-30T23:07:18-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/07/extrapolative_h.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/07/extrapolative_h.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

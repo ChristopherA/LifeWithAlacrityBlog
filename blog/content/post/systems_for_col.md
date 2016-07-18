@@ -191,4 +191,4 @@ p.s. In addition to the aforementioned, brilliant, The Paradox of Choice, read S
 <time class="dt-published" datetime="2008-12-30T13:37:36-07:00">2008-12-30T13:37:36-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/12/systems_for_col.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/12/systems_for_col.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

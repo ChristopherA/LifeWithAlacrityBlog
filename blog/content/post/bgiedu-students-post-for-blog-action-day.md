@@ -52,4 +52,4 @@ date: "2011-10-16T17:35:27-07:00"
 <p style="text-align: center;"><a href="/previous/.a/6a00d8341d8bc053ef01539258a42d970b-pi" style="display: inline;"><img alt="BGI-Logo-Print Small_0" border="0" class="asset  asset-image at-xid-6a00d8341d8bc053ef01539258a42d970b" src="/previous/.a/6a00d8341d8bc053ef01539258a42d970b-800wi" title="BGI-Logo-Print Small_0" /></a><br /><br /></p>
 <ul>
 </ul>
-<p class="previous"><a href="/previous/2011/10/bgiedu-students-post-for-blog-action-day.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2011/10/bgiedu-students-post-for-blog-action-day.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

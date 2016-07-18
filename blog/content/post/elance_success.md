@@ -23,4 +23,4 @@ We run a website similar to elance, called SupportUniverse. Cheaper prices and b
 <time class="dt-published" datetime="2005-02-11T00:47:53-07:00">2005-02-11T00:47:53-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2003/12/elance_success.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2003/12/elance_success.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

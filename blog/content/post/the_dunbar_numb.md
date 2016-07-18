@@ -383,4 +383,4 @@ and later in book form (now sadly out of print... but I still have some copies i
 <time class="dt-published" datetime="2010-02-24T12:55:43-07:00">2010-02-24T12:55:43-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/03/the_dunbar_numb.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/03/the_dunbar_numb.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

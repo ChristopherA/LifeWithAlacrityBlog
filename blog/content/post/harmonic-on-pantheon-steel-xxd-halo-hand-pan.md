@@ -12,4 +12,4 @@ date: "2014-04-21T12:01:00-07:00"
 <iframe width="560" height="315" src="//www.youtube.com/embed/qlNV22sSiw0" frameborder="0" allowfullscreen></iframe>
 If you like hand pans, I have an extensive playlist of good quality hand pan performances on YouTube.
 <iframe width="560" height="315" src="//www.youtube.com/embed/videoseries?list=PLJ0DUQTMYEC7dBN1mjI9X1L_iS20kMUoo" frameborder="0" allowfullscreen></iframe>
-<p class="previous"><a href="/previous/2014/04/harmonic-on-pantheon-steel-xxd-halo-hand-pan.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2014/04/harmonic-on-pantheon-steel-xxd-halo-hand-pan.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

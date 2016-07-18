@@ -86,4 +86,4 @@ You did a great job. This will help us serve the mission of voluntary health.
 <time class="dt-published" datetime="2005-10-13T07:20:15-07:00">2005-10-13T07:20:15-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/02/voluntary_healt.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/02/voluntary_healt.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

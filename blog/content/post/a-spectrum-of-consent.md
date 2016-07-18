@@ -42,4 +42,4 @@ date: "2015-09-09T09:28:29-07:00"
 <p><strong>Executive Authority</strong> — Rules for how a party is elected to represent a group, who then has authority to make decisions for that group, typically for a limited period of time.</p>
 <p><strong>Dictatorship</strong> — Executive authority exercised to ensure a monopoly of authority by its elected representative.</p>
 <p><span><em>(image credit:&#0160;grant horwood, aka frymaster <a href="http://creativecommons.org/licenses/by-sa/2.5-2.0-1.0" target="_self">CC BY-SA 2.5-2.0-1.0&#0160;</a>)</em></span></p>
-<p class="previous"><a href="/previous/2015/09/a-spectrum-of-consent.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2015/09/a-spectrum-of-consent.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

@@ -76,4 +76,4 @@ http://www.newerawisp.blogspot.com
 <time class="dt-published" datetime="2008-02-01T10:20:18-07:00">2008-02-01T10:20:18-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/07/cheers_belongin.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/07/cheers_belongin.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

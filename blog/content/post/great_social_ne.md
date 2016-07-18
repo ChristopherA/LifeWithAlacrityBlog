@@ -83,4 +83,4 @@ Denise Klarquist writes in <a href="http://weblog.cheskin.net/blog/archives/0002
 <time class="dt-published" datetime="2004-03-18T08:21:26-07:00">2004-03-18T08:21:26-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/03/great_social_ne.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/03/great_social_ne.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

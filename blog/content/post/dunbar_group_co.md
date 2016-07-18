@@ -102,4 +102,4 @@ I would also like to see a scatterplot.  It would really help to make time spent
 <time class="dt-published" datetime="2006-04-14T05:23:55-07:00">2006-04-14T05:23:55-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/10/dunbar_group_co.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/10/dunbar_group_co.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

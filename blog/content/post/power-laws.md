@@ -90,4 +90,4 @@ Do you have any thoughts around more structured collaboration and how it can neg
 <time class="dt-published" datetime="2009-07-15T15:33:05-07:00">2009-07-15T15:33:05-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2009/03/power-laws.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2009/03/power-laws.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

@@ -403,4 +403,4 @@ Michigan Treatment Centers
 <time class="dt-published" datetime="2008-08-05T05:14:35-07:00">2008-08-05T05:14:35-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/10/tracing_the_evo.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/10/tracing_the_evo.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

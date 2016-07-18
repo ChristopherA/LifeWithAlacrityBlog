@@ -121,4 +121,4 @@ And as with the old html days - there will be end user tools created. My take on
 <time class="dt-published" datetime="2005-04-24T10:10:12-07:00">2005-04-24T10:10:12-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/02/handcrafting_my.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/02/handcrafting_my.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

@@ -131,4 +131,4 @@ That's our Mr. A, Always six months ahead of the curve!
 <time class="dt-published" datetime="2006-05-19T01:50:42-07:00">2006-05-19T01:50:42-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2006/02/flames_emotiona.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2006/02/flames_emotiona.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

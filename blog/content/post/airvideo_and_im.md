@@ -141,4 +141,4 @@ Have a look
 <time class="dt-published" datetime="2005-09-10T04:30:02-07:00">2005-09-10T04:30:02-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/05/airvideo_and_im.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/05/airvideo_and_im.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

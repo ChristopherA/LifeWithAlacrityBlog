@@ -14,4 +14,4 @@ date: "2003-12-11T15:53:52-07:00"
 <li><a href="http://www.skotos.net/articles/TTnT_136.phtml">Social Gaming Interactions, Part One: A History of Form</a><br />
 <li><a href="http://www.skotos.net/articles/TTnT_137.phtml">Social Gaming Interactions, Part Two: Competition</a><br />
 <li>Part three isn't available until next Thursday, but is on non-competitive social interactions.</p>
-<p class="previous"><a href="/previous/2003/12/skotos_and_soci.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2003/12/skotos_and_soci.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

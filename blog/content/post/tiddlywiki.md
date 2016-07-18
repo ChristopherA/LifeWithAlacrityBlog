@@ -46,4 +46,4 @@ Any comments appreciated anyway
 <time class="dt-published" datetime="2005-04-21T21:51:31-07:00">2005-04-21T21:51:31-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/09/tiddlywiki.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/09/tiddlywiki.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

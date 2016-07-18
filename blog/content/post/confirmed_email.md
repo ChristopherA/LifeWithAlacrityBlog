@@ -92,4 +92,4 @@ i don't know much more about orkut i just want to know what this side about of s
 <time class="dt-published" datetime="2004-10-12T00:51:10-07:00">2004-10-12T00:51:10-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/02/confirmed_email.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/02/confirmed_email.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

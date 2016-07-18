@@ -366,4 +366,4 @@ date: "2012-10-18T17:21:44-07:00"
 </li>
 </ul>
 <p>I welcome your thoughts for additional or replacement Social Web introductory readings that we can use in the next class in the Spring of 2013.</p>
-<p class="previous"><a href="/previous/2012/10/introduction-to-the-social-web-reading-list-sw4sx.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2012/10/introduction-to-the-social-web-reading-list-sw4sx.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

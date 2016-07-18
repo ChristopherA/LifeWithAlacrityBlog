@@ -17,4 +17,4 @@ date: "2003-12-30T16:40:52-07:00"
 <li><a href="http://www.usemod.com/cgi-bin/mb.pl?WikiDesignPatternsMetaCommentary">Wiki Design Patterns Meta Commentary</a></li></p>
 <p>I've also been doing a survey of the features of various versions of Wiki that have evolved over the years, and have started posting some of them at the bottom of the pattern documents.</p>
 <p>More to come...</p>
-<p class="previous"><a href="/previous/2003/12/working_on_wiki.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2003/12/working_on_wiki.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

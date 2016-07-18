@@ -142,4 +142,4 @@ date: "2015-04-20T22:30:30-07:00"
 <p><strong>Luisa Walmsley at Afgan Social Media Summit</strong> is cropped from a photo by <a href="https://twitter.com/LuisaWalmsley">Luisa Whalmsey</a> and is licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>.</p>
 <h3 id="toc_14">Appendices &amp; Bibliography</h3>
 <p>See the following post <a href="https://medium.com/@christophera/the-four-kinds-of-privacy-appendices-bibliography-d2b75b269d2d">The Four Kinds of Privacy: Appendices &amp; Bibliography</a>.</p>
-<p class="previous"><a href="/previous/2015/04/the-four-kinds-of-privacy.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2015/04/the-four-kinds-of-privacy.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

@@ -26,4 +26,4 @@ Maria
 <time class="dt-published" datetime="2008-04-10T11:49:22-07:00">2008-04-10T11:49:22-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2003/07/comics_the_righ.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2003/07/comics_the_righ.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

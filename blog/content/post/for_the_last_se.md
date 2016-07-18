@@ -56,4 +56,4 @@ I'm curious about what ways you think this could be useful as a teaching aid? Ha
 <time class="dt-published" datetime="2005-11-16T11:00:54-07:00">2005-11-16T11:00:54-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/10/for_the_last_se.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/10/for_the_last_se.html" rel="syndication" class="u-syndication" >orginal layout</a></p>

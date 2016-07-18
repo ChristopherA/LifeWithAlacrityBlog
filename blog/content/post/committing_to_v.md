@@ -26,4 +26,4 @@ date: "2003-12-10T14:39:21-07:00"
 <time class="dt-published" datetime="2004-07-18T09:55:40-07:00">2004-07-18T09:55:40-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2003/12/committing_to_v.html" rel="syndication">orginal layout</a></p>
+<p class="previous"><a href="/previous/2003/12/committing_to_v.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
