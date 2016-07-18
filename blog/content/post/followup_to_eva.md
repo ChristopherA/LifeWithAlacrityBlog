@@ -1,5 +1,5 @@
 ---
-title: "Followup to "Evaluating Social Network Services""
+title: "Followup to “Evaluating Social Network Services”"
 slug: "followup_to_eva"
 url: "/2003/12/followup_to_eva.html"
 tags:

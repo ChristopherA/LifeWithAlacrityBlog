@@ -1,5 +1,5 @@
 ---
-title: ""Forward Casting" Trust Services from 1988"
+title: "”Forward Casting” Trust Services from 1988"
 slug: "forward-casting-trust-services-from-1988"
 url: "/2014/03/forward-casting-trust-services-from-1988.html"
 date: "2014-03-08T12:01:00-07:00"

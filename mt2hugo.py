@@ -1,4 +1,5 @@
 #!/usr/bin/python2.4
+# -*- coding: utf-8 -*-
 
 # Copyright 2008 Google Inc., 2016 Kevin Marks
 #
@@ -272,10 +273,14 @@ class MovableType2Hugo(object):
 
   def _TranslateContents(self, content):
     #content = content.replace('\n', '<br/>')
-    return self._Encode(content)
+    return self._Encode(content,False)
 
-  def _Encode(self, content):
-    return content.decode('utf-8', 'replace').encode('utf-8')
+  def _Encode(self, content, stripQuotes=True):
+    unicontent= content.decode('utf-8', 'replace')
+    if stripQuotes:
+        unicontent= unicontent.replace(u' "',u' “')
+        unicontent= unicontent.replace(u'"',u'”')
+    return unicontent.encode('utf-8')
 
   def _FromMtTime(self, mt_time):
     try:

@@ -1,5 +1,5 @@
 ---
-title: ""Teleseminars"?"
+title: "”Teleseminars”?"
 slug: "teleseminars"
 url: "/2003/10/teleseminars.html"
 tags:

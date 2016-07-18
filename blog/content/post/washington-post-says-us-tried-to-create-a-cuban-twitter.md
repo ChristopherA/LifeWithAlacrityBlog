@@ -1,5 +1,5 @@
 ---
-title: "Washington Post says US tried to create a "Cuban Twitter""
+title: "Washington Post says US tried to create a “Cuban Twitter”"
 slug: "washington-post-says-us-tried-to-create-a-cuban-twitter"
 url: "/2014/04/washington-post-says-us-tried-to-create-a-cuban-twitter.html"
 tags:

@@ -1,5 +1,5 @@
 ---
-title: ""Life With Alacrity" Blog, using Blogger"
+title: "”Life With Alacrity” Blog, using Blogger"
 slug: "life_with_alacr"
 url: "/2003/07/life_with_alacr.html"
 tags:

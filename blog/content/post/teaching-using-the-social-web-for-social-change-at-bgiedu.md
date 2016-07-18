@@ -1,5 +1,5 @@
 ---
-title: "Teaching "Using the Social Web for Social Change" at BGI.edu"
+title: "Teaching “Using the Social Web for Social Change” at BGI.edu"
 slug: "teaching-using-the-social-web-for-social-change-at-bgiedu"
 url: "/2009/09/teaching-using-the-social-web-for-social-change-at-bgiedu.html"
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Facilitating Small Gatherings Using "The Braid""
+title: "Facilitating Small Gatherings Using “The Braid”"
 slug: "facilitating-small-gatherings-using-the-braid"
 url: "/2009/09/facilitating-small-gatherings-using-the-braid.html"
 tags:

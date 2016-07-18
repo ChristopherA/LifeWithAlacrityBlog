@@ -1,5 +1,5 @@
 ---
-title: "Creative Commons Posts "Defining Noncommercial" Report"
+title: "Creative Commons Posts “Defining Noncommercial” Report"
 slug: "creative-commons-posts-defining-noncommercial-report"
 url: "/2009/09/creative-commons-posts-defining-noncommercial-report.html"
 tags:

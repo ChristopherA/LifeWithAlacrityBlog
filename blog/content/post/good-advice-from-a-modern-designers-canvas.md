@@ -1,5 +1,5 @@
 ---
-title: "Good Advice from "A Modern Designer's Canvas""
+title: "Good Advice from “A Modern Designer's Canvas”"
 slug: "good-advice-from-a-modern-designers-canvas"
 url: "/2014/04/good-advice-from-a-modern-designers-canvas.html"
 date: "2014-04-06T12:00:00-07:00"

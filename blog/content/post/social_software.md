@@ -1,5 +1,5 @@
 ---
-title: "Social Software -- Problems & the Definition of "Friends""
+title: "Social Software -- Problems & the Definition of “Friends”"
 slug: "social_software"
 url: "/2003/12/social_software.html"
 tags:

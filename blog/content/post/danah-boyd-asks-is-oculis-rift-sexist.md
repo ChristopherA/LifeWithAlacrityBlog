@@ -1,5 +1,5 @@
 ---
-title: "danah boyd asks "Is Oculis Rift Sexist"?"
+title: "danah boyd asks “Is Oculis Rift Sexist”?"
 slug: "danah-boyd-asks-is-oculis-rift-sexist"
 url: "/2014/04/danah-boyd-asks-is-oculis-rift-sexist.html"
 date: "2014-04-07T09:00:00-07:00"

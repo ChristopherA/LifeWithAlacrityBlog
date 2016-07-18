@@ -1,5 +1,5 @@
 ---
-title: "To be persuasive, you need to understand "Identity Protective Cognition""
+title: "To be persuasive, you need to understand “Identity Protective Cognition”"
 slug: "to-be-persuasive-you-need-to-understand-identity-protective-cognition"
 url: "/2014/04/to-be-persuasive-you-need-to-understand-identity-protective-cognition.html"
 tags:

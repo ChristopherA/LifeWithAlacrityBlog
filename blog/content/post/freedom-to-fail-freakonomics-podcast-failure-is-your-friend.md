@@ -1,5 +1,5 @@
 ---
-title: "Freedom to Fail & Freakonomics podcast "Failure is Your Friend""
+title: "Freedom to Fail & Freakonomics podcast “Failure is Your Friend”"
 slug: "freedom-to-fail-freakonomics-podcast-failure-is-your-friend"
 url: "/2014/06/freedom-to-fail-freakonomics-podcast-failure-is-your-friend.html"
 tags:
