@@ -2,8 +2,8 @@
 <label for="tags" class="margin-toggle">Tags➤</label>
 <input type="checkbox" id="tags" class="margin-toggle"/>
 <span class="marginnote">
-{{ range $key,$value := .Data.Index.Alphabetical }}
-{{if gt $value.Count 2 }}<a href="/tags/{{ $value.Name | urlize }}">{{ $value.Name }}</a>{{end}}  
+{{ range $name, $taxonomy := .Site.Taxonomies.tags}}
+ {{ if gt $taxonomy.Count 2 }}<a href="/tags/{{ $name | urlize }}">{{ $name }}</a> {{ end }}
 {{ end }}
 </span>
 <p class="p-summary">{{ .Site.Params.summary }} by <span class="h-card">{{ .Site.Params.author }}</span>.</p>
