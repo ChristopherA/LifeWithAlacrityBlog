@@ -7,7 +7,7 @@ tags:
   - "Social Web for Social Change #SW4SX"
 date: "2014-04-07T13:35:02-07:00"
 ---
-<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+<div id="fb-root"></div> <script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1"></script>
 <div class="fb-post" data-href="https://www.facebook.com/ChristopherRayAllen/posts/10152336669410540" data-width="600"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ChristopherRayAllen/posts/10152336669410540">Post</a> by <a href="https://www.facebook.com/ChristopherRayAllen">Christopher Allen</a>.</div></div>
 <footer><h3>Comments</h3>
 <div class="u-comment h-cite">
