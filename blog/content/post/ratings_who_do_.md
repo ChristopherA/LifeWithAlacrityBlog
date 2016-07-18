@@ -25,7 +25,7 @@ tags:
   - "shannon appelcline"
 date: "2006-09-14T16:28:58-07:00"
 ---
-<p>My colleague, <a href="http://www.skotos.net/about/staff/shannon_appelcline.php">Shannon Appelcline</a>, has been working on a game rating system for <a href="http://www.rpg.net">RPGnet</a>. This has resulted in real-world application of the principles for designing rating systems which we've previously discussed in our <a href="http://www.lifewithalacrity.com/2005/12/collective_choi.html">Collective Choice</a> articles. Shannon's newest article, <a href="http://www.skotos.net/articles/TTnT_/TTnT_196.phtml">Ratings,
+<p>My colleague, <a href="http://www.skotos.net/about/staff/shannon_appelcline.php">Shannon Appelcline</a>, has been working on a game rating system for <a href="http://www.rpg.net">RPGnet</a>. This has resulted in real-world application of the principles for designing rating systems which we've previously discussed in our <a href="/2005/12/collective_choi.html">Collective Choice</a> articles. Shannon's newest article, <a href="http://www.skotos.net/articles/TTnT_/TTnT_196.phtml">Ratings,
 Who Do You Trust?</a> offers a look at weighting ratings based on reliability.</p>
 <p><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/shannon_appelcline.jpg" title="Shannon_appelcline" alt="Shannon_appelcline" style="margin: 0px 0px 5px 5px; float: right;" /></p><blockquote><p><em>On the <a href="http://index.rpg.net/">RPGnet Gaming Index</a> we've put this all together to form a tree of weighted ratings that answer the question, <em>who do you trust</em>?</em></p>
 <p><em>Here's how we measured each type of trust, and what we did about it:</em></p>
@@ -53,11 +53,11 @@ User Creativity</a> - A look at the &quot;XP&quot; system which has helped to in
 <hr />
 <p><em>Related articles from this blog:</em></p>
 <blockquote>
-<li><em><a href="http://www.lifewithalacrity.com/2005/12/systems_for_col.html">2005-12: Systems for Collective Choice</a></em></li>
-<li><em><a href="http://www.lifewithalacrity.com/2005/12/collective_choi.html">2005-12: Collective Choice: Rating Systems</a></em></li>
-<li><em><a href="http://www.lifewithalacrity.com/2006/01/ranking_systems.html">2006-01: Collective Choice: Competitive Ranking Systems</a></em></li>
-<li><em><a href="http://www.lifewithalacrity.com/2006/08/using_5star_rat.html">2006-08: Using 5-Star Rating Systems</a></em></li>
-<li><em><a href="http://www.lifewithalacrity.com/2007/01/collective_choi.html">2007-01: Experimenting with Ratings</a></em></li>
+<li><em><a href="/2005/12/systems_for_col.html">2005-12: Systems for Collective Choice</a></em></li>
+<li><em><a href="/2005/12/collective_choi.html">2005-12: Collective Choice: Rating Systems</a></em></li>
+<li><em><a href="/2006/01/ranking_systems.html">2006-01: Collective Choice: Competitive Ranking Systems</a></em></li>
+<li><em><a href="/2006/08/using_5star_rat.html">2006-08: Using 5-Star Rating Systems</a></em></li>
+<li><em><a href="/2007/01/collective_choi.html">2007-01: Experimenting with Ratings</a></em></li>
 </blockquote>
 <p>Related articles from Shannon Appelcline's <a href="http://www.skotos.net/articles/show-column.phtml?colname=TTnT_">Trials, Triumphs &amp; Trivialities:</a>
 </p><blockquote><li><em><a href="http://www.skotos.net/articles/TTnT_/TTnT_196.phtml">#196: Collective Choice: Ratings, Who Do You Trust?</a></em>

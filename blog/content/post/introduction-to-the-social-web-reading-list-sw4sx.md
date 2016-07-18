@@ -31,7 +31,7 @@ date: "2012-10-18T17:21:44-07:00"
 <ul>
 <li>Allen, Christopher. “Creating Shared Language and Shared Artifacts”, Life With Alacrity. 2009-09-17
 <ul>
-<li>BLOGPOST:<a href="http://www.lifewithalacrity.com/2009/09/creating-shared-language-and-shared-artiifacts.html">&#0160;http://www.lifewithalacrity.com/2009/09/creating-shared-language-and-shared-artiifacts.html</a></li>
+<li>BLOGPOST:<a href="/2009/09/creating-shared-language-and-shared-artiifacts.html">&#0160;/2009/09/creating-shared-language-and-shared-artiifacts.html</a></li>
 <li>KEYQUOTE: “Without a shared language there will be no clarity on mutual goals — whether it involves working together, transacting a trade, or creating something…However, some facilitators have learned that one of the best ways to help a group form a shared language is by having the group create together a shared artifact…It allows the individuals participating to ask the questions: &quot;Is this what you mean when…&quot;</li>
 </ul>
 </li>
@@ -118,7 +118,7 @@ date: "2012-10-18T17:21:44-07:00"
 <ul>
 <li>Allen, Christopher &quot;Tracing the Evolution of Social Software.&quot; Life With Alacrity. 13 Oct 2004
 <ul>
-<li>BLOGPOST:&#0160;<a href="http://www.lifewithalacrity.com/2004/10/tracing_the_evo.html">http://www.lifewithalacrity.com/2004/10/tracing_the_evo.html</a></li>
+<li>BLOGPOST:&#0160;<a href="/2004/10/tracing_the_evo.html">/2004/10/tracing_the_evo.html</a></li>
 <li>KEYQUOTE: &quot;The term &#39;social software&#39;, which is now used to define software that supports group interaction, has only become relatively popular within the last two or more years. However, the core ideas of social software itself enjoy a much longer history, running back to Vannevar Bush&#39;s ideas about &#39;memex&#39; in 1945, and traveling through terms such as Augmentation, Groupware, and CSCW in the 1960s, 70s, 80s, and 90s. By examining the many terms used to describe today&#39;s &#39;social software&#39; we can also explore the origins of social software itself, and see how there exists a very real life cycle concerning the use of technical terminology.&quot;</li>
 </ul>
 </li>
@@ -174,7 +174,7 @@ date: "2012-10-18T17:21:44-07:00"
 <ul>
 <li>Allen, Christopher &quot;Password Best Practices&quot; Life With Alacrity, 2009-09-25
 <ul>
-<li>BLOGPOST:<a href="http://www.lifewithalacrity.com/2009/09/password-best-practices.html">&#0160;http://www.lifewithalacrity.com/2009/09/password-best-practices.html</a></li>
+<li>BLOGPOST:<a href="/2009/09/password-best-practices.html">&#0160;/2009/09/password-best-practices.html</a></li>
 <li>KEYQUOTE: &quot;Be Safe: None of these approaches is perfect, but they significantly raise the bar against any but the most determined cracker from breaking into one of your accounts. The domain letter technique will also make it very difficult for a cracker to break into your more important financial accounts if he gets access to your password from a poorly secured website or masquerades as a legitimate website or email by using a phishing attack.&quot;</li>
 </ul>
 </li>
@@ -261,7 +261,7 @@ date: "2012-10-18T17:21:44-07:00"
 <ul>
 <li>Allen, Christopher &quot;Four Kinds of Privacy&quot; Life With Alacrity, 2004-04-22
 <ul>
-<li>BLOGPOST:<a href="http://www.lifewithalacrity.com/2004/04/four_kinds_of_p.html">http://www.lifewithalacrity.com/2004/04/four_kinds_of_p.html</a></li>
+<li>BLOGPOST:<a href="/2004/04/four_kinds_of_p.html">/2004/04/four_kinds_of_p.html</a></li>
 <li>KEYQUOTE: &quot;My thoughts have now gelled sufficiently to make some observations about privacy. When people speak about privacy, they may actually be talking about very different forms of privacy: defensive privacy, human-rights privacy, personal privacy, and contextual privacy.&quot;</li>
 </ul>
 </li>

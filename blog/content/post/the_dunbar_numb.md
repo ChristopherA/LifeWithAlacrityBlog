@@ -65,8 +65,8 @@ My suggestion, then, is that language evolved as a &quot;cheap&quot; form of soc
 <p>My anecdotal evidence generally seems to support the idea that group sizes will usually plateau at a number lower than 150 participants. This comes from 20 years of doing facilitation both on and offline, running several software companies, and running various forums at America Online. In particular, many online communities provide good evidence for Dunbar's Number actually being an upper limit (either due to reduced efficiency or due to increased dispersion).</p>
 <h3><a name="onlinecommunities">Dunbar &amp; Online Communities</a></h3>
 <p><em>Ultima Online</em> provides one of the best examples of what sizes an online community will support because it's well documented and the overall game size is large enough to generate many smaller communities. If you look at <a href="http://www.legendmud.org/raph/">Raph Koster's</a> statistics for the size of groups in <em>Ultima Online</em>, you will see a definite point of diminishing returns at around 150; however, you will also see that most groups are around 60 large.</p>
-<p align="center"><img src="http://www.lifewithalacrity.com/UOGuildPowerLaw.jpg" alt="UO Guild Power Law" /></p>
-<p align="center"><img src="http://www.lifewithalacrity.com/UOGuildHistogram.jpg" alt="UO Guild Histogram" /></p>
+<p align="center"><img src="/UOGuildPowerLaw.jpg" alt="UO Guild Power Law" /></p>
+<p align="center"><img src="/UOGuildHistogram.jpg" alt="UO Guild Histogram" /></p>
 <p>Jessica Mulligan, executive producer at <a href="http://www.turbinegames.com/">Turbine Games</a>, confirmed these numbers to me:</p>
 <blockquote><p><em>The numbers match up with my (currently) mostly anecdotal evidence for <a href="http://ac.turbingames.com">Asheron's Call</a>.&nbsp; We have allegiances in the hundreds and even thousands of members, but most of those members are inactive, non-participatory in the group on a regular basis or are mule accounts for farming XP.&nbsp; It is rare to have more than 40 or so active participants in an Allegiance.</em></p></blockquote>
 <p>I've seen similar limits myself in some of the small online games that <a href="http://www.skotos.com">Skotos</a> produces. For instance, in <a href="http://www.skotos.net/games/marrach">Castle Marrach</a>, which is a social-dominant game (i.e. like a MUSH), the game grew quickly until we reached approximately 150-200 active users. However, whenever it grew beyond that number, it always seemed that politics and dissatisfaction would bubble up such that people would drop out, leaving us back close to 150 or 160. (That we would ever exceed 150 is a bit of a surprise, but I think it's due to any number of factors, including a variable 24-hour user base, wherein on a given day we might only see a little more then half of our community members, below Dunbar's Number, and only get up to close to 200 or so over a full week.)</p>
@@ -86,16 +86,16 @@ Thus Dana Boyd gets it right when she uses the word MAXIMUM in her <a href="http
 <p>The chasm that starts somewhere between 9 to 12 people can be especially daunting for a small business. As you grow past 12 or so employees, you must start specializing and having departments and direct reports; however, you are not quite large enough for this to be efficient, and thus much employee time that you put toward management tasks is wasted. Only as you approach and pass 25 people does having simple departments and managers begin to work again, as it starts to really make sense for department heads to spend significant time just communicating and coordinating (and as individual departments become large enough to once again allow for the dynamic exchange of ideas that had previously occurred in the original 5-9 member seed group).</p>
 <p>I've already noted the next chasm when you go beyond 80 people, which I think is the point that Dunbar's Number actually marks for a non-survival oriented group. Even at this lower point, the noise level created by required socialization becomes an issue, and filtering becomes essential. As you approach 150 this begins to be unmanageable. Once a company grows past 200 you are really starting to need middle-management, but often you can't afford it yet. Only when you get up past that, maybe at 350-500 people, does middle-management start really working, primarily because you've once again segmented your original departments, possibly again reducing them to Dunbar-sized groups.</p>
 <p>The following chart shows anecdotal satisfaction ratings for these lower group sizes:</p>
-<p align="center"><img src="http://www.lifewithalacrity.com/GroupSatisfaction.jpg" alt="Group Satisfaction" /></p>
+<p align="center"><img src="/GroupSatisfaction.jpg" alt="Group Satisfaction" /></p>
 <p>Much of this is probably predicted by Dunbar's model, if you add in the non-survival and dispursed community modifiers that I discuss here. Essentially, as we increase group sizes beyond 80, to 150, 200, or even 350-500, we typically do so by breaking larger groups down into smaller ones, and continually reducing community sizes down to the point where they can be understood and managed by people -- and so efficiency reasserts itself.</p><br />
 <hr />
 <blockquote><p><em>Since this post was originally posted, I have added a number of other posts about the Dunbar Number and group size issues:</em></p>
 <ul>
-<li><a href="http://www.lifewithalacrity.com/2005/02/dunbar_triage_t.html">2005-02: Dunbar Triage: Too Many Connections</a></li>
-<li><a href="http://www.lifewithalacrity.com/2005/03/dunbar_altruist.html">2005-03: Dunbar, Altruistic Punishment, and Meta-Moderation</a></li>
-<li><a href="http://www.lifewithalacrity.com/2005/07/cheers_belongin.html">2005-07: Cheers: Belongingness and Para-Social Relationships</a></li>
-<li><a href="http://www.lifewithalacrity.com/2005/08/dunbar_world_of.html">2005-08: Dunbar &amp; World of Warcraft</a></li>
-<li><a href="http://www.lifewithalacrity.com/2005/10/dunbar_group_co.html">2005-19: Dunbar Number &amp; Group Cohesion</a></li></ul></blockquote>
+<li><a href="/2005/02/dunbar_triage_t.html">2005-02: Dunbar Triage: Too Many Connections</a></li>
+<li><a href="/2005/03/dunbar_altruist.html">2005-03: Dunbar, Altruistic Punishment, and Meta-Moderation</a></li>
+<li><a href="/2005/07/cheers_belongin.html">2005-07: Cheers: Belongingness and Para-Social Relationships</a></li>
+<li><a href="/2005/08/dunbar_world_of.html">2005-08: Dunbar &amp; World of Warcraft</a></li>
+<li><a href="/2005/10/dunbar_group_co.html">2005-19: Dunbar Number &amp; Group Cohesion</a></li></ul></blockquote>
 <footer><h3>Comments</h3>
 <div class="u-comment h-cite">
 <p class="p-content p-name">Excellent analysis!!!

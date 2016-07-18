@@ -57,7 +57,7 @@ With all the effort it takes to join and start these services, as well as the on
 <p>Related, if everyone doesn't discriminate who they choose as friends, the functionality of these sites may break down, or just become popularity contets.</p>
 <h2>The Perfect Social Networking Service</h2>
 My ideal service would have the the multiple professional affiliation features of LinkedIn, but also allow me to show non-professional affilations. It would allow me to form intentional communities like Tribes.Net, but would also let me do a Wiki in addition to a message board. It would have meeting/party invite services like eVite, and blogging features like LiveJournal. It would have an endorsement system like LinkedIn integrated not only with professional endorsements, but personal endorsements as well, and you could even endorse intentional communities. It would let me better map and control my network, giving different friends different privileges. It would handle the release of my personal information like Ryse, but less clunky.
-<p><font color=green>(I have a followup to this blog post on <a href="http://www.lifewithalacrity.com/2003/12/followup_to_eva.html">Thursday</a>.)</font></p>
+<p><font color=green>(I have a followup to this blog post on <a href="/2003/12/followup_to_eva.html">Thursday</a>.)</font></p>
 <footer><h3>Comments</h3>
 <div class="u-comment h-cite">
 <p class="p-content p-name">It may be time to refresh this post by adding some of the more recent self-sufficient social networks driven not by explicit affiliations but by patterns of behavior.  These networks have the potential of growing much faster due to the low maintenance required on the user side.

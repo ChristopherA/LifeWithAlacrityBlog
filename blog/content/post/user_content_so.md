@@ -22,7 +22,7 @@ topic of game design called <a href="http://www.skotos.net/articles/TTnT_.shtml"
 <blockquote><p><em>...the more user content that we allow into games, the more
 troubles we have separating the good from the bad, the signal from the
 noise. As we introduce user content systems into games, filtering it will become the next challenge. Fortunately there are already some answers in our nearby field of Social Software.</em></p>
-</blockquote><p>As I wrote about in an <a href="http://www.lifewithalacrity.com/2003/12/socialization_i.html">older post</a>, Shannon has also written a number of interesting columns on the topic of designing social games:</p>
+</blockquote><p>As I wrote about in an <a href="/2003/12/socialization_i.html">older post</a>, Shannon has also written a number of interesting columns on the topic of designing social games:</p>
 <ul>
 <li><a href="http://www.skotos.net/articles/TTnT_136.phtml">Social Gaming Interactions, Part One: A History of Form</a><br />
 </li>

@@ -16,7 +16,7 @@ tags:
   - "page"
 date: "2004-05-13T14:58:39-07:00"
 ---
-<p>I have been leading the design of a new Open Source collaboration tool called <a href="http://editthispagephp.sourceforge.net/home/index.php">EditThisPagePHP<a>, which started <a href="http://www.lifewithalacrity.com/2003/12/editthispagephp.html">six months ago</a> and now is in beta.</p>
+<p>I have been leading the design of a new Open Source collaboration tool called <a href="http://editthispagephp.sourceforge.net/home/index.php">EditThisPagePHP<a>, which started <a href="/2003/12/editthispagephp.html">six months ago</a> and now is in beta.</p>
 <p>My goal with EditThisPagePHP attempt to come close to <a href="http://www.scripting.com/">Dave Winer's</a> <a href="http://davenet.scripting.com/discuss/msgReader$641?mode=topic">visionary statement</a> back in May of 1999:</p>
 <blockquote><i>When I'm writing for the web, and I'm browsing my own site, every bit of text that I create has a button that says Edit This Page when I view it. When I click the button, a new page opens with the text in an HTML textarea. I edit. Click on Submit. The original page displays with the change. Three easy steps. The essential element is that *every* bit of text has this button. There can be no exceptions.</i></blockquote>
 <p>At the fundamental level, EditThisPagePHP basically just let you remotely edit a single page. There are many situations where existing Wiki or Blog software is too complicated, or imposes too much structure. EditThisPagePHP lets you have total control over the HTML -- you can use sophisticated CSS layouts, or very simple HTML -- the software does not get in the way.</p>

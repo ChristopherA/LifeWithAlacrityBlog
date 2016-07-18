@@ -22,6 +22,7 @@ import re
 import sys
 import time
 import urlparse
+import absrel
 from xml.sax.saxutils import escape
 
 
@@ -274,6 +275,7 @@ class MovableType2Hugo(object):
   def _TranslateContents(self, content):
     content = content.replace('''<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/all.js#xfbml=1"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>''',
        '<script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1"></script>')
+    content = content.replace('http://www.lifewithalacrity.com/','/')
     return self._Encode(content,False)
 
   def _Encode(self, content, stripQuotes=True):

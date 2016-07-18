@@ -44,7 +44,7 @@ content that does exist (<a href="http://citeseer.ist.psu.edu/context/1589611/0"
 <hr />
 <p><em>See Also:</em>
 </p><blockquote>
-<li><em><a href="http://www.lifewithalacrity.com/2005/07/extrapolative_h.html">2005-07: Extrapolative Hostility in the Online Medium</a></em></li>
+<li><em><a href="/2005/07/extrapolative_h.html">2005-07: Extrapolative Hostility in the Online Medium</a></em></li>
 </blockquote>
 <p><em>(This is a update/rewrite of what I <span style="text-decoration: underline;">originally wrote</span><a href="http://static.userland.com/userLandDiscussArchive/msg021566.html">&nbsp;</a> in <a href="http://www.scripting.com/">Dave Winer's</a> UserLand discussion group back in September of 2000).</em></p>
 <footer><h3>Comments</h3>
