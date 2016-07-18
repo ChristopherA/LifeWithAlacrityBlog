@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<section id="main" class="h-feed">
+{{ partial "feedblock.html" . }}
+  <div class="tag-list">
+      <p id="tag-name"><h1>Tag: {{ .Title }}</h1>
+  <div>
+    {{ range first 10 .Data.Pages }}
+        {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</section>
+{{ partial "footer.html" . }}

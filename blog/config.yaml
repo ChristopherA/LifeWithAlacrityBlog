@@ -8,6 +8,9 @@ permalinks:
 
 publishdir: "../../lifewithalacrity.github.io"
 
+taxonomies:
+  tag: "tags"
+
 params:
   name: "Life With Alacrity"
   summary: "A blog on social software, collaboration, trust, security, privacy, and internet tools"
