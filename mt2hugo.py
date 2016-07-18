@@ -213,7 +213,7 @@ class MovableType2Hugo(object):
       # If the line is empty and we're processing the body, add a newline
       # break
       elif tag_name == 'BODY' and len(line) == 0:
-        tag_contents += '\n'
+        tag_contents += ''
 
       # This would be a line of content beyond a key/value pair
       elif len(key) != 0:
@@ -296,8 +296,10 @@ if __name__ == '__main__':
     print
     print ' Outputs the converted Hugo export file to standard out.'
     sys.exit(-1)
-
+  path='post'
+  if len(sys.argv) >= 2:
+    path  = sys.argv[2]
   mt_file = open(sys.argv[1])
   translator = MovableType2Hugo()
-  translator.Translate(mt_file)
+  translator.Translate(mt_file,path)
   mt_file.close()
