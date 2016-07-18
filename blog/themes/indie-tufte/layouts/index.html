@@ -2,7 +2,7 @@
 <section id="main" class="h-feed">
 {{ partial "feedblock.html" . }}
   <div>
-    {{ range first 10 .Data.Pages }}
+    {{ range first 30 .Data.Pages }}
         {{ .Render "summary"}}
     {{ end }}
   </div>
