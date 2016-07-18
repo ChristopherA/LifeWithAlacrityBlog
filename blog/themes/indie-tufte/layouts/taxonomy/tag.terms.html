@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+<section id="main" >
+{{ partial "navblock.html" . }}
+  <div>
+   <h1 id="title">{{ .Title }}</h1>
+   <ul>
+   {{ $data := .Data }}
+    {{ range $key,$value := .Data.Index.ByCount }}
+    <li><a href="/tags/{{ $value.Name | urlize }}"> {{ $value.Name }} </a> {{ $value.Count }} </li>
+    {{ end }}
+   </ul>
+  </div>
+</section>
+  <div class="tag-list">
+</section>
+{{ partial "footer.html" . }}

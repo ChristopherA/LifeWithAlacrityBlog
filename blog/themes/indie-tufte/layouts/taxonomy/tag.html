@@ -4,7 +4,7 @@
   <div class="tag-list">
       <p id="tag-name"><h1>Tag: {{ .Title }}</h1>
   <div>
-    {{ range first 10 .Data.Pages }}
+    {{ range first 100 .Data.Pages }}
         {{ .Render "summary"}}
     {{ end }}
   </div>
