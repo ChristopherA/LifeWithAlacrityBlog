@@ -1,2 +1,9 @@
 <h1 class="p-name">{{ .Site.Params.name }} </h1>
+<label for="tags" class="margin-toggle">Tags➤</label>
+<input type="checkbox" id="tags" class="margin-toggle"/>
+<span class="marginnote">
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+<a href="/tags/{{ $name | urlize }}">{{ $name }}</a> 
+{{ end }}
+</span>
 <p class="p-summary">{{ .Site.Params.summary }} by <span class="h-card">{{ .Site.Params.author }}</span>.</p>
