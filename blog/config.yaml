@@ -2,6 +2,7 @@
 baseurl: "https://lifewithalacrity.github.io/"
 languageCode: "en-us"
 title: "Life With Alacrity"
+theme: indie-tufte
 
 permalinks:
   post: /:year/:month/:title/

@@ -44,7 +44,7 @@ body { width: 87.5%;
        padding-left: 12.5%;
        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
        background-color: #fffff8;
-       color: #111;
+       color: black;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
 
@@ -92,6 +92,9 @@ p { line-height: 2rem;
     margin-bottom: 1.4rem;
     padding-right: 0;
     vertical-align: baseline; }
+
+/* summaries for homepage */
+.abstract {font-size: 1.1rem; line height:1.3em;}
 
 /* Chapter Epigraphs */
 div.epigraph { margin: 5em 0; }
@@ -193,6 +196,14 @@ img { max-width: 100%; }
                                            font-family: et-book-roman-old-style;
                                            position: relative;
                                            vertical-align: baseline; }
+
+sup {
+    font-size: .7em;
+    top: -.7em;
+    vertical-align: inherit;
+    left: 0.1em;
+    position: relative;
+}
 
 .sidenote-number:after { content: counter(sidenote-counter);
                          font-size: 1rem;
