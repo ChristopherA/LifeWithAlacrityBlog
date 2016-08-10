@@ -94,7 +94,7 @@ p { line-height: 2rem;
     vertical-align: baseline; }
 
 /* summaries for homepage */
-.abstract {font-size: 1.1rem; line height:1.3em;}
+.abstract {font-size: 1.1rem; line-height:1.3em;}
 
 /* Chapter Epigraphs */
 div.epigraph { margin: 5em 0; }
