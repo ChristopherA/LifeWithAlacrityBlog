@@ -7,7 +7,7 @@ The static site generator used is Hugo  - https://gohugo.io/
 Install that on your system using https://github.com/spf13/hugo/releases (current site built with v0.16)
 This was not built from source or modified; all the changes are to templates within this repository
 ### Installing
-Checkout this repository and the github.io one into the same directory (that way the transformation scripts run unmodified)
+Checkout this repository and the lifewithalacrity.github.io one into the same directory (that way the transformation scripts run unmodified)
 You'll also need a python 2.7 install to run the legacy import scripts.
 
 ## Previewing
@@ -56,3 +56,29 @@ hugo
 ```
 
 That will build into the github.io directory so you can see diffs in git once built
+
+## Deploying
+
+Currently done by committing to the lifewithalacrity.github.io master, so github deploys it.
+
+# Translating the archival blog
+## making the staic copy in /previous
+The copy in lifewithalacrity.github.io/previous was fetched with spiderpig into the raw dumps directory, then had all the absolute URLs made relative with makerelative.py using the mung.py script. This needs an intermediate scratchspace folder as there are 2 separate URL paths that needed relativising. This should not need to be run again, as the archive is there and working. From the LifeWithAlacrity directory do
+```
+mkdir ../scratchspace
+python mung.py
+```
+## generating Hugo compatible files from the MoveableType dump
+This is done using mt2hugo.py (based on https://github.com/pra85/google-blog-converters-appengine).
+Run 
+```
+python mt2hugo.py raw\ dumps/lifewithalactity.txt blog/content/post
+```
+
+This had moved from a generic exporter to having some code that is specific to LifeWithAlacrity to handle FB posts and relativize URLs,  done in _TranslateContents().
+
+
+
+
+
+

@@ -43,8 +43,8 @@ def appenditem(entry,name,value):
     entry[name] = l
 
 class MovableType2Hugo(object):
-  """Performs the translation of MovableType text export to Blogger
-     export format.
+  """Performs the translation of MovableType text export to Hugo
+     files.
   """
 
   def __init__(self):
@@ -304,9 +304,9 @@ class MovableType2Hugo(object):
 
 if __name__ == '__main__':
   if len(sys.argv) <= 1:
-    print 'Usage: %s <movabletype_export_file>' % os.path.basename(sys.argv[0])
-    print
-    print ' Outputs the converted Hugo export file to standard out.'
+    print 'Usage: %s <movabletype_export_file> <path to hugo posts folder' % os.path.basename(sys.argv[0])
+    print 'eg %s /raw\ dumps/lifewithalactity.txt blog/content/post' % os.path.basename(sys.argv[0])
+    print ' Outputs the MT export file to Hugo posts.'
     sys.exit(-1)
   path='post'
   if len(sys.argv) >= 2:
