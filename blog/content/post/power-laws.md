@@ -2,6 +2,7 @@
 title: "Community by the Numbers, Part III: Power Laws"
 slug: "power-laws"
 url: "/2009/03/power-laws.html"
+image: "http://farm4.static.flickr.com/3616/3366611997_95f255e4a3_m.jpg"
 tags:
   - "Community by the Numbers"
   - "Social Software"

@@ -2,6 +2,7 @@
 title: "The Dunbar Number as a Limit to Group Sizes"
 slug: "the_dunbar_numb"
 url: "/2004/03/the_dunbar_numb.html"
+image: "http://www.bcg.com/images/this_is_bcg/strategy_institute/brain_size_02.gif"
 tags:
   - "Community by the Numbers"
   - "Social Software"

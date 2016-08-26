@@ -2,6 +2,7 @@
 title: "BGIedu Students Post for Blog Action Day on Food"
 slug: "bgiedu-students-post-for-blog-action-day"
 url: "/2011/10/bgiedu-students-post-for-blog-action-day.html"
+image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef0154362c6f5f970c-320wi"
 tags:
   - "Weblogs"
   - "blog action day"

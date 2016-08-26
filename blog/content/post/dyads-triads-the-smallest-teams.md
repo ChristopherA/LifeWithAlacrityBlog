@@ -2,6 +2,7 @@
 title: "Dyads & Triads — The Smallest Teams"
 slug: "dyads-triads-the-smallest-teams"
 url: "/2013/04/dyads-triads-the-smallest-teams.html"
+image: "http://www.bgi.edu/files/BGI-Logomark-CMYK.jpg"
 tags:
   - "Business"
   - "Community by the Numbers"

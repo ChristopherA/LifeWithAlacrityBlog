@@ -2,6 +2,7 @@
 title: "Teaching “Using the Social Web for Social Change” at BGI.edu"
 slug: "teaching-using-the-social-web-for-social-change-at-bgiedu"
 url: "/2009/09/teaching-using-the-social-web-for-social-change-at-bgiedu.html"
+image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef0120a57769f5970b-800wi"
 tags:
   - "Web/Tech"
   - "bgi"

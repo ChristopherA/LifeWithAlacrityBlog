@@ -2,6 +2,7 @@
 title: "SynchroEdit: Simultaneous Editing for the Web"
 slug: "for_the_last_se"
 url: "/2005/10/for_the_last_se.html"
+image: "http://lifewithalacrity.github.io/previous/images/synchroeditmac.png"
 tags:
   - "Social Software"
   - "User Interface"
@@ -41,7 +42,7 @@ date: "2005-10-08T16:04:17-07:00"
 <p>In addition to to financial support of SocialText and Joichi Ito, I have some offers of help from the <a href="http://www.bgiedu.org">Bainbridge Graduate Institute</a>, who plan to use it in its socially responsible and environmentally sustainable MBA program, and we've also taken advantage of some code developed by <a href="http://www.skotos.net/">Skotos</a>.</p>
 <p>The development of SynchroEdit is being led by Kalle Alm, a young Swedish coder I met when he was creating an online game at Skotos. Skotos has long had the vision of having games created by its members, and Kalle Alm was the first member to create a game completely from scratch using Skotos' tools.</p>
 <p>We are seeking more financial contributions so that we can accelerate development. Currently SynchroEdit only works in Mozilla/Firefox, and I anticipate that making it work with Internet Explorer may be quite difficult, so we'll need more partners to help.</p>
-<p><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/christopher_allen_web2point1_brainjam.png" title="Christopher_allen_web2point1_brainjam" alt="Christopher_allen_web2point1_brainjam" style="margin: 0px 5px 5px 0px; float: left;" />I did a demo of last year's open source project, <a href="http://www.EditThisPage.net">EditThisPage</a>, and of the SynchroEdit alpha at <a href="http://www.web2point1.org/">Web 2.1 BrainJam</a> last week; there are two videos available from Enric Teller's vBlog: <a href="http://www.cirne.com/vlog/2005/10/10/web-21-a-brainjam-christopher-allen-presentation/">Presentation</a> and <a href="http://www.cirne.com/vlog/2005/10/10/web-21-a-brainjam-christopher-allen-qa/">Q&amp;A</a>.&nbsp; </p>
+<p><img border="0" src="/previous/photos/uncategorized/christopher_allen_web2point1_brainjam.png" title="Christopher_allen_web2point1_brainjam" alt="Christopher_allen_web2point1_brainjam" style="margin: 0px 5px 5px 0px; float: left;" />I did a demo of last year's open source project, <a href="http://www.EditThisPage.net">EditThisPage</a>, and of the SynchroEdit alpha at <a href="http://www.web2point1.org/">Web 2.1 BrainJam</a> last week; there are two videos available from Enric Teller's vBlog: <a href="http://www.cirne.com/vlog/2005/10/10/web-21-a-brainjam-christopher-allen-presentation/">Presentation</a> and <a href="http://www.cirne.com/vlog/2005/10/10/web-21-a-brainjam-christopher-allen-qa/">Q&amp;A</a>.&nbsp; </p>
 <p>If you are interested in learning more, visit the <a href="http://www.synchroedit.com">SynchroEdit website</a>. We have additional information on the program, a <a href="http://wiki.synchroedit.com">developers wiki</a>, as well as a sandbox that you can play in to demonstrate SynchroEdit in use.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>

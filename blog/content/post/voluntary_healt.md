@@ -2,6 +2,7 @@
 title: "Voluntary Health Associations & Social Software"
 slug: "voluntary_healt"
 url: "/2005/02/voluntary_healt.html"
+image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/acsrelay.jpg"
 tags:
   - "Social Software"
   - "Web/Tech"
@@ -20,7 +21,7 @@ introduction and overview of concepts and products related to Social
 Software and Social Networking. (<a href="http://web.lifewithalacrity.com/christophera/FVHA_Social_Software_Keynote_Presentation.pdf">My slides are here - 6.6MB .pdf</a>)</p>
 <p>
 In my research about this community, I find that they have some unique and interesting problems.</p>
-<p><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/acsrelay.jpg" title="Acsrelay" alt="Acsrelay" style="margin: 0px 0px 5px 5px; float: right;" />
+<p><img border="0" src="/previous/photos/uncategorized/acsrelay.jpg" title="Acsrelay" alt="Acsrelay" style="margin: 0px 0px 5px 5px; float: right;" />
 The attendees of this conference are a collection of VPs and national
 directors from major Voluntary Health Associations such as American
 Cancer Society, American Heart Association, American Diabetes Association, March of
@@ -59,7 +60,7 @@ innovation, and it can help drive fund-raising numbers higher.</p>
 openness of social software comes with a price. For instance, many of
 these associations are afraid of enabling even simple unmoderated
 discussion lists, in fear that bad or inappropriate information would be shared. There are also legitimate concerns about the quality, audience level, and attributation for even correct information. In the Q&amp;A after my presentation I tried to explain how, when looking at individual blogs, or individual events of info vandalism, it is not really relevant if the communities and processes behind the Social Software are able to correct or filter those events. This is a difficult point to get across, as it requires people to learn to trust a system where the squeaky wheels and trolls are the loudest.</p>
-<p><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/acslogowhite.gif" title="Acslogowhite" alt="Acslogowhite" style="margin: 0px 0px 5px 5px; float: right;" />
+<p><img border="0" src="/previous/photos/uncategorized/acslogowhite.gif" title="Acslogowhite" alt="Acslogowhite" style="margin: 0px 0px 5px 5px; float: right;" />
 One particular interesting thing about this conference is that
 it is one of the first between multiple associations. I know from some
 other non-profits that I'm working with that they often feel in

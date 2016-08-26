@@ -2,6 +2,7 @@
 title: "iPhoneDevCamp and Hack-a-Thon"
 slug: "iphonedevcamp-a"
 url: "/2007/07/iphonedevcamp-a.html"
+image: "http://lifewithalacrity.github.io/previous/images/2007/07/08/everyone.jpg"
 tags:
   - "Games"
   - "iPhone"

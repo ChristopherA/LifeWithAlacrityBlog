@@ -2,6 +2,7 @@
 title: "Getting Ready for the iPhone"
 slug: "getting_ready_f"
 url: "/2007/06/getting_ready_f.html"
+image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/watereddown.jpg"
 tags:
   - "iPhone"
   - "Social Software"
@@ -21,7 +22,7 @@ tags:
   - "iPhoneWebDev"
 date: "2007-06-15T20:06:45-07:00"
 ---
-<p><a href="http://www.apple.com/iphone/ads/ad4/"><img border="0" alt="Watereddown" title="Watereddown" src="http://lifewithalacrity.blogs.com/photos/uncategorized/2007/06/15/watereddown.jpg" style="margin: 0px 0px 5px 5px; float: right;" /></a>
+<p><a href="http://www.apple.com/iphone/ads/ad4/"><img border="0" alt="Watereddown" title="Watereddown" src="/previous/photos/uncategorized/2007/06/15/watereddown.jpg" style="margin: 0px 0px 5px 5px; float: right;" /></a>
 I've been excited about the web capabilities of the upcoming <a href="http://www.apple.com/iphone/">iPhone</a> for some time. As a reluctant laptop user (&quot;oh, my aching shoulders&quot;), there is real appeal to me in a better portable web browser. I have tried most of the PDA and cellphone browsers to date, and none offer more then a poor cousin to the web that we experience on the desktop.</p>
 <p>Instead, the iPhone offers a desktop-class browser. There is no transcoding, nor any subset of HTML such as <a href="http://en.wikipedia.org/wiki/Wireless_Markup_Language">WML</a>. Full web pages are rendered in the small display, and when you &quot;double-tap&quot; with your finger the section you touch is expanded to a more readable size. The <a href="http://www.apple.com/iphone/ads/ad4/">video</a> available at the Apple website shows this capability in use.</p>
 <p>Because of the iPhone's upcoming July 29th release, I decided to participate in this week's <a href="http://developer.apple.com/wwdc/">Apple WWDC</a> conference for Macintosh developers. There a number of announcements about the iPhone were released, and a number of technical sessions on the iPhone and iPhone-related technologies were held. Together the iPhone demonstrations at the public keynote and other demonstrations throughout the WWDC offered some real promise for when the phone is released on June 29th.</p>

@@ -2,6 +2,7 @@
 title: "Politics with Respect"
 slug: "politics_with_r"
 url: "/2004/08/politics_with_r.html"
+image: "http://lifewithalacrity.github.io/previous/images/BushArtSm.jpg"
 tags:
   - "politics"
   - "jont"

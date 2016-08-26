@@ -2,6 +2,7 @@
 title: "The Four Kinds of Privacy"
 slug: "the-four-kinds-of-privacy"
 url: "/2015/04/the-four-kinds-of-privacy.html"
+image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef01b7c77cd15c970b-500wi"
 tags:
   - "Security"
   - "Social Software"

@@ -2,6 +2,7 @@
 title: "Simple Yet Sophisticated Group Page Editing"
 slug: "simple_yet_soph"
 url: "/2004/05/simple_yet_soph.html"
+image: "http://editthispagephp.sourceforge.net/home/index-images/tn_editpage.png"
 tags:
   - "Social Software"
   - "User Interface"

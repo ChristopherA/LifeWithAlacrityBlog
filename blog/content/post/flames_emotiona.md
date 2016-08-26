@@ -2,6 +2,7 @@
 title: "Flames: Emotional Amplification of Text"
 slug: "flames_emotiona"
 url: "/2006/02/flames_emotiona.html"
+image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/cycle_of_flames.jpg"
 tags:
   - "Social Software"
   - "Web/Tech"
@@ -20,7 +21,7 @@ tags:
   - "text"
 date: "2006-02-13T13:07:32-07:00"
 ---
-<p><img border="0" alt="Cycle_of_flames" title="Cycle_of_flames" src="http://lifewithalacrity.blogs.com/photos/uncategorized/cycle_of_flames.jpg" style="margin: 0px 0px 5px 5px; float: right;" />
+<p><img border="0" alt="Cycle_of_flames" title="Cycle_of_flames" src="/previous/photos/uncategorized/cycle_of_flames.jpg" style="margin: 0px 0px 5px 5px; float: right;" />
 I've been a moderator/host/forum leader for various bulletin boards and other online communities since the early 1980s; first on CompuServe, later on GEnie and AOL, and then professionally in the early days of Consensus Development. One of the behaviors that happens in online communities and that I rarely see elsewhere is flaming -- where one member writes an extremely inappropriate, typically passionately worded attack on another. Flaming behavior can hurt an online community.</p>
 <p>It is <a href="http://www.internet-guide.co.uk/email-flame.html">commonly thought</a> that flames occur because <em>&quot;there is very little proper policing done on the Internet&quot;</em> but I believe this to be false. Instead, I believe that it is the consequence of the medium primarily existing as text.</p>
 <p>In fact, what you'll observe if you study individual flames is that they typically start as an escalation of emotion, only spiraling later into passionate and personal arguments. The only way to stop flames from destroying a community is to break this cycle.</p>

@@ -2,6 +2,7 @@
 title: "Paying for Favors"
 slug: "paying-for-favors"
 url: "/2009/11/paying-for-favors.html"
+image: "http://farm4.static.flickr.com/3133/2858261316_40a63f6dd5_m.jpg"
 tags:
   - "Business"
   - "Entrepreneuring"

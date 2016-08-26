@@ -2,6 +2,7 @@
 title: "Circus Contraption in SF during August"
 slug: "circus_contrapt"
 url: "/2004/08/circus_contrapt.html"
+image: "http://lifewithalacrity.github.io/previous/images/circus_contraption_1-thumb.jpg"
 tags:
   - "Recreation"
   - "review circus contraption burlesque risque san francisco performance"

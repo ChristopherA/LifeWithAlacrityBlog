@@ -3,6 +3,7 @@ title: "Manage the Environment, Not the People"
 slug: "manage-the-environment-not-the-people"
 url: "/2011/12/manage-the-environment-not-the-people.html"
 draft: "true"
+image: "http://www.matttaylor.com/public/graphics_7/350_matt_2003_f.jpg"
 date: "2011-12-27T20:21:08-07:00"
 ---
 <p><a href="http://www.matttaylor.com/public/faq.htm" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;" title="Taylor FAQ"><img alt="Matt Taylor Photo" border="0" height="200" src="http://www.matttaylor.com/public/graphics_7/350_matt_2003_f.jpg" width="149" /></a> In the late 80&#39;s I met <a href="http://www.matttaylor.com/">Matt Taylor</a> at a Mac user group event, and we became friends. We eventually became reciprocal apprentices — he learned from me about computers and collaborating online, and I learned from him about facilitating face-to-face collaboration and the architecture of facilitation.</p>

@@ -2,6 +2,7 @@
 title: "Blog Action Day on Climate Change"
 slug: "blog-action-day-on-climate-change"
 url: "/2009/10/blog-action-day-on-climate-change.html"
+image: "http://www.blogactionday.org/imgs/badges/bad-180-150.jpg"
 tags:
   - "blog action day"
   - "climate change"

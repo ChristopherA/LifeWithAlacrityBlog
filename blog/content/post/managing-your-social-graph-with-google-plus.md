@@ -2,6 +2,7 @@
 title: "Managing your Social Graph with Google+ [Google Plus]"
 slug: "managing-your-social-graph-with-google-plus"
 url: "/2011/07/managing-your-social-graph-with-google-plus.html"
+image: "http://farm4.static.flickr.com/3230/3055563798_5355b9b99c_m.jpg"
 tags:
   - "Social Software"
   - "User Interface"

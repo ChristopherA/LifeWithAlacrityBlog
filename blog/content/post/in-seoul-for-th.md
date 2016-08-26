@@ -2,6 +2,7 @@
 title: "In Seoul for the Social Web"
 slug: "in-seoul-for-th"
 url: "/2008/06/in-seoul-for-th.html"
+image: "http://farm4.static.flickr.com/3067/2610236112_a59ce2f7b5_m.jpg"
 tags:
   - "Weblogs"
   - "seoul"

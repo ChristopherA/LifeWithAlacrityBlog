@@ -2,6 +2,7 @@
 title: "Community by the Numbers, Part II: Personal Circles"
 slug: "personal-circle"
 url: "/2008/11/personal-circle.html"
+image: "http://farm4.static.flickr.com/3183/3054773873_07514d66dc_m.jpg"
 tags:
   - "Community by the Numbers"
   - "Social Software"

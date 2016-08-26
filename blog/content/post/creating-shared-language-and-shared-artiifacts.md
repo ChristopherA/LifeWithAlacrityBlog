@@ -2,6 +2,7 @@
 title: "Creating Shared Language and Shared Artifacts"
 slug: "creating-shared-language-and-shared-artiifacts"
 url: "/2009/09/creating-shared-language-and-shared-artiifacts.html"
+image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef0120a577a68d970b-800wi"
 tags:
   - "shared language"
   - "shared artifact"

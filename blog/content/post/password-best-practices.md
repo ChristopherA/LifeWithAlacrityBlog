@@ -2,6 +2,7 @@
 title: "Password Best Practices"
 slug: "password-best-practices"
 url: "/2009/09/password-best-practices.html"
+image: "http://farm3.static.flickr.com/2136/2460905893_0c3fc213c5_m.jpg"
 tags:
   - "Security"
   - "Web/Tech"

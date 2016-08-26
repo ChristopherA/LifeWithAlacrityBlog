@@ -2,6 +2,7 @@
 title: "Dunbar Number Presentation at MeshForum 2006"
 slug: "dunbar_number_p"
 url: "/2006/08/dunbar_number_p.html"
+image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/christopher_allen_sketch_at_meshforum_20.jpg"
 tags:
   - "Community by the Numbers"
   - "Science"
@@ -19,7 +20,7 @@ tags:
   - "social software"
 date: "2006-08-31T11:52:49-07:00"
 ---
-<p><a href="http://www.flickr.com/photos/davegray/147934089/"><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/christopher_allen_sketch_at_meshforum_20.jpg" title="Sketch by Dave Gray" alt="Sketch by Dave Gray" style="margin: 0px 0px 5px 5px; float: right;" /></a>Last May I did an abbreviated version of my <a href="/2004/03/the_dunbar_numb.html">Dunbar Number</a> talk at MeshForum 2006. A MP3 podcast of that talk is now available at <a href="http://www.itconversations.com/shows/detail1072.html">IT Conversations</a><a href="http://www.itconversations.com/shows/detail1072.html">&nbsp;</a> or can be <a href="http://www.itconversations.com/audio/download/itconversations-1072.mp3">downloaded here (10mb)</a>.</p>
+<p><a href="http://www.flickr.com/photos/davegray/147934089/"><img border="0" src="/previous/photos/uncategorized/christopher_allen_sketch_at_meshforum_20.jpg" title="Sketch by Dave Gray" alt="Sketch by Dave Gray" style="margin: 0px 0px 5px 5px; float: right;" /></a>Last May I did an abbreviated version of my <a href="/2004/03/the_dunbar_numb.html">Dunbar Number</a> talk at MeshForum 2006. A MP3 podcast of that talk is now available at <a href="http://www.itconversations.com/shows/detail1072.html">IT Conversations</a><a href="http://www.itconversations.com/shows/detail1072.html">&nbsp;</a> or can be <a href="http://www.itconversations.com/audio/download/itconversations-1072.mp3">downloaded here (10mb)</a>.</p>
 <p>If you'd like to follow along, here is a pdf copy of my <a href="http://web.lifewithalacrity.com/christophera/MeshForum_2006_Dunbar_Number.pdf">presentation sides (10mb)</a>.</p>
 <p>Biggest addition to what I've written about before is some discussion about different kinds of social software and what what size groups they seem to be appropriate for.</p>
 <p>&nbsp;</p>

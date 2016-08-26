@@ -2,8 +2,8 @@
 title: "The Path to Self-Sovereign Identity"
 slug: "the-path-to-self-soverereign-identity"
 url: "/2016/04/the-path-to-self-soverereign-identity.html"
+image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef01b7c848c7a7970b-320wi"
 date: "2016-04-25T17:00:23-07:00"
-image: "/previous/.a/6a00d8341d8bc053ef01b7c848c7a7970b-pi"
 ---
 <p><a class="asset-img-link" href="/previous/.a/6a00d8341d8bc053ef01b7c848c7a7970b-pi" style="float: right;"><img alt="Identity-510866" class="asset  asset-image at-xid-6a00d8341d8bc053ef01b7c848c7a7970b img-responsive" src="/previous/.a/6a00d8341d8bc053ef01b7c848c7a7970b-320wi" style="margin: 0px 0px 5px 5px;" title="Identity-510866" /></a>Today I head out to a month-long series of events associated with identity: I’m starting with the 22st (!) <a href="http://www.internetidentityworkshop.com/">Internet Identity Workshop</a> next week; then I’m speaking at the blockchain conference <a href="http://www.coindesk.com/events/consensus-2016/">Consensus</a> about identity; next I am part of the team putting together the first <a href="http://id2020summit.org/">ID2020 Summit</a> on Digital Identity at the United Nations; and finally I&#39;m hosting the second <a href="http://www.weboftrust.info/">#RebootingWebOfTrust</a> design workshop on decentralized identity.</p>
 <p>At all of these events I want to share a vision for how we can enhance the ability of digital identity to enable trust while preserving individual privacy. This vision is what I call “Self-Sovereign Identity”.</p>

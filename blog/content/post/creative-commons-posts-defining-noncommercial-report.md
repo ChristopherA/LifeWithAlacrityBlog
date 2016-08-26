@@ -2,6 +2,7 @@
 title: "Creative Commons Posts “Defining Noncommercial” Report"
 slug: "creative-commons-posts-defining-noncommercial-report"
 url: "/2009/09/creative-commons-posts-defining-noncommercial-report.html"
+image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef0120a5c52eae970c-120pi"
 tags:
   - "Social Software"
   - "noncommercial"

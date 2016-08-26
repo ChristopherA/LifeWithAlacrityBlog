@@ -3,6 +3,7 @@ title: "Cultural Dimensions"
 slug: "cultural-dimens"
 url: "/2008/07/cultural-dimens.html"
 draft: "true"
+image: "http://www.geert-hofstede.com/graphs/hofstede_south_korea.gif"
 date: "2008-07-02T09:56:08-07:00"
 ---
 <p>

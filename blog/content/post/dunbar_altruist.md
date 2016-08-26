@@ -2,6 +2,7 @@
 title: "Dunbar, Altruistic Punishment, and Meta-Moderation"
 slug: "dunbar_altruist"
 url: "/2005/03/dunbar_altruist.html"
+image: "http://lifewithalacrity.github.io/previous/images/groupsatisfaction.gif"
 tags:
   - "Community by the Numbers"
   - "Science"

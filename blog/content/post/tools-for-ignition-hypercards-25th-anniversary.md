@@ -2,6 +2,7 @@
 title: "Tools for Ignition & HyperCard’s 25th Anniversary"
 slug: "tools-for-ignition-hypercards-25th-anniversary"
 url: "/2012/08/tools-for-ignition-hypercards-25th-anniversary.html"
+image: "https://lh5.googleusercontent.com/2hMUDycBGPQ3z3AM1rBtQw5J5-xDS9vNnaBZEbJf0G_GyROnc2pvxi0zCxLwxYH5jc3NTeD0gi3nbCnuq516Qzq4b1mqarsVDLAZaenIW0aPmtN6-JQ"
 tags:
   - "Web/Tech"
   - "hypercard25th"

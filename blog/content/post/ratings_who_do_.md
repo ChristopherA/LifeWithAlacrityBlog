@@ -2,6 +2,7 @@
 title: "Ratings: Who Do You Trust?"
 slug: "ratings_who_do_"
 url: "/2006/09/ratings_who_do_.html"
+image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/shannon_appelcline.jpg"
 tags:
   - "Games"
   - "Social Software"
@@ -27,7 +28,7 @@ date: "2006-09-14T16:28:58-07:00"
 ---
 <p>My colleague, <a href="http://www.skotos.net/about/staff/shannon_appelcline.php">Shannon Appelcline</a>, has been working on a game rating system for <a href="http://www.rpg.net">RPGnet</a>. This has resulted in real-world application of the principles for designing rating systems which we've previously discussed in our <a href="/2005/12/collective_choi.html">Collective Choice</a> articles. Shannon's newest article, <a href="http://www.skotos.net/articles/TTnT_/TTnT_196.phtml">Ratings,
 Who Do You Trust?</a> offers a look at weighting ratings based on reliability.</p>
-<p><img border="0" src="http://lifewithalacrity.blogs.com/photos/uncategorized/shannon_appelcline.jpg" title="Shannon_appelcline" alt="Shannon_appelcline" style="margin: 0px 0px 5px 5px; float: right;" /></p><blockquote><p><em>On the <a href="http://index.rpg.net/">RPGnet Gaming Index</a> we've put this all together to form a tree of weighted ratings that answer the question, <em>who do you trust</em>?</em></p>
+<p><img border="0" src="/previous/photos/uncategorized/shannon_appelcline.jpg" title="Shannon_appelcline" alt="Shannon_appelcline" style="margin: 0px 0px 5px 5px; float: right;" /></p><blockquote><p><em>On the <a href="http://index.rpg.net/">RPGnet Gaming Index</a> we've put this all together to form a tree of weighted ratings that answer the question, <em>who do you trust</em>?</em></p>
 <p><em>Here's how we measured each type of trust, and what we did about it:</em></p>
 <ul><li><p><em><strong>Volume of Ratings for an Item.</strong> Introduce a bayesian weight to offset the variability of items with low-volume ratings.</em></p></li>
 <li><p><em><strong>Volume of Ratings by a User.</strong> Give each user a weight based on his volume of contribution which is applied to his ratings.</em></p>

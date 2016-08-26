@@ -2,6 +2,7 @@
 title: "JotSpot: Application Wiki"
 slug: "jotspot_applica"
 url: "/2004/10/jotspot_applica.html"
+image: "http://www.jotspot.com/tours/advanced/img/slide09.jpg"
 tags:
   - "Social Software"
   - "User Interface"
