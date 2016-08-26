@@ -32,7 +32,6 @@ __author__ = 'Kevin Marks via JJ Lueck (jlueck@gmail.com)'
 # Constants
 ########################
 
-
 ###########################
 # Translation class
 ###########################
@@ -79,7 +78,18 @@ class MovableType2Hugo(object):
         # If the body tag is still being read, add what has been read.
         if tag_name == 'BODY':
           post_entry['content'] = self._TranslateContents(tag_contents)
-
+        # look for the first img in the post to be a featured image on the index pages
+        srcbits = post_entry['content'].split('src="')
+        if len(srcbits)>1:
+            imgurl = srcbits[1].split('"')[0]
+            if not 'connect.facebook.net' in imgurl and not imgurl.startswith('//'):
+                if not imgurl.startswith('http'):
+                    if imgurl.startswith('/previous/photos/uncategorized/'):
+                        bits= imgurl.split('/')
+                        imgurl = '/'.join(bits[:4]+bits[-1:])
+                    imgurl='http://lifewithalacrity.github.io'+imgurl
+                post_entry['image'] = imgurl
+        
         # Add the post to our feed
         feed.append(post_entry)
         last_entry = post_entry
@@ -229,7 +239,7 @@ class MovableType2Hugo(object):
         postcount = postcount+1
         with open("%s/%s.md" %(outPath,slug), 'w') as outfile:
             outfile.write('---\n') #YAML header
-            for key in ('title', 'slug', 'url', 'draft'):
+            for key in ('title', 'slug', 'url', 'draft','image'):
                 if entry.get(key):
                     outfile.write('%s: "%s"\n' %(key, entry.get(key))) #simple fields
             if entry.get('category'):
@@ -277,6 +287,7 @@ class MovableType2Hugo(object):
        '<script id="facebook-jssdk" src="//connect.facebook.net/en_US/all.js#xfbml=1"></script>')
     content = content.replace('http://lifewithalacrity.blogs.com/.a/','/previous/.a/')
     content = content.replace('http://www.lifewithalacrity.com/images/','/previous/images/')
+    content = content.replace('http://lifewithalacrity.blogs.com/photos/','/previous/photos/')
     content = content.replace('http://www.lifewithalacrity.com/','/')
     return self._Encode(content,False)
 
@@ -305,7 +316,7 @@ class MovableType2Hugo(object):
 if __name__ == '__main__':
   if len(sys.argv) <= 1:
     print 'Usage: %s <movabletype_export_file> <path to hugo posts folder' % os.path.basename(sys.argv[0])
-    print 'eg %s /raw\ dumps/lifewithalactity.txt blog/content/post' % os.path.basename(sys.argv[0])
+    print 'eg python %s raw\ dumps/lifewithalactity.txt blog/content/post' % os.path.basename(sys.argv[0])
     print ' Outputs the MT export file to Hugo posts.'
     sys.exit(-1)
   path='post'
