@@ -77,8 +77,3 @@ python mt2hugo.py raw\ dumps/lifewithalactity.txt blog/content/post
 
 This had moved from a generic exporter to having some code that is specific to LifeWithAlacrity to handle FB posts and relativize URLs,  done in _TranslateContents().
 
-
-
-
-
-
