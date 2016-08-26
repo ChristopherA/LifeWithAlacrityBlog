@@ -256,6 +256,8 @@ label.sidenote-number { display: inline; }
 
 label.margin-toggle:not(.sidenote-number) { display: none; }
 
+.summary-image {float:right; max-width:35%}
+
 @media (max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; }
                             .sidenote, .marginnote { display: none; }
                             .margin-toggle:checked + .sidenote,

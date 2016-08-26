@@ -3,8 +3,13 @@
 <h2><a class="p-name u-url" href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
 <div class="post-meta"> <time class="dt-published" datetime="{{ $.Date }}">{{ .Date.Format "January 2 2006" }}</time> - {{ .FuzzyWordCount }} Words </div>
 </header>
+<div class="summary-box">
+<div class="summary-text">
+<p class="p-summary abstract">
+{{ if (isset .Params "image") }}<span class="summary-image"><img class="u-featured" src="{{.Params.image}}" alt=""></span>{{end}}
+{{ .Summary }}</p></div>
 
-<div class="p-summary abstract">{{ .Summary }}</div>
+</div>
 <footer>
 <a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
 </footer>
