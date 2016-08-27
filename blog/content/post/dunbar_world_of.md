@@ -2,7 +2,7 @@
 title: "Dunbar & World of Warcraft"
 slug: "dunbar_world_of"
 url: "/2005/08/dunbar_world_of.html"
-image: "http://lifewithalacrity.github.io/UOGuildPowerLaw.jpg"
+image: "/UOGuildPowerLaw.jpg"
 tags:
   - "Games"
   - "Recreation"

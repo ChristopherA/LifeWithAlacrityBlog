@@ -2,7 +2,7 @@
 title: "Systems for Collective Choice"
 slug: "systems_for_col"
 url: "/2005/12/systems_for_col.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/peoplearoundthesun.gif"
+image: "/previous/photos/uncategorized/peoplearoundthesun.gif"
 tags:
   - "Social Software"
   - "Web/Tech"

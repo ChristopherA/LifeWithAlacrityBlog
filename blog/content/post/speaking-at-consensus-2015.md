@@ -2,7 +2,7 @@
 title: "Speaking at Consensus 2015"
 slug: "speaking-at-consensus-2015"
 url: "/2015/09/speaking-at-consensus-2015.html"
-image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef01b8d15461c9970c-800wi"
+image: "/previous/.a/6a00d8341d8bc053ef01b8d15461c9970c-800wi"
 tags:
   - "Business"
   - "Security"

@@ -2,7 +2,7 @@
 title: "Dunbar Number Presentation at MeshForum 2006"
 slug: "dunbar_number_p"
 url: "/2006/08/dunbar_number_p.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/christopher_allen_sketch_at_meshforum_20.jpg"
+image: "/previous/photos/uncategorized/christopher_allen_sketch_at_meshforum_20.jpg"
 tags:
   - "Community by the Numbers"
   - "Science"

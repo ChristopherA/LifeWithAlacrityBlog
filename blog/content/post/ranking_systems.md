@@ -2,7 +2,7 @@
 title: "Collective Choice: Competitive Ranking Systems"
 slug: "ranking_systems"
 url: "/2006/01/ranking_systems.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/bcs_1.png"
+image: "/previous/photos/uncategorized/bcs_1.png"
 tags:
   - "Social Software"
   - "User Interface"

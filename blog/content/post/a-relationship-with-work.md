@@ -3,7 +3,7 @@ title: "A Relationship With Work"
 slug: "a-relationship-with-work"
 url: "/2011/12/a-relationship-with-work.html"
 draft: "true"
-image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef00e54ff4225f8833-150wi"
+image: "/previous/.a/6a00d8341d8bc053ef00e54ff4225f8833-150wi"
 date: "2011-12-27T20:28:37-07:00"
 ---
 <p><a href="/" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img align="right/" alt="" border="0" src="/previous/.a/6a00d8341d8bc053ef00e54ff4225f8833-150wi" /></a>I am a lifetime entrepreneur. Even when working for large organizations I find my approach to be entrepreneurial (what my mentor&#0160;<a href="http://www.pinchot.com/">Gifford Pinchot </a>would call&#0160;<a href="http://www.intrapreneur.com/MainPages/History.html">Intrapreneurial</a>).</p>

@@ -2,7 +2,7 @@
 title: "BayChi Talk Next Tuesday"
 slug: "baychi_talk_nex"
 url: "/2006/07/baychi_talk_nex.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/baychi_1.gif"
+image: "/previous/photos/uncategorized/baychi_1.gif"
 tags:
   - "Social Software"
   - "talk"

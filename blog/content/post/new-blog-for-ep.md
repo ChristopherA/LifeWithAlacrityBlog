@@ -2,7 +2,7 @@
 title: "New Blog for Ephemera"
 slug: "new-blog-for-ep"
 url: "/2008/07/new-blog-for-ep.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/ephemerablogthumb.png"
+image: "/previous/photos/uncategorized/ephemerablogthumb.png"
 tags:
   - "Weblogs"
   - "iphone"

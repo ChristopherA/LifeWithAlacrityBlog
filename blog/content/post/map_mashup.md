@@ -2,7 +2,7 @@
 title: "Map Mashup"
 slug: "map_mashup"
 url: "/2004/10/map_mashup.html"
-image: "http://lifewithalacrity.github.io/previous/images/mapmashup_1.gif"
+image: "/previous/images/mapmashup_1.gif"
 tags:
   - "User Interface"
   - "Web/Tech"

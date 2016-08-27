@@ -2,7 +2,7 @@
 title: "10 Design Principles for Governing the Commons"
 slug: "10-design-principles-for-governing-the-commons"
 url: "/2015/03/10-design-principles-for-governing-the-commons.html"
-image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef01b7c76aaed3970b-250wi"
+image: "/previous/.a/6a00d8341d8bc053ef01b7c76aaed3970b-250wi"
 tags:
   - "Business"
   - "Security"

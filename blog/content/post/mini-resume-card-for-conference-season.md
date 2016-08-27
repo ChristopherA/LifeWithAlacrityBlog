@@ -2,7 +2,7 @@
 title: "Mini Resume Card for Conference Season"
 slug: "mini-resume-card-for-conference-season"
 url: "/2015/03/mini-resume-card-for-conference-season.html"
-image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef01b8d0f2961e970c-800wi"
+image: "/previous/.a/6a00d8341d8bc053ef01b8d0f2961e970c-800wi"
 tags:
   - "Business"
   - "Entrepreneuring"

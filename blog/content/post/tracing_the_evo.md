@@ -2,7 +2,7 @@
 title: "Tracing the Evolution of Social Software"
 slug: "tracing_the_evo"
 url: "/2004/10/tracing_the_evo.html"
-image: "http://lifewithalacrity.github.io/previous/images/evolution.jpg"
+image: "/previous/images/evolution.jpg"
 tags:
   - "Social Software"
   - "Web/Tech"

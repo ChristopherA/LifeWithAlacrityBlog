@@ -2,7 +2,7 @@
 title: "SynchroEdit: Simultaneous Editing for the Web"
 slug: "for_the_last_se"
 url: "/2005/10/for_the_last_se.html"
-image: "http://lifewithalacrity.github.io/previous/images/synchroeditmac.png"
+image: "/previous/images/synchroeditmac.png"
 tags:
   - "Social Software"
   - "User Interface"

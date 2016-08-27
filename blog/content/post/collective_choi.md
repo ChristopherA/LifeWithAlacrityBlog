@@ -2,7 +2,7 @@
 title: "Collective Choice: Rating Systems"
 slug: "collective_choi"
 url: "/2005/12/collective_choi.html"
-image: "http://lifewithalacrity.github.io/previous/images/stars_1.gif"
+image: "/previous/images/stars_1.gif"
 tags:
   - "Social Software"
   - "User Interface"

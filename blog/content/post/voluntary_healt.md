@@ -2,7 +2,7 @@
 title: "Voluntary Health Associations & Social Software"
 slug: "voluntary_healt"
 url: "/2005/02/voluntary_healt.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/acsrelay.jpg"
+image: "/previous/photos/uncategorized/acsrelay.jpg"
 tags:
   - "Social Software"
   - "Web/Tech"

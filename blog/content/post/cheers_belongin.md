@@ -2,7 +2,7 @@
 title: "Cheers: Belongingness and Para-Social Relationships"
 slug: "cheers_belongin"
 url: "/2005/07/cheers_belongin.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/cheers.jpg"
+image: "/previous/photos/uncategorized/cheers.jpg"
 tags:
   - "Community by the Numbers"
   - "Recreation"

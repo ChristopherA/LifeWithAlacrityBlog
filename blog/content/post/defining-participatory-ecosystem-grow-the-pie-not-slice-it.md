@@ -2,7 +2,7 @@
 title: "Defining “Participatory Ecosystem” — Grow the Pie, Not Slice It!"
 slug: "defining-participatory-ecosystem-grow-the-pie-not-slice-it"
 url: "/2016/04/defining-participatory-ecosystem-grow-the-pie-not-slice-it.html"
-image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef01b7c82f02ac970b-320wi"
+image: "/previous/.a/6a00d8341d8bc053ef01b7c82f02ac970b-320wi"
 tags:
   - "Entrepreneuring"
   - "Security"

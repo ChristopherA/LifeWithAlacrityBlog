@@ -2,7 +2,7 @@
 title: "Google Suggest Dissected"
 slug: "google_suggest_"
 url: "/2004/12/google_suggest_.html"
-image: "http://lifewithalacrity.github.io/previous/images/logo_google_suggest.gif"
+image: "/previous/images/logo_google_suggest.gif"
 tags:
   - "User Interface"
   - "Web/Tech"

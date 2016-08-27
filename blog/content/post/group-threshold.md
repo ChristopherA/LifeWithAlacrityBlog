@@ -2,7 +2,7 @@
 title: "Community by the Numbers, Part One: Group Thresholds"
 slug: "group-threshold"
 url: "/2008/09/group-threshold.html"
-image: "http://lifewithalacrity.github.io/previous/images/2008/09/22/circle_of_hands.jpg"
+image: "/previous/images/2008/09/22/circle_of_hands.jpg"
 tags:
   - "Community by the Numbers"
   - "Social Software"

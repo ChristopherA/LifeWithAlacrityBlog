@@ -2,7 +2,7 @@
 title: "Dunbar Triage: Too Many Connections"
 slug: "dunbar_triage_t"
 url: "/2005/02/dunbar_triage_t.html"
-image: "http://lifewithalacrity.github.io/previous/images/ryzeblogtribefriends.gif"
+image: "/previous/images/ryzeblogtribefriends.gif"
 tags:
   - "Community by the Numbers"
   - "Social Software"

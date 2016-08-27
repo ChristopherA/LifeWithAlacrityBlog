@@ -2,7 +2,7 @@
 title: "Facilitating Small Gatherings Using “The Braid”"
 slug: "facilitating-small-gatherings-using-the-braid"
 url: "/2009/09/facilitating-small-gatherings-using-the-braid.html"
-image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef0120a5f61c98970c-320wi"
+image: "/previous/.a/6a00d8341d8bc053ef0120a5f61c98970c-320wi"
 tags:
   - "Business"
   - "Social Software"

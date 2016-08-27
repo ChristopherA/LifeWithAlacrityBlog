@@ -2,7 +2,7 @@
 title: "Ratings: Who Do You Trust?"
 slug: "ratings_who_do_"
 url: "/2006/09/ratings_who_do_.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/shannon_appelcline.jpg"
+image: "/previous/photos/uncategorized/shannon_appelcline.jpg"
 tags:
   - "Games"
   - "Social Software"

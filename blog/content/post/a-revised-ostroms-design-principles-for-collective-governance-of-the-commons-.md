@@ -2,7 +2,7 @@
 title: "A Revised “Ostrom’s Design Principles for Collective Governance of the Commons”"
 slug: "a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-"
 url: "/2015/11/a-revised-ostroms-design-principles-for-collective-governance-of-the-commons-.html"
-image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef01b7c76aaed3970b-250wi"
+image: "/previous/.a/6a00d8341d8bc053ef01b7c76aaed3970b-250wi"
 tags:
   - "Security"
   - "Social Software"

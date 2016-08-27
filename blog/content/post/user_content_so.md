@@ -2,7 +2,7 @@
 title: "User Content, Social Software & Online Games"
 slug: "user_content_so"
 url: "/2005/03/user_content_so.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/shannon.jpeg"
+image: "/previous/photos/uncategorized/shannon.jpeg"
 tags:
   - "Games"
   - "Social Software"

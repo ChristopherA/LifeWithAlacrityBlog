@@ -2,7 +2,7 @@
 title: "Using 5-Star Rating Systems"
 slug: "using_5star_rat"
 url: "/2006/08/using_5star_rat.html"
-image: "http://lifewithalacrity.github.io/previous/images/stars_1.gif"
+image: "/previous/images/stars_1.gif"
 tags:
   - "Music"
   - "Social Software"

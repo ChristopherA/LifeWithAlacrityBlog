@@ -2,7 +2,7 @@
 title: "Flames: Emotional Amplification of Text"
 slug: "flames_emotiona"
 url: "/2006/02/flames_emotiona.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/cycle_of_flames.jpg"
+image: "/previous/photos/uncategorized/cycle_of_flames.jpg"
 tags:
   - "Social Software"
   - "Web/Tech"

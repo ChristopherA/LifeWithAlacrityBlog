@@ -2,7 +2,7 @@
 title: "Getting Ready for the iPhone"
 slug: "getting_ready_f"
 url: "/2007/06/getting_ready_f.html"
-image: "http://lifewithalacrity.github.io/previous/photos/uncategorized/watereddown.jpg"
+image: "/previous/photos/uncategorized/watereddown.jpg"
 tags:
   - "iPhone"
   - "Social Software"

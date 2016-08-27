@@ -2,7 +2,7 @@
 title: "Deep Context Shared Languages"
 slug: "deep-context-shared-languages"
 url: "/2014/06/deep-context-shared-languages.html"
-image: "http://lifewithalacrity.github.io/previous/.a/6a00d8341d8bc053ef01b8d1e21095970c-320wi"
+image: "/previous/.a/6a00d8341d8bc053ef01b8d1e21095970c-320wi"
 tags:
   - "Business"
   - "Commentary"
