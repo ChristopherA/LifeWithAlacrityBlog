@@ -1,4 +1,9 @@
 <h1 class="p-name">{{ .Site.Params.name }} </h1>
+<label for="hcard" class="margin-toggle">About</label>
+<input type="checkbox" id="hcard" class="margin-toggle"/>
+<span class="marginnote">
+{{ partial "hcard.html" . }}
+</span>
 <label for="tags" class="margin-toggle">Tags➤</label>
 <input type="checkbox" id="tags" class="margin-toggle"/>
 <span class="marginnote">
