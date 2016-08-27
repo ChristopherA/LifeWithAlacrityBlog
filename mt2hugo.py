@@ -87,7 +87,6 @@ class MovableType2Hugo(object):
                     if imgurl.startswith('/previous/photos/uncategorized/'):
                         bits= imgurl.split('/')
                         imgurl = '/'.join(bits[:4]+bits[-1:])
-                    imgurl='http://lifewithalacrity.github.io'+imgurl
                 post_entry['image'] = imgurl
         
         # Add the post to our feed
