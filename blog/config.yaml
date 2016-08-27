@@ -16,4 +16,5 @@ params:
   name: "Life With Alacrity"
   summary: "A blog on social software, collaboration, trust, security, privacy, and internet tools"
   author: "Christopher Allen"
+  authorurl: "/about"
 
