@@ -2,13 +2,12 @@
 <header>
 <h2><a class="p-name u-url" href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
 <div class="post-meta"> <time class="dt-published" datetime="{{ $.Date }}">{{ .Date.Format "January 2 2006" }}</time> - {{ .FuzzyWordCount }} Words </div>
+by <span  rel="author" class="p-author h-card"><a href="{{ .Site.Params.authorurl }}" >{{ .Site.Params.author }}</a></span>
+</header>
+<div class="e-content">{{ .Content }}</div>
 <div class="tags">
     {{ range .Params.tags }}
         <a rel="tag" class="p-category" href="/tags/{{ . | urlize }}">{{ . }}</a> 
     {{ end }}
 </div>
-</header>
-
-<div class="e-content">{{ .Content }}</div>
-by <span  rel="author" class="p-author h-card"><a href="{{ .Site.Params.authorurl }}" >{{ .Site.Params.author }}</a></span>
 </article>
