@@ -8,25 +8,17 @@ type: "about"
 <div id="hcard-Christopher-Allen" class="h-card">
     <img class="u-photo" alt="Christopher Allen" src="/images/christophera.jpg"><h1 class="p-name"><span>Christopher Allen</span></h1>
     <h2 class="p-job-title">Entrepreneur, Advisor &amp; Technologist</h2>
-        
+<div class="p-note"><ul><li class="p-job-title">Principal Architect at  <span class="p-org h-card"><a href="https://blockstream.com/">Blockstream</a></span>
+<li>Internet Cryptography Pioneer
+<li>Co-author TLS Security Standard
+<li>Collaborative Tools &amp; Patterns
+<li>Decentralized Identity</ul>
+</div>
 <div class="p-adr p-label h-adr">
-    <p>
-        <span class="p-org">
-            Alacrity Management
-        </span>
-        <br>
-        <span class="p-street-address">
-            1563 Solano Ave Ste 353
-        </span>
-        <br>
-        <span>
-            <span class="p-locality">Berkeley</span> <abbr class="p-region" title="California">CA</abbr> <span class="p-postal-code">94707-2116</span>
-        </span>
-        <br>
-        <span class="p-country-name">
-            United States
-        </span>
-    </p>
+<p><span class="p-org">Alacrity Management</span><br>
+<span class="p-street-address">1563 Solano Ave Ste 353</span><br>
+<span class="p-locality">Berkeley</span> <abbr class="p-region" title="California">CA</abbr> <span class="p-postal-code">94707-2116</span><br>
+<span class="p-country-name">United States</span></p>
 </div>
 
 <p class="p-tel">
