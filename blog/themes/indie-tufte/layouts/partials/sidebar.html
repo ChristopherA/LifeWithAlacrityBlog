@@ -1,0 +1,13 @@
+<aside class="sidebar">
+<section><label for="hcard" class="inline-toggle">Author</label>
+<input type="checkbox" id="hcard" class="inline-toggle"/>
+{{ partial "hcard.html" . }}
+</section>
+<section><label for="tags" class="inline-toggle">Tags</label>
+<input type="checkbox" id="tags" class="inline-toggle"/>
+<div>{{- range $name, $taxonomy := .Site.Taxonomies.tags -}}
+ {{if gt $taxonomy.Count 3}}🔖<a href="/tags/{{ $name | urlize }}">{{- $name -}}</a> {{ end }}
+{{- end -}}
+</div>
+</section>
+</aside>

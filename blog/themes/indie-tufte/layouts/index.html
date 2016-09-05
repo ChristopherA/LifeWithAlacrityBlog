@@ -1,12 +1,13 @@
 {{ partial "header.html" . }}
+<div class="fullpage">
 <section id="main" class="h-feed">
 {{ partial "feedblock.html" . }}
-<div>
 {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
 {{ range $paginator.Pages }}
    {{ .Render "summary"}}
 {{ end }}
 {{ template "_internal/pagination.html" . }}
-</div>
 </section>
+{{ partial "sidebar.html" . }}
+</div>
 {{ partial "footer.html" . }}

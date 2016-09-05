@@ -1,12 +1,15 @@
 {{ partial "header.html" . }}
+<div class="fullpage">
 <section id="main" class="h-feed">
 {{ partial "feedblock.html" . }}
-  <div class="tag-list">
-      <p id="tag-name"><h1>Tag: {{ .Title }}</h1>
-  <div>
-    {{ range first 100 .Data.Pages }}
-        {{ .Render "summary"}}
-    {{ end }}
-  </div>
+<h1 class="p-name">Tag: {{ .Title }}</h1>
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+{{ range $paginator.Pages }}
+   {{ .Render "summary"}}
+{{ end }}
+{{ template "_internal/pagination.html" . }}
 </section>
+{{ partial "sidebar.html" . }}
+</div>
 {{ partial "footer.html" . }}
+</section>

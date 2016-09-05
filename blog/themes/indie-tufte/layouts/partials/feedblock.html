@@ -1,14 +1,2 @@
 <h1 class="p-name"><a href="/">{{ .Site.Params.name }}</a></h1>
-<label for="hcard" class="margin-toggle">About</label>
-<input type="checkbox" id="hcard" class="margin-toggle"/>
-<span class="marginnote">
-{{ partial "hcard.html" . }}
-</span>
-<label for="tags" class="margin-toggle">Tags➤</label>
-<input type="checkbox" id="tags" class="margin-toggle"/>
-<span class="marginnote">
-{{- range $name, $taxonomy := .Site.Taxonomies.tags -}}
- {{if gt $taxonomy.Count 3}}🔖<a href="/tags/{{ $name | urlize }}">{{- $name -}}</a> {{ end }}
-{{- end -}}
-</span>
 <p class="p-summary">{{ .Site.Params.summary }} by <span class="h-card">{{ .Site.Params.author }}</span>.</p>
