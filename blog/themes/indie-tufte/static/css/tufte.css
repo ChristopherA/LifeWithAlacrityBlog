@@ -38,6 +38,49 @@
 /* indieweb extras */
 [fragmention] { background-color: gold; outline: 0.375em solid gold; }
 
+.webmention-author img {height: 3em; width:3em; float:left; margin:.25em;}
+.webmention-mention { margin:.5em; background-color: linen;}
+.webmention-facepile > li {
+  display: inline-block;
+  position: relative;
+  margin: 0 5px 5px 0;
+}
+.webmention-interaction-presentation:after {
+  display: block;
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  padding: 4px;
+  width: 1em;
+  height: 1em;
+
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+
+  color: #000;
+}
+.webmention-interaction-like .webmention-interaction-presentation:after {content: "🌟"; color:gold;}
+.webmention-interaction-repost .webmention-interaction-presentation:after {content: "♻"; color:green;}
+
+.webmention-interaction-presentation > span {
+  display: block;
+  text-indent: -5000em;
+  position: relative;
+  overflow: hidden;
+  width: 3em;
+  height: 3em;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+.webmention-interaction-presentation > span > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.webmention-facepile :link,.webmention-facepile :visited { text-decoration:none; }
+
 /* Tufte CSS styles */
 html { font-size: 15px; }
 
