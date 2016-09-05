@@ -19,3 +19,5 @@ params:
   authorurl: "/about"
   authorphoto: "/images/christophera.jpg"
 
+paginate: "20"
+
