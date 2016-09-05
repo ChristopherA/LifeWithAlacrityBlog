@@ -2,7 +2,8 @@
 <section id="main" class="h-feed">
 {{ partial "feedblock.html" . }}
 <div>
-{{ range .Paginator.Pages }}
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+{{ range $paginator.Pages }}
    {{ .Render "summary"}}
 {{ end }}
 {{ template "_internal/pagination.html" . }}
