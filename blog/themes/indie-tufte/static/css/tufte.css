@@ -35,6 +35,9 @@
   font-style: normal;
 }
 
+/* indieweb extras */
+[fragmention] { background-color: gold; outline: 0.375em solid gold; }
+
 /* Tufte CSS styles */
 html { font-size: 15px; }
 
