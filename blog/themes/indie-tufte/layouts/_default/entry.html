@@ -7,7 +7,7 @@ by <span  rel="author" class="p-author h-card"><a href="{{ .Site.Params.authorur
 <div class="e-content">{{ .Content }}</div>
 <div class="tags">
     {{ range .Params.tags }}
-        <a rel="tag" class="p-category" href="/tags/{{ . | urlize }}">{{ . }}</a> 
+        <a rel="tag" class="p-category" href="/tags/{{ replace . "#" "%23" | urlize }}">{{ . }}</a> 
     {{ end }}
 </div>
 </article>
