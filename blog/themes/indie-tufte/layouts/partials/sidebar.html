@@ -6,7 +6,7 @@
 <section><label for="tags" class="inline-toggle">Tags</label>
 <input type="checkbox" id="tags" class="inline-toggle"/>
 <div>{{- range $name, $taxonomy := .Site.Taxonomies.tags -}}
- {{if gt $taxonomy.Count 3}}🔖<a href="/tags/{{ replace $name "#" "%23" | urlize }}">{{- $name -}}</a> {{ end }}
+ {{if gt $taxonomy.Count 3}}🔖<a href="/tags/{{ replace $name "#" "%23" | urlize }}/">{{- $name -}}</a> {{ end }}
 {{- end -}}
 </div>
 </section>
