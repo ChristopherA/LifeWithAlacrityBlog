@@ -59,13 +59,14 @@ class MovableType2Hugo(object):
     # Calculate the last updated time by inspecting all of the posts
     last_updated = 0
 
-    # These three variables keep the state as we parse the file
+    # These  variables keep the state as we parse the file
     feed=[]
     post_entry = {}                   # The current post entry
     comment_entry = None              # The current comment entry
     last_entry = None                 # The previous post entry if exists
     tag_name = None                   # The current name of multi-line values
     tag_contents = ''                 # The contents of multi-line values
+    postfiles = set()                 # keep track of slugs written as files
 
     # Loop through the text lines looking for key/value pairs
     for line in infile:
@@ -234,9 +235,12 @@ class MovableType2Hugo(object):
     #outfile.write(str(feed))
     postcount=1;
     for entry in feed:
-        slug = entry.get('slug','post_%s' % postcount)
+        postfilename = slug = entry.get('slug','post_%s' % postcount)
         postcount = postcount+1
-        with open("%s/%s.md" %(outPath,slug), 'w') as outfile:
+        if postfilename in postfiles:
+            postfilename = "%s_%s" % (slug,postcount)
+        postfiles.add(postfilename)
+        with open("%s/%s.md" %(outPath,postfilename), 'w') as outfile:
             outfile.write('---\n') #YAML header
             for key in ('title', 'slug', 'url', 'draft','image'):
                 if entry.get(key):
