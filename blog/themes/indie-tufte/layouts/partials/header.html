@@ -6,7 +6,7 @@
     {{ partial "meta.html" . }}
     <title> {{ .Title }}  </title>
     <link rel="canonical" href="{{ .Permalink }}">
-    {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+    {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
     {{ partial "head_includes.html" . }}
 </head>
 <body lang="en">
