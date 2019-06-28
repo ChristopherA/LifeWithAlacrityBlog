@@ -53,4 +53,4 @@ Thanks!
 <time class="dt-published" datetime="2006-06-01T10:20:36-07:00">2006-06-01T10:20:36-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/04/four_kinds_of_p.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/04/four_kinds_of_p.html" rel="syndication" class="u-syndication" >original layout</a></p>

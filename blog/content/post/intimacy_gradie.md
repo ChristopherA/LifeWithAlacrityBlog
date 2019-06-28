@@ -96,4 +96,4 @@ Sean
 <time class="dt-published" datetime="2006-07-05T22:04:01-07:00">2006-07-05T22:04:01-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/08/intimacy_gradie.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/08/intimacy_gradie.html" rel="syndication" class="u-syndication" >original layout</a></p>

@@ -93,4 +93,4 @@ I'm pretty sure that the core weighting system by depth is producing better resu
 <time class="dt-published" datetime="2006-10-16T15:39:53-07:00">2006-10-16T15:39:53-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2006/09/ratings_who_do_.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2006/09/ratings_who_do_.html" rel="syndication" class="u-syndication" >original layout</a></p>

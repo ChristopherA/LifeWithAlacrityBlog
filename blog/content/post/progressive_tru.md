@@ -56,4 +56,4 @@ http://frassle.rura.org/christopherAllenGets
 <time class="dt-published" datetime="2004-08-26T08:39:54-07:00">2004-08-26T08:39:54-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/08/progressive_tru.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/08/progressive_tru.html" rel="syndication" class="u-syndication" >original layout</a></p>

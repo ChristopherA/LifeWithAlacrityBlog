@@ -42,4 +42,4 @@ http://www.putosprogramas.com
 <time class="dt-published" datetime="2005-06-17T06:14:04-07:00">2005-06-17T06:14:04-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/03/user_content_so.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/03/user_content_so.html" rel="syndication" class="u-syndication" >original layout</a></p>

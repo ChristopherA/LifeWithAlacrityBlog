@@ -64,4 +64,4 @@ Ludovic
 <time class="dt-published" datetime="2004-10-14T00:42:30-07:00">2004-10-14T00:42:30-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/10/jotspot_applica.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/10/jotspot_applica.html" rel="syndication" class="u-syndication" >original layout</a></p>

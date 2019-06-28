@@ -27,4 +27,4 @@ The only real risk-sharing going on here is the hope that if enough people file-
 <time class="dt-published" datetime="2005-12-29T14:34:32-07:00">2005-12-29T14:34:32-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2003/12/music_and_doubl.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2003/12/music_and_doubl.html" rel="syndication" class="u-syndication" >original layout</a></p>

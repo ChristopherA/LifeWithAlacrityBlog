@@ -17,4 +17,4 @@ date: "2014-04-07T13:35:02-07:00"
 <time class="dt-published" datetime="2014-06-04T16:18:36-07:00">2014-06-04T16:18:36-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2014/04/to-be-persuasive-you-need-to-understand-identity-protective-cognition.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2014/04/to-be-persuasive-you-need-to-understand-identity-protective-cognition.html" rel="syndication" class="u-syndication" >original layout</a></p>

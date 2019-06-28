@@ -110,4 +110,4 @@ The different kind of 'circles' we have in the social networking are included in
 <time class="dt-published" datetime="2009-04-22T22:26:44-07:00">2009-04-22T22:26:44-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2008/11/personal-circle.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2008/11/personal-circle.html" rel="syndication" class="u-syndication" >original layout</a></p>

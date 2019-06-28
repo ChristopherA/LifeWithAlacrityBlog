@@ -166,4 +166,4 @@ A consensus-based Triad has all the other advantages of a Triad, without the dow
 <time class="dt-published" datetime="2014-11-05T12:19:04-07:00">2014-11-05T12:19:04-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2013/04/dyads-triads-the-smallest-teams.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2013/04/dyads-triads-the-smallest-teams.html" rel="syndication" class="u-syndication" >original layout</a></p>

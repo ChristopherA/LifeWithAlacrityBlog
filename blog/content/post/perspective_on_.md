@@ -10,4 +10,4 @@ date: "2003-10-28T15:26:19-07:00"
 <p>And whoever figures out how to market effectively online is going to be worth.... well, more money than I shall ever see in one place."<br />
 </blockquote><br />
 </blockquote></p>
-<p class="previous"><a href="/previous/2003/10/perspective_on_.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2003/10/perspective_on_.html" rel="syndication" class="u-syndication" >original layout</a></p>

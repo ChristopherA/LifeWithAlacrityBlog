@@ -76,4 +76,4 @@ Shared artifacts are also known as models; the best form of understanding of bus
 <time class="dt-published" datetime="2011-05-05T04:15:41-07:00">2011-05-05T04:15:41-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2009/09/creating-shared-language-and-shared-artiifacts.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2009/09/creating-shared-language-and-shared-artiifacts.html" rel="syndication" class="u-syndication" >original layout</a></p>

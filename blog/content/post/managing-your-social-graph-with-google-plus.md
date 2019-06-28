@@ -169,4 +169,4 @@ Would be nice, if, at some point, rather than having 'stream' it was possible to
 <time class="dt-published" datetime="2011-07-15T05:21:40-07:00">2011-07-15T05:21:40-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2011/07/managing-your-social-graph-with-google-plus.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2011/07/managing-your-social-graph-with-google-plus.html" rel="syndication" class="u-syndication" >original layout</a></p>

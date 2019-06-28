@@ -164,4 +164,4 @@ hi!can you help me with sth?? i want to make faster lvl can you help me plz:(:(
 <time class="dt-published" datetime="2006-11-09T06:13:06-07:00">2006-11-09T06:13:06-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/08/dunbar_world_of.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/08/dunbar_world_of.html" rel="syndication" class="u-syndication" >original layout</a></p>

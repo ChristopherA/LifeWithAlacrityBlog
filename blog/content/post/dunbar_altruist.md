@@ -93,4 +93,4 @@ I will try to see if there are more pertinent experimental research addressing t
 <time class="dt-published" datetime="2008-07-26T23:03:57-07:00">2008-07-26T23:03:57-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/03/dunbar_altruist.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2005/03/dunbar_altruist.html" rel="syndication" class="u-syndication" >original layout</a></p>

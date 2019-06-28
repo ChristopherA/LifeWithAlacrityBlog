@@ -302,4 +302,4 @@ Some guy named Junaid from Karachi, Pakistan put up my cell no. on orkut in the 
 <time class="dt-published" datetime="2005-03-23T05:09:00-07:00">2005-03-23T05:09:00-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/01/insecurity_at_o.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/01/insecurity_at_o.html" rel="syndication" class="u-syndication" >original layout</a></p>

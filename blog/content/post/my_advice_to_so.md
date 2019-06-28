@@ -200,4 +200,4 @@ Thanks Marc
 <time class="dt-published" datetime="2008-02-27T14:15:18-07:00">2008-02-27T14:15:18-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/02/my_advice_to_so.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/02/my_advice_to_so.html" rel="syndication" class="u-syndication" >original layout</a></p>

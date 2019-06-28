@@ -27,4 +27,4 @@ A number of people came in late and entered together about 10min into the show t
 <time class="dt-published" datetime="2005-12-29T05:42:28-07:00">2005-12-29T05:42:28-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/01/seven_fingers_o.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/01/seven_fingers_o.html" rel="syndication" class="u-syndication" >original layout</a></p>

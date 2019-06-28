@@ -124,4 +124,4 @@ Well,from my first impressions of orkut,what i gather is that,u have to be caref
 <time class="dt-published" datetime="2006-07-12T06:46:11-07:00">2006-07-12T06:46:11-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/02/followup_on_ork.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2004/02/followup_on_ork.html" rel="syndication" class="u-syndication" >original layout</a></p>

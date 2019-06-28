@@ -113,4 +113,4 @@ date: "2016-04-25T17:00:23-07:00"
 <div class="footnote-line"><span class="md-fn-count">22</span> Verifiable Claims Task Force. 2006. “[Editor Draft] Verifiable Claims Working Group Frequently Asked Questions”. W3C Technology and Society Domain. <a href="http://w3c.github.io/webpayments-ig/VCTF/charter/faq.html" target="_blank">http://w3c.github.io/webpayments-ig/VCTF/charter/faq.html</a><a class="reversefootnote" href="#ref-2222" name="dfref-2222" title="back to document">↩</a></div>
 <div class="footnote-line"><span class="md-fn-count">23</span> &quot;Definition of Credential&quot;. Dictionary.com. <a href="http://www.dictionary.com/browse/credential?s=t" target="_blank">http://www.dictionary.com/browse/credential?s=t</a><a class="reversefootnote" href="#ref-2323" name="dfref-2323" title="back to document">↩</a></div>
 </div>
-<p class="previous"><a href="/previous/2016/04/the-path-to-self-soverereign-identity.html" rel="syndication" class="u-syndication" >orginal layout</a></p>
+<p class="previous"><a href="/previous/2016/04/the-path-to-self-soverereign-identity.html" rel="syndication" class="u-syndication" >original layout</a></p>
