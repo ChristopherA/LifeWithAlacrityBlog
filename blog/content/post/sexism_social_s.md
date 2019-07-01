@@ -34,4 +34,4 @@ Personally, I wouldn't want to, I feel really uncomfortable with the Halley Suit
 <time class="dt-published" datetime="2004-02-07T10:18:33-07:00">2004-02-07T10:18:33-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/02/sexism_social_s.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/02/sexism_social_s.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

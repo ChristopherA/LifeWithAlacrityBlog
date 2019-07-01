@@ -121,4 +121,4 @@ Also as an analogy, if I recall well, when coming from an external path to an in
 <time class="dt-published" datetime="2010-07-30T08:05:27-07:00">2010-07-30T08:05:27-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2008/09/group-threshold.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2008/09/group-threshold.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

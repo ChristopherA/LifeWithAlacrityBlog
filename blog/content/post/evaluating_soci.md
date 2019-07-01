@@ -86,4 +86,4 @@ I need a company that can build me a social networking platform. Can anyone give
 <time class="dt-published" datetime="2008-01-28T23:52:45-07:00">2008-01-28T23:52:45-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2003/12/evaluating_soci.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2003/12/evaluating_soci.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

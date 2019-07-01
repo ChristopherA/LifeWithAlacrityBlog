@@ -109,4 +109,4 @@ A very interesting collaborative internet medium <a href="http://aux.planetmath.
 <time class="dt-published" datetime="2004-03-14T06:58:16-07:00">2004-03-14T06:58:16-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/02/looking_at_wiki.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/02/looking_at_wiki.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

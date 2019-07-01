@@ -256,4 +256,4 @@ thinksketch
 <time class="dt-published" datetime="2009-03-03T18:56:13-07:00">2009-03-03T18:56:13-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/12/collective_choi.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2005/12/collective_choi.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

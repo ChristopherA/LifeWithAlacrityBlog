@@ -284,4 +284,4 @@ $rating = average($index-rating*$index-weight)/average($index-weight);
 <time class="dt-published" datetime="2007-12-18T10:24:24-07:00">2007-12-18T10:24:24-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2007/01/collective_choi.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2007/01/collective_choi.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

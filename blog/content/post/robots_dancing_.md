@@ -24,4 +24,4 @@ When the realisticness of a robot reaches a certain point, it reaches the uncann
 <time class="dt-published" datetime="2005-08-25T08:09:55-07:00">2005-08-25T08:09:55-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/01/robots_dancing_.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/01/robots_dancing_.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

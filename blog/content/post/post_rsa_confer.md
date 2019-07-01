@@ -68,4 +68,4 @@ Though a cool demo, I'm not as confident that this solution will work. Now in ad
 <time class="dt-published" datetime="2004-03-05T23:19:47-07:00">2004-03-05T23:19:47-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/03/post_rsa_confer.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/03/post_rsa_confer.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

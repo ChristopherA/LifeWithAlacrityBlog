@@ -220,4 +220,4 @@ I guess I've heard too much on how the original plan turns out to be something t
 <time class="dt-published" datetime="2007-01-11T16:40:28-07:00">2007-01-11T16:40:28-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2006/01/on_being_an_ang.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2006/01/on_being_an_ang.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

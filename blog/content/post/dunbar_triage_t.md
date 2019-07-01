@@ -213,4 +213,4 @@ Or have I missed the point?
 <time class="dt-published" datetime="2005-07-30T01:53:38-07:00">2005-07-30T01:53:38-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/02/dunbar_triage_t.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2005/02/dunbar_triage_t.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

@@ -239,4 +239,4 @@ Thanks for writing this article. I found another view on 5 point music rating ot
 <time class="dt-published" datetime="2008-02-06T00:33:36-07:00">2008-02-06T00:33:36-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2006/08/using_5star_rat.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2006/08/using_5star_rat.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

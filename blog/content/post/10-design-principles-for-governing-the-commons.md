@@ -68,4 +68,4 @@ Cox, M., G. Arnold, and S. Villamayor Tomás. 2010. A review of design principle
 <time class="dt-published" datetime="2015-04-11T11:34:38-07:00">2015-04-11T11:34:38-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2015/03/10-design-principles-for-governing-the-commons.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2015/03/10-design-principles-for-governing-the-commons.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

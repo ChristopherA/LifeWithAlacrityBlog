@@ -52,4 +52,4 @@ BTW, at least a dozen of the errant emails that went out were blocked by spam fi
 <time class="dt-published" datetime="2004-04-15T18:11:03-07:00">2004-04-15T18:11:03-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/04/annoyed_by_zero.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/04/annoyed_by_zero.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

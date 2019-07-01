@@ -27,4 +27,4 @@ date: "2011-12-27T20:21:08-07:00"
 </blockquote>
 <p>So as I continue exploration of the nature of work, I offer Buckminster Fuller &amp; Matt Taylor&#39;s thoughts on managing an environment as one of many clues toward a solution to a &quot;way of work&quot;. I&#39;ll share more details on how this philosophy has worked for me in upcoming blog posts, but in the meantime I&#39;d love to hear your thoughts, and any questions that you have about it.</p>
 <p><em><span style="font-size: xx-small;">(photos courtesy <a href="http://www.MattTaylor.com/">Matt Taylor</a>)</span></em></p>
-<p class="previous"><a href="/previous/2011/12/manage-the-environment-not-the-people.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2011/12/manage-the-environment-not-the-people.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

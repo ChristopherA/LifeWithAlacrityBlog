@@ -76,4 +76,4 @@ Have fun with your blog, be passionate about your topics (that's why I subbed to
 <time class="dt-published" datetime="2004-08-09T04:19:16-07:00">2004-08-09T04:19:16-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/07/too_high_a_stan.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/07/too_high_a_stan.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

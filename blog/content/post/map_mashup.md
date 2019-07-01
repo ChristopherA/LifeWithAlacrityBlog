@@ -31,4 +31,4 @@ IE does support alpha transparency for layers, using their filter:alpha(opacity=
 <time class="dt-published" datetime="2004-10-10T11:31:41-07:00">2004-10-10T11:31:41-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/10/map_mashup.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/10/map_mashup.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

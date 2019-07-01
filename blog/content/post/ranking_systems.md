@@ -216,4 +216,4 @@ It starts here: http://ncanson.livejournal.com/3938.html
 <time class="dt-published" datetime="2008-01-31T09:55:58-07:00">2008-01-31T09:55:58-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2006/01/ranking_systems.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2006/01/ranking_systems.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

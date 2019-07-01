@@ -21,4 +21,4 @@ date: "2003-12-20T04:32:03-07:00"
 <time class="dt-published" datetime="2004-03-19T12:59:11-07:00">2004-03-19T12:59:11-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2003/12/socialization_i.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2003/12/socialization_i.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

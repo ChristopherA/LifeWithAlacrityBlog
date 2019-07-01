@@ -42,4 +42,4 @@ We've done a lot of work in this area in the past couple of years at Changemaker
 <time class="dt-published" datetime="2009-09-17T07:43:34-07:00">2009-09-17T07:43:34-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2009/09/teaching-using-the-social-web-for-social-change-at-bgiedu.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2009/09/teaching-using-the-social-web-for-social-change-at-bgiedu.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

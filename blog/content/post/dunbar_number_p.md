@@ -33,4 +33,4 @@ date: "2006-08-31T11:52:49-07:00"
 <li><a href="/2005/07/cheers_belongin.html">2005-07: Cheers: Belongingness and Para-Social Relationships</a></li>
 <li><a href="/2005/08/dunbar_world_of.html">2005-08: Dunbar &amp; World of Warcraft</a></li>
 </ul></blockquote>
-<p class="previous"><a href="/previous/2006/08/dunbar_number_p.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2006/08/dunbar_number_p.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

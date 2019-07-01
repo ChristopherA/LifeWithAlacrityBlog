@@ -31,4 +31,4 @@ date: "2014-06-18T20:58:04-07:00"
 <ul>
 <li><a href="/2009/09/creating-shared-language-and-shared-artiifacts.html">2000-09: Creating Shared Language and Shared Artifacts</a></li>
 </ul>
-<p class="previous"><a href="/previous/2014/06/deep-context-shared-languages.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2014/06/deep-context-shared-languages.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

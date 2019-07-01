@@ -45,4 +45,4 @@ The biggest thing is that the people you know in your network have tremendous va
 <p>Coincidentally, in the last 2-3 days, I've had 2-3 requests to join other people's LinkedIn networks -- after going for many days in between earlier invitations.</blockquote><br />
 <b>Other Services</b></p>
 <p>There are quite a few other services that I haven't explored yet, like Spoke Software and Zero Degrees, and there are other software or services like Contact Network, InterAction, Plaxo, Skype, Eurekster, Tickle, MeetUp. I hope to take a look at a few of them and report back soon. I don't think that I'll be looking at the dating sites such as Match.com, American Singles, Yahoo Personals, etc.</p>
-<p class="previous"><a href="/previous/2003/12/followup_to_eva.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2003/12/followup_to_eva.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

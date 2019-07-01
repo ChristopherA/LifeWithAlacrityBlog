@@ -116,4 +116,4 @@ So then one day this guy discovers the answer to the Reimann Conjecture and now 
 <time class="dt-published" datetime="2004-09-07T06:23:57-07:00">2004-09-07T06:23:57-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/02/security_crypto.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/02/security_crypto.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

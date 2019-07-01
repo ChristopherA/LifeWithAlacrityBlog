@@ -34,4 +34,4 @@ of unstructured trust, and which current tools appear to work best at different 
 <time class="dt-published" datetime="2006-07-11T21:27:45-07:00">2006-07-11T21:27:45-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2006/07/baychi_talk_nex.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2006/07/baychi_talk_nex.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

@@ -42,4 +42,4 @@ Chris is always on the cutting edge of stuff, I expect the rest of the world wil
 <time class="dt-published" datetime="2004-08-27T13:29:23-07:00">2004-08-27T13:29:23-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/08/circus_contrapt.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/08/circus_contrapt.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

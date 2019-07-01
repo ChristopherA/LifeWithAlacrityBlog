@@ -98,4 +98,4 @@ The SSL story would be interesting..
 <time class="dt-published" datetime="2005-05-13T08:10:30-07:00">2005-05-13T08:10:30-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/04/future_topics.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2005/04/future_topics.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

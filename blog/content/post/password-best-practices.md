@@ -92,4 +92,4 @@ One thing you didn't mention was OpenID, which I with gurgling joy register with
 <time class="dt-published" datetime="2010-02-23T09:12:08-07:00">2010-02-23T09:12:08-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2009/09/password-best-practices.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2009/09/password-best-practices.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

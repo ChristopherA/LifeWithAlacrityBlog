@@ -18,4 +18,4 @@ date: "2006-12-06T14:34:38-07:00"
 <p>
 If you are interested, see you tonight (Wednesday) at 6-8pm, <a href="http://maps.google.com/maps?oi=map&amp;q=655+High+Street,+Palo+Alto,+CA">at Socialtext</a>.
 </p>
-<p class="previous"><a href="/previous/2006/12/speaking_about_.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2006/12/speaking_about_.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

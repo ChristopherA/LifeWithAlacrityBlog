@@ -44,4 +44,4 @@ I must add these to my own del.icio.us collection plus a couple of other books o
 <time class="dt-published" datetime="2005-08-04T16:53:14-07:00">2005-08-04T16:53:14-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2005/04/if_you_read_my_.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2005/04/if_you_read_my_.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

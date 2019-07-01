@@ -267,7 +267,7 @@ class MovableType2Hugo(object):
                     outfile.write('</div>\n')
                 outfile.write('</footer>\n')
             if entry.get('url'):
-                outfile.write('<p class="previous"><a href="/previous%s" rel="syndication" class="u-syndication" >original layout</a></p>\n' % entry.get('url'))
+                outfile.write('<p class="previous"><a href="/previous%s" rel="syndication nofollow" class="u-syndication" >original layout</a></p>\n' % entry.get('url'))
 
 
   def _GetNextId(self):

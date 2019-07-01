@@ -53,4 +53,4 @@ I like your 1/3 rule. It makes more sense and it seems fair.
 <time class="dt-published" datetime="2010-02-24T15:43:38-07:00">2010-02-24T15:43:38-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2009/11/paying-for-favors.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2009/11/paying-for-favors.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

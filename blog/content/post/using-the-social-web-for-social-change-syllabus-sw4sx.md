@@ -76,4 +76,4 @@ Please note that we recommend (but do not require) that students purchase the Ki
 </ul>
 </li>
 </ul>
-<p class="previous"><a href="/previous/2012/10/using-the-social-web-for-social-change-syllabus-sw4sx.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2012/10/using-the-social-web-for-social-change-syllabus-sw4sx.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>

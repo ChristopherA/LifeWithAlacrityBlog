@@ -77,4 +77,4 @@ http://developer.ebusiness-apps.com/technologies/webdevelopment/codeandcomponent
 <time class="dt-published" datetime="2005-06-12T22:31:34-07:00">2005-06-12T22:31:34-07:00</time>
 </div>
 </footer>
-<p class="previous"><a href="/previous/2004/12/google_suggest_.html" rel="syndication" class="u-syndication" >original layout</a></p>
+<p class="previous"><a href="/previous/2004/12/google_suggest_.html" rel="syndication nofollow" class="u-syndication" >original layout</a></p>
