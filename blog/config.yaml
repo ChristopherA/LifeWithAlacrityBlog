@@ -25,3 +25,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+rssLimit: 
+  15
