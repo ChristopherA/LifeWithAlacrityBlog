@@ -6,9 +6,10 @@
     {{ partial "meta.html" . }}
     <title> {{ .Title }}  </title>
     <link rel="canonical" href="{{ .Permalink }}">
+
 {{ range .AlternativeOutputFormats -}}
-    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title | safeURL }}">
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type | safeHTML }}" href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title | safeHTML }}">
 {{ end -}}
-    {{ partial "head_includes.html" . }}
+{{ partial "head_includes.html" . }}
 </head>
 <body lang="en">
