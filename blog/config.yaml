@@ -21,3 +21,7 @@ params:
 
 paginate: "20"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
