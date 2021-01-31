@@ -2,7 +2,7 @@
 <div class="fullpage">
 <section id="main" class="h-feed">
 {{ partial "feedblock.html" . }}
-{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "post") }}
 {{ range $paginator.Pages }}
    {{ .Render "summary"}}
 {{ end }}
